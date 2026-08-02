@@ -1,0 +1,5 @@
+Monthly_Income_Band,head_count,attrition_count,attrition_rate_pct,avg_sat
+Low,395,113,28.6,2.75
+Medium,640,77,12.0,2.71
+High,302,42,13.9,2.74
+"Very High",133,5,3.8,2.76

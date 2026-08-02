@@ -1,0 +1,10 @@
+Job_Role,head_count,avg_income_left,avg_income_stayed,attrition_rate_pct
+"Research Director",80,19396,15947,2.5
+Manager,102,16797,17201,4.9
+"Manufacturing Director",145,7366,7290,6.9
+"Healthcare Representative",131,8548,7454,6.9
+"Research Scientist",292,2780,3328,16.1
+"Sales Executive",326,7489,6805,17.5
+"Human Resources",52,3716,4392,23.1
+"Laboratory Technician",259,2919,3337,23.9
+"Sales Representative",83,2365,2798,39.8

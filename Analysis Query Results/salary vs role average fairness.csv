@@ -1,0 +1,10 @@
+Job_Role,avg_salary_ratio,underpaid_employees,underpaid_attrition_rate
+"Sales Executive",1.00,159,15.7
+"Research Scientist",1.00,148,22.3
+"Laboratory Technician",1.00,130,29.2
+"Manufacturing Director",1.00,76,6.6
+"Healthcare Representative",1.00,62,3.2
+Manager,1.00,17,11.8
+"Sales Representative",1.00,32,53.1
+"Research Director",1.00,30,0.0
+"Human Resources",1.00,31,32.3

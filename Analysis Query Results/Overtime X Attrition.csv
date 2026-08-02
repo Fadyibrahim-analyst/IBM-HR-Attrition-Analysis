@@ -1,0 +1,7 @@
+Over_Time,Department,head_count,left_count,attrition_rate_pct
+No,"Research & Development",690,59,8.6
+No,Sales,318,44,13.8
+No,"Human Resources",46,7,15.2
+Yes,"Research & Development",271,74,27.3
+Yes,"Human Resources",17,5,29.4
+Yes,Sales,128,48,37.5

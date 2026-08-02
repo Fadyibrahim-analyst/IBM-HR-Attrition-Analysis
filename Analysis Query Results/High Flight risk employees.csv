@@ -1,0 +1,264 @@
+Employee_ID,Department,Job_Role,Monthly_Income,Over_Time,Years_Since_Last_Promotion,Age_Group,Satisfaction_Index,Engagement_Score
+1210,"Research & Development","Research Scientist",2107,No,0,36-45,1.00,1.20
+1033,"Research & Development","Healthcare Representative",4777,No,0,36-45,1.25,1.20
+1487,Sales,"Sales Executive",5765,No,0,26-35,1.25,1.60
+1649,"Research & Development","Laboratory Technician",2166,Yes,0,36-45,1.25,1.60
+1082,"Research & Development","Healthcare Representative",8722,No,1,26-35,1.50,1.60
+1420,"Research & Development","Laboratory Technician",4284,No,1,46-55,1.50,1.60
+1439,Sales,"Sales Representative",4400,No,2,18-25,1.50,1.60
+1522,"Research & Development","Research Scientist",2362,No,0,26-35,1.50,1.60
+141,"Research & Development","Research Director",18172,Yes,0,46-55,1.50,1.80
+702,"Research & Development","Research Scientist",3348,Yes,9,26-35,1.50,1.80
+1157,Sales,"Sales Executive",8224,Yes,0,26-35,1.50,1.80
+1968,Sales,"Sales Executive",10448,Yes,2,46-55,1.50,1.80
+267,"Research & Development","Research Scientist",3564,Yes,1,36-45,1.50,2.00
+1277,Sales,Manager,18824,Yes,1,36-45,1.75,1.60
+1079,"Research & Development","Laboratory Technician",1416,No,1,18-25,1.75,1.80
+1111,"Research & Development","Laboratory Technician",2596,No,0,26-35,1.75,1.80
+1165,Sales,"Sales Executive",7336,No,3,26-35,1.75,1.80
+1669,Sales,"Sales Executive",4187,Yes,0,26-35,1.75,1.80
+1944,"Human Resources","Human Resources",2863,No,0,26-35,1.75,1.80
+190,"Research & Development","Laboratory Technician",4200,No,0,26-35,1.75,2.00
+328,"Research & Development","Laboratory Technician",2707,No,1,26-35,1.75,2.00
+650,Sales,"Sales Executive",4233,No,1,26-35,1.75,2.00
+960,"Research & Development","Laboratory Technician",2973,No,0,18-25,1.75,2.00
+1053,"Research & Development","Research Scientist",2042,Yes,1,26-35,1.75,2.00
+1758,Sales,"Sales Executive",8564,Yes,0,26-35,1.75,2.00
+33,"Research & Development","Research Scientist",3919,Yes,6,26-35,2.00,1.80
+1188,Sales,"Sales Executive",5346,No,1,36-45,2.00,1.80
+1460,"Research & Development","Healthcare Representative",10851,Yes,0,36-45,2.00,1.80
+1734,Sales,"Sales Executive",6735,No,0,26-35,2.00,1.80
+214,"Research & Development","Research Scientist",3346,Yes,0,56+,2.00,2.00
+433,"Research & Development","Research Scientist",4941,No,7,46-55,2.00,2.00
+970,Sales,"Sales Executive",10609,No,11,36-45,2.00,2.00
+991,"Research & Development","Research Scientist",2321,Yes,1,26-35,2.00,2.00
+1108,"Research & Development","Research Scientist",2313,Yes,2,26-35,2.00,2.00
+1279,"Research & Development","Laboratory Technician",2625,No,2,18-25,2.00,2.00
+1458,"Research & Development","Laboratory Technician",3646,Yes,0,36-45,2.00,2.00
+1733,Sales,"Sales Executive",6134,Yes,2,36-45,2.00,2.00
+1,Sales,"Sales Executive",5993,Yes,0,36-45,2.00,2.20
+68,Sales,"Sales Executive",5454,Yes,1,36-45,2.00,2.20
+161,"Research & Development","Research Scientist",4963,Yes,4,56+,2.00,2.20
+282,"Research & Development","Healthcare Representative",6673,Yes,0,36-45,2.00,2.20
+364,"Research & Development","Laboratory Technician",3485,No,0,26-35,2.00,2.20
+390,"Research & Development","Healthcare Representative",4741,Yes,3,26-35,2.00,2.20
+538,"Research & Development","Laboratory Technician",4031,No,0,18-25,2.00,2.20
+554,Sales,"Sales Representative",3202,Yes,1,18-25,2.00,2.20
+587,"Research & Development","Healthcare Representative",9824,No,0,26-35,2.00,2.20
+720,Sales,"Sales Executive",4577,No,2,18-25,2.00,2.20
+819,Sales,"Sales Executive",5324,No,0,26-35,2.00,2.20
+846,Sales,"Sales Executive",4779,Yes,7,26-35,2.00,2.20
+1017,"Research & Development","Laboratory Technician",2422,No,1,26-35,2.00,2.20
+1052,"Research & Development","Laboratory Technician",4834,No,0,36-45,2.00,2.20
+1167,Sales,"Sales Executive",13758,Yes,13,36-45,2.00,2.20
+1219,"Research & Development","Laboratory Technician",2210,No,0,18-25,2.00,2.20
+1242,"Research & Development","Research Director",13191,Yes,0,36-45,2.00,2.20
+1244,"Research & Development","Research Scientist",2235,Yes,6,26-35,2.00,2.20
+1310,"Research & Development","Research Scientist",3904,No,0,36-45,2.00,2.20
+1494,"Research & Development","Laboratory Technician",3172,Yes,0,18-25,2.00,2.20
+1534,"Research & Development","Laboratory Technician",2018,No,1,36-45,2.00,2.20
+1724,"Research & Development","Manufacturing Director",6516,Yes,0,36-45,2.00,2.20
+1761,Sales,"Sales Executive",8161,No,0,26-35,2.00,2.20
+1809,"Research & Development","Manufacturing Director",4213,No,0,36-45,2.00,2.20
+2023,Sales,"Sales Representative",1790,No,1,18-25,2.00,2.20
+382,Sales,"Sales Executive",5605,Yes,7,36-45,2.00,2.40
+1015,"Research & Development","Research Director",11416,Yes,1,26-35,2.00,2.40
+1939,"Research & Development","Research Scientist",2432,Yes,0,26-35,2.00,2.40
+55,"Research & Development","Laboratory Technician",2293,No,0,26-35,2.25,2.00
+163,Sales,"Sales Executive",6172,Yes,7,26-35,2.25,2.00
+235,Sales,"Sales Representative",2325,No,0,18-25,2.25,2.00
+454,"Research & Development","Laboratory Technician",2119,Yes,0,26-35,2.25,2.00
+584,"Research & Development","Laboratory Technician",3408,No,1,26-35,2.25,2.00
+27,Sales,"Sales Representative",3407,No,0,36-45,2.25,2.20
+261,"Research & Development","Manufacturing Director",5916,Yes,0,26-35,2.25,2.20
+299,Sales,"Sales Executive",6696,No,0,26-35,2.25,2.20
+478,Sales,"Sales Representative",2174,Yes,1,18-25,2.25,2.20
+1016,"Research & Development","Research Scientist",2600,Yes,0,18-25,2.25,2.20
+1101,"Research & Development","Research Scientist",4508,No,3,26-35,2.25,2.20
+1248,"Research & Development","Research Scientist",1859,Yes,0,18-25,2.25,2.20
+1504,"Research & Development","Laboratory Technician",2561,No,0,26-35,2.25,2.20
+1844,"Human Resources","Human Resources",2335,Yes,2,26-35,2.25,2.20
+31,"Research & Development","Research Scientist",2960,No,1,26-35,2.25,2.40
+45,"Research & Development","Research Scientist",2293,Yes,2,18-25,2.25,2.40
+342,"Research & Development","Manufacturing Director",10048,No,0,36-45,2.25,2.40
+376,"Research & Development",Manager,11849,Yes,9,46-55,2.25,2.40
+488,Sales,"Sales Executive",9355,No,7,36-45,2.25,2.40
+590,"Human Resources","Human Resources",9950,Yes,0,26-35,2.25,2.40
+608,"Human Resources","Human Resources",2741,Yes,1,26-35,2.25,2.40
+667,Sales,"Sales Representative",3041,No,0,26-35,2.25,2.40
+684,Sales,"Sales Executive",4286,No,0,36-45,2.25,2.40
+723,Sales,"Sales Executive",6796,Yes,1,46-55,2.25,2.40
+881,"Research & Development","Research Scientist",2022,Yes,7,26-35,2.25,2.40
+911,"Research & Development","Laboratory Technician",2795,Yes,0,26-35,2.25,2.40
+1004,"Research & Development","Research Scientist",2132,Yes,0,26-35,2.25,2.40
+1100,Sales,"Sales Executive",9582,Yes,4,26-35,2.25,2.40
+1107,"Research & Development","Laboratory Technician",2377,No,0,26-35,2.25,2.40
+1299,"Research & Development","Laboratory Technician",3339,Yes,7,26-35,2.25,2.40
+1319,Sales,"Sales Executive",8446,Yes,7,46-55,2.25,2.40
+1333,"Research & Development","Laboratory Technician",2362,No,1,36-45,2.25,2.40
+1537,"Research & Development","Research Scientist",4084,No,7,26-35,2.25,2.40
+1569,"Research & Development","Laboratory Technician",2074,Yes,0,26-35,2.25,2.40
+1573,"Research & Development","Manufacturing Director",4855,No,1,36-45,2.25,2.40
+1780,Sales,"Sales Representative",2679,No,1,18-25,2.25,2.40
+21,"Research & Development","Research Scientist",3298,Yes,0,26-35,2.25,2.60
+502,Sales,"Sales Executive",5304,Yes,0,26-35,2.25,2.60
+803,"Research & Development","Manufacturing Director",5980,Yes,4,36-45,2.25,2.60
+1372,Sales,"Sales Executive",13695,Yes,3,46-55,2.25,2.60
+1459,"Research & Development","Manufacturing Director",7446,No,4,26-35,2.25,2.60
+1594,"Research & Development","Laboratory Technician",5562,Yes,0,36-45,2.25,2.60
+2064,"Research & Development","Manufacturing Director",6142,Yes,0,26-35,2.25,2.60
+622,"Research & Development","Laboratory Technician",2340,Yes,0,26-35,2.50,2.20
+741,"Research & Development","Research Scientist",2216,Yes,3,26-35,2.50,2.20
+1037,Sales,"Sales Executive",4969,No,2,26-35,2.50,2.20
+1427,Sales,"Sales Representative",1359,No,0,26-35,2.50,2.20
+1716,Sales,"Sales Executive",12936,No,14,46-55,2.50,2.20
+1752,Sales,"Sales Representative",2760,No,2,26-35,2.50,2.20
+1905,"Research & Development","Research Scientist",2307,Yes,3,26-35,2.50,2.20
+47,Sales,"Sales Representative",2683,Yes,0,46-55,2.50,2.40
+90,"Research & Development","Research Scientist",3388,Yes,0,36-45,2.50,2.40
+492,Sales,"Sales Executive",6380,Yes,1,36-45,2.50,2.40
+648,Sales,"Sales Representative",2033,No,0,26-35,2.50,2.40
+699,"Research & Development","Manufacturing Director",8847,Yes,0,36-45,2.50,2.40
+796,Sales,"Sales Executive",5326,No,1,26-35,2.50,2.40
+816,"Research & Development","Laboratory Technician",2319,Yes,0,26-35,2.50,2.40
+848,"Research & Development","Research Scientist",2366,Yes,1,26-35,2.50,2.40
+1010,"Research & Development","Laboratory Technician",3743,Yes,0,26-35,2.50,2.40
+1098,"Human Resources","Human Resources",10482,No,3,36-45,2.50,2.40
+1360,"Research & Development","Manufacturing Director",10008,Yes,5,56+,2.50,2.40
+1433,"Research & Development","Research Scientist",1261,No,0,26-35,2.50,2.40
+1489,Sales,"Sales Executive",4599,Yes,10,26-35,2.50,2.40
+1562,Sales,"Sales Executive",9714,No,6,26-35,2.50,2.40
+1862,Sales,"Sales Executive",9907,Yes,2,26-35,2.50,2.40
+1960,"Research & Development","Laboratory Technician",2367,No,0,26-35,2.50,2.40
+2055,Sales,"Sales Executive",10854,Yes,2,46-55,2.50,2.40
+248,Sales,"Sales Representative",3140,Yes,0,36-45,2.50,2.60
+394,"Research & Development","Laboratory Technician",2373,Yes,0,26-35,2.50,2.60
+445,Sales,"Sales Executive",5238,Yes,0,36-45,2.50,2.60
+510,"Research & Development","Research Scientist",3102,No,0,26-35,2.50,2.60
+904,Sales,"Sales Executive",7642,Yes,0,36-45,2.50,2.60
+913,"Research & Development","Research Scientist",2559,Yes,7,36-45,2.50,2.60
+926,"Research & Development","Manufacturing Director",4171,Yes,0,18-25,2.50,2.60
+932,"Research & Development","Laboratory Technician",2404,Yes,2,36-45,2.50,2.60
+1321,"Research & Development",Manager,11916,Yes,0,26-35,2.50,2.60
+1425,Sales,"Sales Executive",9278,Yes,0,36-45,2.50,2.60
+1457,Sales,"Sales Executive",10096,No,4,46-55,2.50,2.60
+1464,"Research & Development","Laboratory Technician",3722,Yes,2,26-35,2.50,2.60
+1586,"Research & Development","Laboratory Technician",4723,Yes,1,26-35,2.50,2.60
+1692,"Research & Development","Laboratory Technician",1393,No,0,26-35,2.50,2.60
+1783,"Research & Development","Laboratory Technician",2398,Yes,0,18-25,2.50,2.60
+1792,"Research & Development","Research Scientist",2342,Yes,2,36-45,2.50,2.60
+1807,"Research & Development","Laboratory Technician",5346,No,0,26-35,2.50,2.60
+1878,"Research & Development","Research Scientist",2472,Yes,0,18-25,2.50,2.60
+811,"Research & Development","Laboratory Technician",1601,Yes,0,18-25,2.50,2.80
+986,Sales,"Sales Executive",13194,Yes,0,36-45,2.50,2.80
+1042,"Research & Development","Laboratory Technician",2743,No,15,36-45,2.50,2.80
+147,"Research & Development","Laboratory Technician",6074,Yes,0,26-35,2.75,2.40
+175,Sales,"Sales Executive",4559,Yes,2,26-35,2.75,2.40
+440,"Research & Development","Research Scientist",3464,Yes,2,26-35,2.75,2.40
+927,"Research & Development","Laboratory Technician",2778,Yes,1,36-45,2.75,2.40
+1645,Sales,"Sales Executive",5440,Yes,2,26-35,2.75,2.40
+19,"Research & Development","Laboratory Technician",2028,Yes,0,26-35,2.75,2.60
+51,"Research & Development","Research Scientist",3419,Yes,0,36-45,2.75,2.60
+64,"Research & Development","Laboratory Technician",5381,Yes,0,46-55,2.75,2.60
+243,"Research & Development","Laboratory Technician",1102,No,1,18-25,2.75,2.60
+355,"Research & Development","Laboratory Technician",3479,No,1,26-35,2.75,2.60
+565,"Research & Development","Research Scientist",2546,No,1,26-35,2.75,2.60
+896,Sales,"Sales Representative",2800,Yes,0,26-35,2.75,2.60
+952,Sales,"Sales Representative",2413,Yes,0,18-25,2.75,2.60
+967,Sales,"Sales Executive",10325,Yes,3,36-45,2.75,2.60
+994,"Research & Development","Research Scientist",2404,Yes,0,26-35,2.75,2.60
+1639,Sales,"Sales Executive",10306,No,6,26-35,2.75,2.60
+1684,"Research & Development","Laboratory Technician",3989,Yes,1,18-25,2.75,2.60
+65,"Research & Development","Laboratory Technician",3441,Yes,2,26-35,2.75,2.80
+103,"Human Resources","Human Resources",5021,Yes,0,46-55,2.75,2.80
+133,"Human Resources","Human Resources",2073,Yes,0,36-45,2.75,2.80
+297,"Research & Development","Research Scientist",2657,Yes,0,26-35,2.75,2.80
+325,"Research & Development","Laboratory Technician",2436,Yes,0,26-35,2.75,2.80
+614,Sales,"Sales Representative",1878,Yes,0,18-25,2.75,2.80
+647,"Research & Development","Laboratory Technician",2886,Yes,1,18-25,2.75,2.80
+923,"Research & Development","Research Scientist",2693,No,0,18-25,2.75,2.80
+977,"Research & Development","Research Scientist",2479,No,0,56+,2.75,2.80
+1081,"Research & Development","Research Scientist",2461,Yes,2,46-55,2.75,2.80
+1160,"Research & Development","Laboratory Technician",2610,No,2,26-35,2.75,2.80
+1309,"Research & Development","Laboratory Technician",4883,No,1,26-35,2.75,2.80
+1331,Sales,"Sales Representative",2302,Yes,2,26-35,2.75,2.80
+1421,"Research & Development","Healthcare Representative",7553,Yes,7,26-35,2.75,2.80
+1467,"Human Resources","Human Resources",2742,No,2,26-35,2.75,2.80
+1604,"Research & Development","Laboratory Technician",2408,Yes,0,26-35,2.75,2.80
+1869,Sales,"Sales Executive",7314,No,0,46-55,2.75,2.80
+1876,Sales,"Sales Representative",1081,No,0,26-35,2.75,2.80
+1967,Sales,"Sales Executive",5617,Yes,0,26-35,2.75,2.80
+2027,"Research & Development","Research Scientist",4787,Yes,2,26-35,2.75,2.80
+1292,"Research & Development","Research Scientist",2372,Yes,0,36-45,2.75,3.00
+1842,"Human Resources","Human Resources",2956,No,0,26-35,2.75,3.00
+1928,Sales,"Sales Representative",1091,No,0,26-35,2.75,3.00
+179,"Research & Development","Manufacturing Director",10650,No,0,46-55,3.00,2.60
+1038,Sales,Manager,19845,No,6,46-55,3.00,2.60
+4,"Research & Development","Laboratory Technician",2090,Yes,0,36-45,3.00,2.80
+315,"Research & Development","Research Scientist",2389,Yes,0,26-35,3.00,2.80
+331,"Research & Development","Laboratory Technician",3730,Yes,1,26-35,3.00,2.80
+566,"Human Resources","Human Resources",2564,No,0,18-25,3.00,2.80
+593,"Research & Development","Laboratory Technician",3894,No,1,18-25,3.00,2.80
+922,Sales,"Sales Representative",2044,No,0,18-25,3.00,2.80
+959,Sales,"Sales Representative",2121,Yes,0,18-25,3.00,2.80
+1203,"Research & Development","Research Scientist",2853,Yes,0,18-25,3.00,2.80
+1318,Sales,"Sales Executive",9094,Yes,1,36-45,3.00,2.80
+1572,"Research & Development","Manufacturing Director",10169,No,1,46-55,3.00,2.80
+1747,"Human Resources","Human Resources",2180,No,1,26-35,3.00,2.80
+1868,"Research & Development","Research Scientist",2439,Yes,1,26-35,3.00,2.80
+58,"Research & Development","Research Director",19545,No,15,36-45,3.00,3.00
+283,Sales,"Sales Executive",7639,No,1,26-35,3.00,3.00
+300,"Research & Development","Research Scientist",2058,No,1,26-35,3.00,3.00
+392,"Research & Development","Laboratory Technician",3161,Yes,0,36-45,3.00,3.00
+405,"Research & Development","Laboratory Technician",1420,No,0,18-25,3.00,3.00
+485,Sales,"Sales Representative",2851,Yes,0,26-35,3.00,3.00
+787,"Research & Development",Manager,19859,Yes,1,46-55,3.00,3.00
+828,"Research & Development","Research Scientist",4382,No,2,26-35,3.00,3.00
+840,Sales,"Sales Executive",7654,No,7,46-55,3.00,3.00
+842,Sales,"Sales Executive",5160,No,7,46-55,3.00,3.00
+1127,"Research & Development","Healthcare Representative",12169,No,11,36-45,3.00,3.00
+1200,"Research & Development","Research Scientist",2936,Yes,0,36-45,3.00,3.00
+1295,"Research & Development","Healthcare Representative",7978,No,0,36-45,3.00,3.00
+1380,Sales,"Sales Executive",4614,Yes,3,26-35,3.00,3.00
+1486,Sales,"Sales Representative",2909,No,1,26-35,3.00,3.00
+1702,Sales,"Sales Representative",2275,Yes,0,18-25,3.00,3.00
+1818,"Human Resources","Human Resources",2148,Yes,1,26-35,3.00,3.00
+1907,"Research & Development","Laboratory Technician",2587,No,1,56+,3.00,3.00
+2032,"Research & Development","Laboratory Technician",2339,No,9,56+,3.00,3.00
+2044,Sales,"Sales Executive",6728,No,0,46-55,3.00,3.00
+494,Sales,"Sales Representative",2716,No,0,18-25,3.00,3.20
+785,Sales,"Sales Executive",6397,Yes,1,46-55,3.00,3.20
+291,Sales,"Sales Executive",10400,No,9,26-35,3.25,2.80
+555,Sales,"Sales Representative",2351,No,1,26-35,3.25,2.80
+1714,"Human Resources","Human Resources",1555,No,0,18-25,3.25,2.80
+137,"Research & Development","Laboratory Technician",2926,Yes,1,18-25,3.25,3.00
+142,Sales,"Sales Executive",5744,Yes,0,18-25,3.25,3.00
+401,Sales,"Sales Executive",5828,Yes,7,26-35,3.25,3.00
+1767,"Research & Development","Research Scientist",2437,Yes,0,36-45,3.25,3.00
+167,Sales,"Sales Representative",1675,Yes,0,18-25,3.25,3.20
+514,"Research & Development","Research Scientist",2285,Yes,0,26-35,3.25,3.20
+582,"Research & Development",Manager,13610,Yes,7,26-35,3.25,3.20
+780,"Research & Development","Research Scientist",2686,Yes,7,26-35,3.25,3.20
+825,"Research & Development","Research Director",19246,Yes,13,56+,3.25,3.20
+1077,Sales,"Sales Representative",2323,Yes,0,18-25,3.25,3.20
+1156,"Research & Development","Laboratory Technician",1904,No,0,18-25,3.25,3.20
+1175,"Research & Development","Laboratory Technician",2515,Yes,0,26-35,3.25,3.20
+1389,"Research & Development","Manufacturing Director",6179,Yes,6,26-35,3.25,3.20
+1624,Sales,"Sales Representative",1569,Yes,0,18-25,3.25,3.20
+1667,Sales,"Sales Executive",4581,Yes,6,26-35,3.25,3.20
+1691,Sales,"Sales Representative",2655,Yes,7,46-55,3.25,3.20
+752,"Research & Development","Research Scientist",2759,Yes,2,36-45,3.25,3.40
+1273,Sales,"Sales Representative",1118,Yes,1,18-25,3.50,3.00
+118,Sales,"Sales Executive",9619,No,4,46-55,3.50,3.20
+918,"Research & Development","Laboratory Technician",2380,Yes,0,56+,3.50,3.20
+1379,Sales,"Sales Representative",2785,No,0,26-35,3.50,3.20
+165,"Research & Development","Healthcare Representative",10312,No,15,56+,3.50,3.40
+701,"Research & Development","Research Scientist",1009,Yes,1,18-25,3.50,3.40
+1106,"Research & Development","Laboratory Technician",3691,Yes,5,18-25,3.50,3.40
+1113,Sales,"Sales Executive",4728,Yes,0,46-55,3.50,3.40
+1405,"Research & Development","Research Scientist",2394,Yes,7,26-35,3.50,3.40
+1797,Sales,"Sales Executive",5813,Yes,7,26-35,3.50,3.40
+1821,"Research & Development","Healthcare Representative",8926,No,3,46-55,3.50,3.40
+1933,Sales,"Sales Executive",9854,Yes,2,26-35,3.50,3.40
+631,Sales,"Sales Executive",4707,No,1,26-35,3.50,3.60
+42,Sales,"Sales Representative",2086,No,0,36-45,3.75,3.60

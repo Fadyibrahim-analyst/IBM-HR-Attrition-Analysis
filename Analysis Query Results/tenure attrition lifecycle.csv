@@ -1,0 +1,6 @@
+Tenure_Group,head_count,attrition_rate_pct,avg_income,avg_yrs_since_promo
+"New Hire",342,29.8,4709,0.7
+"Early Tenure",434,13.8,5365,0.7
+Established,448,12.3,6567,2.6
+"Long Tenure",180,6.7,9009,5.3
+Veteran,66,12.1,16008,8.1
