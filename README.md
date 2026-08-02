@@ -1,6 +1,7 @@
 # IBM HR Employee Attrition Analysis
 ### End-to-End Data Analytics Project · MySQL · Power BI
 
+![Excel](https://img.shields.io/badge/Microsoft_Excel-Data%20Analysis-217346?logo=microsoftexcel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Complete-10B981)
@@ -75,7 +76,7 @@ ibm-hr-attrition-analysis/
 
 ---
 
-## Feature Engineering (SQL + Python)
+## Feature Engineering (SQL)
 
 19 new columns created in `employee_features` table:
 
@@ -168,9 +169,9 @@ Money buys tolerance, not engagement. The data shows that when structural condit
 
 | Layer | Tool |
 |---|---|
-| Data cleaning & EDA | Python · pandas · NumPy |
+| Data cleaning & EDA | Excel |
 | Database & queries | MySQL 8.0 · MySQL Workbench |
-| Feature engineering | SQL (window functions, CASE, CTEs) + Python |
+| Feature engineering | SQL (window functions, CASE, CTEs) |
 | Dashboard | HTML · CSS · JavaScript (custom · no framework) |
 | Dashboard AI assist | Claude (Anthropic) — HTML/JS visual layer |
 | Version control | Git · GitHub |
