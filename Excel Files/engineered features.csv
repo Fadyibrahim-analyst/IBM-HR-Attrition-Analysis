@@ -1,0 +1,1471 @@
+Employee_ID,Age_Group,Monthly_Income_Band,Tenure_Group,Distance_Band,Manager_Tenure_Group,Satisfaction_Index,Engagement_Score,Salary_vs_Role_Avg,High_Flight_Risk,Stagnation_Flag,Attrition_Binary,Education_Label,Environment_Satisfaction_Label,Job_Satisfaction_Label,Relationship_Satisfaction_Label,Work_Life_Balance_Label,Performance_Rating_Label,Stock_Option_Label
+1022,46-55,Medium,"New Hire",Close,New,2.75,2.60,0.56,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",None
+624,46-55,High,"New Hire",Moderate,New,2.50,2.60,1.40,0,0,0,"Below College",Low,High,"Very High",Good,"Meets Expectations",None
+431,46-55,High,Established,"Very Close",Established,3.25,3.00,1.85,0,0,0,College,High,High,"Very High",Better,"Meets Expectations",None
+1014,26-35,High,"Long Tenure",Far,New,2.75,2.80,1.38,0,0,0,Master,High,High,High,Good,"Meets Expectations",Low
+1766,36-45,Medium,"New Hire",Moderate,New,3.00,2.60,0.77,0,0,0,Bachelor,Medium,"Very High",High,Better,"Meets Expectations",Low
+1161,36-45,Medium,Established,Far,Developing,3.25,3.00,0.76,0,0,0,College,High,"Very High",High,Better,"Meets Expectations",Medium
+258,46-55,High,Established,"Very Close",New,3.00,3.00,1.82,0,0,0,Bachelor,"Very High",Medium,High,Better,"Meets Expectations",None
+1763,26-35,Medium,Established,Moderate,Established,3.00,3.20,0.70,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Low
+477,36-45,Medium,"New Hire","Very Close",New,2.50,2.40,0.90,0,0,0,Master,Low,"Very High",Medium,Better,Excellent,None
+13,36-45,Medium,Established,Far,Established,2.50,2.60,0.70,0,1,0,Bachelor,High,High,Medium,Good,"Meets Expectations",Medium
+1753,26-35,Medium,"Early Tenure","Very Close",New,3.75,3.80,0.84,0,0,0,Bachelor,"Very High",High,"Very High",Best,"Meets Expectations",None
+1981,18-25,Medium,"Early Tenure","Very Close",New,2.25,2.20,0.61,0,0,0,College,Medium,High,Medium,Good,"Meets Expectations",None
+1971,36-45,High,Established,Moderate,Established,2.25,2.40,1.00,0,0,0,Bachelor,Low,High,Medium,Better,"Meets Expectations",Low
+482,56+,Medium,"Early Tenure","Very Close",New,3.25,3.20,0.90,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",None
+634,36-45,High,"New Hire",Close,New,3.00,3.00,1.30,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Low
+837,36-45,Medium,"Early Tenure",Moderate,New,1.75,1.80,0.84,0,0,0,Bachelor,Low,Low,High,Good,"Meets Expectations",Low
+692,26-35,High,"Long Tenure",Close,Established,2.75,2.80,1.03,0,0,0,Bachelor,High,"Very High",High,Bad,Excellent,Low
+1970,26-35,Medium,Established,Close,Established,3.25,3.20,0.79,0,0,0,College,"Very High",High,High,Better,Excellent,High
+998,26-35,Medium,Established,"Very Close",New,2.25,2.60,0.73,0,0,0,Master,High,Medium,Low,Better,"Meets Expectations",Low
+1727,46-55,Medium,Established,Moderate,Established,3.00,3.00,0.74,0,0,0,Master,High,Medium,"Very High",Better,"Meets Expectations",None
+491,46-55,High,"Early Tenure",Close,Developing,3.75,3.40,1.39,0,0,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",None
+1955,26-35,Medium,"Early Tenure",Moderate,New,3.00,3.00,0.89,0,0,0,Master,High,"Very High",Medium,Better,"Meets Expectations",Low
+282,36-45,Medium,"New Hire",Far,New,2.00,2.20,0.89,1,0,1,"Below College",Medium,Low,Medium,Better,"Meets Expectations",None
+1127,36-45,High,"Long Tenure","Very Close",Developing,3.00,3.00,1.62,1,0,1,Bachelor,Low,"Very High","Very High",Better,"Meets Expectations",High
+1954,26-35,Medium,"Early Tenure","Very Close",New,1.25,1.60,0.71,0,0,0,Bachelor,Low,Low,Low,Good,"Meets Expectations",Low
+1712,36-45,High,Veteran,"Very Close",Developing,3.00,2.80,1.43,0,0,0,"Below College",High,High,"Very High",Good,Excellent,Low
+287,36-45,Medium,"Early Tenure",Close,New,3.25,3.00,0.65,0,0,0,Doctor,"Very High","Very High","Very High",Bad,"Meets Expectations",Low
+288,46-55,High,"Early Tenure","Very Close",Developing,2.75,2.80,1.25,0,0,0,Master,"Very High",Low,High,Better,"Meets Expectations",Low
+36,36-45,High,Veteran,Close,Long-Term,3.00,2.80,1.36,0,0,0,Master,Low,"Very High","Very High",Better,"Meets Expectations",Low
+496,26-35,Medium,"New Hire",Close,New,2.75,2.60,0.87,0,0,0,Master,High,Medium,High,Better,"Meets Expectations",None
+1703,36-45,High,Established,"Very Close",Established,3.00,3.20,1.05,0,0,0,Bachelor,High,"Very High",Medium,Better,"Meets Expectations",Low
+40,36-45,Medium,"Early Tenure",Close,Developing,4.00,3.80,0.86,0,0,0,Master,"Very High","Very High","Very High",Best,"Meets Expectations",None
+1697,56+,High,"New Hire","Very Close",New,3.50,3.00,1.45,0,0,0,Master,High,"Very High",High,Best,Excellent,Low
+499,46-55,High,"Early Tenure",Close,New,2.75,2.60,1.46,0,0,0,Bachelor,Medium,High,High,Better,Excellent,None
+1689,46-55,High,"Early Tenure",Far,New,3.00,3.20,0.93,0,0,0,Master,Medium,"Very High",High,Better,"Meets Expectations",None
+1922,36-45,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,0.72,0,0,0,Master,Medium,High,High,Better,"Meets Expectations",None
+902,36-45,Medium,"Early Tenure","Very Close",New,3.00,3.00,0.74,0,0,0,Bachelor,"Very High","Very High",Medium,Good,"Meets Expectations",Low
+1682,36-45,Medium,"Early Tenure",Far,New,2.00,2.20,0.71,0,0,0,Master,Low,High,Medium,Good,"Meets Expectations",Medium
+1664,36-45,Medium,"Early Tenure","Very Close",Developing,2.25,2.60,0.91,0,0,0,College,"Very High",Low,Low,Better,Excellent,Low
+717,26-35,High,Established,Close,Established,3.00,2.80,1.15,0,0,0,Bachelor,"Very High",Medium,Medium,Best,"Meets Expectations",None
+1661,46-55,High,"Long Tenure",Close,Long-Term,2.75,2.60,1.86,0,0,0,"Below College",High,High,Medium,Better,"Meets Expectations",Low
+721,36-45,Medium,"Long Tenure","Very Close",Established,2.75,2.60,0.60,0,1,0,Master,"Very High",High,Low,Better,"Meets Expectations",None
+223,56+,High,"Early Tenure",Far,Developing,2.50,2.80,1.25,0,0,0,College,High,"Very High",Medium,Bad,"Meets Expectations",Low
+1859,26-35,Medium,Established,Far,Established,3.50,3.00,0.85,0,0,0,"Below College","Very High",High,"Very High",Better,"Meets Expectations",Medium
+724,36-45,High,Established,"Very Close",Established,2.75,3.00,1.01,0,0,0,Master,Medium,"Very High",High,Good,"Meets Expectations",None
+1034,46-55,Medium,Established,Moderate,Established,3.00,3.00,0.85,0,1,0,Master,High,Medium,"Very High",Better,"Meets Expectations",Medium
+1033,36-45,Medium,"New Hire",Moderate,New,1.25,1.20,0.63,1,0,1,College,Low,Medium,Low,Bad,"Meets Expectations",None
+1651,36-45,High,"Early Tenure","Very Close",New,2.25,2.40,1.06,0,0,0,Master,Medium,Low,High,Better,"Meets Expectations",Medium
+451,36-45,High,"New Hire",Close,New,1.75,2.00,1.33,0,0,0,Bachelor,High,Low,Low,Good,"Meets Expectations",Low
+1118,46-55,High,Established,Close,New,2.75,2.80,1.39,0,0,0,Master,Medium,Medium,"Very High",Better,"Meets Expectations",None
+1630,26-35,Medium,"Long Tenure",Close,Established,3.25,3.20,0.55,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",Low
+1606,46-55,High,Veteran,Moderate,Long-Term,2.75,2.80,1.49,0,0,0,Doctor,Medium,High,High,Better,"Meets Expectations",Low
+852,36-45,Medium,"Early Tenure","Very Close",Developing,3.00,3.00,0.79,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",None
+70,26-35,High,"Early Tenure",Moderate,Developing,2.50,2.40,1.31,0,0,0,College,High,Low,High,Better,"Meets Expectations",Low
+1597,26-35,Medium,Established,Close,Established,2.75,2.60,0.67,0,1,0,Master,"Very High",High,Medium,Good,"Meets Expectations",Low
+924,36-45,Medium,"Long Tenure",Moderate,Long-Term,2.50,2.60,0.87,0,0,0,"Below College",High,"Very High",Low,Good,"Meets Expectations",Low
+526,36-45,Medium,"Early Tenure",Close,New,3.25,3.20,0.60,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",None
+1590,26-35,High,Established,"Very Close",Developing,3.25,3.20,1.18,0,0,0,"Below College",Low,"Very High","Very High",Best,"Meets Expectations",Low
+1587,26-35,Medium,"Early Tenure",Close,Developing,2.50,2.60,0.82,0,0,0,Master,Low,High,High,Better,"Meets Expectations",None
+1103,26-35,High,Established,"Very Close",Developing,2.50,2.60,1.03,0,0,0,"Below College",Low,"Very High",High,Good,"Meets Expectations",None
+1829,36-45,Medium,Established,Moderate,Established,2.00,2.20,0.59,0,1,0,Bachelor,Medium,Low,Medium,Better,"Meets Expectations",Low
+1099,26-35,High,"Early Tenure","Very Close",New,3.50,3.20,0.95,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",Low
+1553,36-45,High,Established,"Very Close",Established,1.75,2.00,0.99,0,0,0,Master,Low,Medium,Low,Better,"Meets Expectations",High
+659,36-45,Medium,Established,"Very Close",New,3.00,3.00,0.54,0,0,0,Master,High,"Very High",Medium,Better,"Meets Expectations",Medium
+83,36-45,High,"Long Tenure",Close,Established,2.75,2.80,1.34,0,0,0,Bachelor,High,High,Medium,Better,"Meets Expectations",High
+1552,36-45,Medium,"New Hire",Close,New,3.50,3.40,0.54,0,0,0,College,"Very High","Very High",High,Better,"Meets Expectations",None
+1547,36-45,High,"Long Tenure","Very Close",Established,3.00,3.00,1.34,0,0,0,Bachelor,"Very High","Very High",High,Bad,"Meets Expectations",Low
+940,56+,High,Established,"Very Close",Developing,3.00,2.80,1.40,0,0,0,Bachelor,High,Medium,"Very High",Better,"Meets Expectations",Low
+757,26-35,Medium,"Early Tenure",Close,Developing,3.00,3.00,0.82,0,0,0,College,Medium,High,"Very High",Better,"Meets Expectations",None
+1544,26-35,High,Established,Close,Established,2.50,2.20,1.29,0,0,0,"Below College",High,Low,High,Better,"Meets Expectations",Low
+1822,36-45,Medium,"Early Tenure","Very Close",Developing,3.50,3.40,0.87,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",Low
+762,56+,High,Established,Close,New,3.00,3.00,1.47,0,0,0,Bachelor,High,"Very High",High,Good,"Meets Expectations",None
+942,26-35,Medium,Established,Far,Established,3.25,3.20,0.53,0,0,0,"Below College","Very High","Very High","Very High",Bad,Excellent,Low
+343,36-45,High,"Long Tenure","Very Close",Established,3.25,3.20,1.45,0,0,0,Master,High,High,"Very High",Better,Excellent,None
+764,26-35,Medium,Established,Close,Established,1.75,1.80,0.90,0,0,0,Bachelor,"Very High",Low,Low,Bad,"Meets Expectations",None
+551,36-45,Medium,Established,Far,Developing,4.00,3.60,0.60,0,0,0,Master,"Very High","Very High","Very High",Best,"Meets Expectations",High
+1092,36-45,High,"Long Tenure",Moderate,New,3.00,3.00,1.37,0,0,0,Master,Low,"Very High","Very High",Better,Excellent,Low
+1529,26-35,High,"Long Tenure",Moderate,Developing,2.75,2.60,1.14,0,0,0,Bachelor,"Very High",Medium,"Very High",Bad,"Meets Expectations",None
+771,26-35,Medium,"New Hire","Very Close",New,2.50,2.60,0.68,0,0,0,Master,"Very High",Low,Low,Best,"Meets Expectations",Low
+1821,46-55,High,Established,Far,Established,3.50,3.40,1.19,1,0,1,College,"Very High",Medium,"Very High",Best,Excellent,Low
+1515,26-35,Medium,"New Hire",Close,New,2.75,2.80,0.85,0,0,0,Doctor,"Very High",High,Low,Better,"Meets Expectations",None
+1501,46-55,Medium,"Early Tenure","Very Close",New,3.00,3.00,0.54,0,0,0,Master,"Very High",High,Medium,Better,"Meets Expectations",None
+1814,36-45,Medium,"Early Tenure","Very Close",New,1.50,2.00,0.91,0,0,0,Bachelor,Medium,Medium,Low,Bad,"Meets Expectations",None
+1088,36-45,High,"Long Tenure",Moderate,Established,2.25,2.20,1.17,0,0,0,"Below College",High,High,Low,Good,"Meets Expectations",Low
+1484,46-55,High,Established,Close,Established,2.50,2.60,1.39,0,0,0,Master,High,Medium,Medium,Better,"Meets Expectations",Medium
+1803,36-45,Medium,"New Hire",Moderate,New,2.00,2.40,0.74,0,0,0,Bachelor,Medium,Low,High,Good,"Meets Expectations",Medium
+1473,46-55,Medium,"Early Tenure","Very Close",New,2.00,2.20,0.88,0,0,0,Master,Low,High,Medium,Good,"Meets Expectations",Low
+1790,36-45,High,"Long Tenure",Close,Established,3.00,3.00,1.11,0,0,0,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+117,26-35,Medium,"Long Tenure","Very Close",Established,2.75,2.60,0.55,0,1,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",High
+1024,46-55,High,"Long Tenure","Very Close",Established,2.75,2.60,1.46,0,0,0,Master,High,High,Medium,Better,"Meets Expectations",None
+119,36-45,High,Veteran,"Very Close",Long-Term,2.75,2.60,1.79,0,0,0,Master,High,Medium,"Very High",Good,Excellent,Low
+367,26-35,Medium,Established,Far,Established,2.75,2.60,0.74,0,1,0,Bachelor,Medium,"Very High",Medium,Better,Excellent,Low
+369,18-25,Medium,Established,"Very Close",Developing,2.50,2.80,0.53,0,0,0,College,Medium,Low,"Very High",Better,"Meets Expectations",Medium
+124,46-55,High,Established,"Very Close",Developing,2.25,2.20,1.42,0,0,0,Bachelor,High,Low,High,Good,"Meets Expectations",Low
+372,36-45,High,"Long Tenure",Moderate,Established,3.00,3.00,1.79,0,0,0,College,High,"Very High",Medium,Better,"Meets Expectations",None
+1082,26-35,High,Established,Far,Established,1.50,1.60,1.16,1,0,1,College,Medium,Low,Low,Good,"Meets Expectations",None
+1062,36-45,Medium,"Early Tenure","Very Close",New,2.25,2.40,0.55,0,0,0,Bachelor,"Very High",Medium,Low,Good,"Meets Expectations",None
+961,26-35,Medium,Established,Moderate,Developing,3.00,3.00,0.78,0,1,0,Bachelor,"Very High","Very High",High,Bad,"Meets Expectations",Medium
+1460,36-45,High,Established,Moderate,Established,2.00,1.80,1.44,1,0,0,Bachelor,Medium,Low,Medium,Better,"Meets Expectations",Low
+1421,26-35,High,Established,Moderate,Established,2.75,2.80,1.00,1,0,1,"Below College",High,"Very High",Low,Better,"Meets Expectations",None
+793,26-35,Medium,Established,Far,New,2.00,2.20,0.58,0,0,0,Bachelor,Medium,High,Low,Good,"Meets Expectations",Low
+139,36-45,Medium,"New Hire","Very Close",New,3.75,3.40,0.69,0,0,0,College,High,"Very High","Very High",Best,"Meets Expectations",Low
+969,26-35,Medium,"Early Tenure","Very Close",Developing,2.50,2.40,0.92,0,0,0,Bachelor,Medium,"Very High",Low,Better,"Meets Expectations",None
+1397,36-45,High,Established,Far,Developing,2.75,2.80,1.45,0,0,0,College,High,High,Medium,Better,Excellent,Low
+1383,26-35,Medium,"Long Tenure","Very Close",Long-Term,3.75,3.60,0.89,0,0,0,Master,High,"Very High","Very High",Best,"Meets Expectations",None
+586,26-35,High,Established,Moderate,New,3.25,3.20,1.01,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",None
+145,46-55,High,"Long Tenure","Very Close",Established,1.75,1.80,0.99,0,0,0,Master,Low,Low,High,Good,Excellent,None
+587,26-35,High,"New Hire",Moderate,New,2.00,2.20,1.30,1,0,1,Bachelor,Low,High,Low,Better,"Meets Expectations",None
+390,26-35,Medium,"Early Tenure",Moderate,Developing,2.00,2.20,0.63,1,0,0,College,Low,Low,High,Better,"Meets Expectations",Low
+1375,36-45,Medium,"Long Tenure","Very Close",Established,2.50,2.80,0.85,0,1,0,"Below College",Medium,High,Medium,Better,Excellent,High
+1344,26-35,High,Established,Close,Established,3.50,3.40,1.13,0,0,0,Bachelor,"Very High","Very High","Very High",Good,"Meets Expectations",Low
+393,36-45,Medium,"New Hire",Far,New,3.25,3.20,0.76,0,0,0,Master,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+1312,36-45,High,Established,Close,Established,2.75,2.80,0.94,0,0,0,Master,"Very High",High,Low,Better,"Meets Expectations",None
+807,36-45,Medium,Established,"Very Close",Established,3.00,3.20,0.56,0,0,0,College,High,Medium,"Very High",Better,Excellent,Low
+1295,36-45,High,Established,Moderate,Developing,3.00,3.00,1.06,1,0,1,Bachelor,Low,"Very High","Very High",Better,"Meets Expectations",Low
+1278,46-55,High,Veteran,Close,New,3.25,3.00,1.80,0,0,0,"Below College","Very High",Medium,"Very High",Better,"Meets Expectations",Low
+1260,26-35,Medium,Established,Close,New,3.00,3.00,0.88,0,0,0,Bachelor,High,"Very High",Medium,Better,"Meets Expectations",Medium
+1252,26-35,Medium,Established,Far,Established,2.25,2.20,0.90,0,0,0,Bachelor,High,Low,Medium,Better,"Meets Expectations",None
+1251,26-35,Medium,Established,Moderate,New,2.50,2.60,0.91,0,0,0,College,High,Low,"Very High",Good,"Meets Expectations",None
+165,56+,High,Veteran,Far,Established,3.50,3.40,1.37,1,0,1,Master,"Very High","Very High","Very High",Good,"Meets Expectations",Low
+1184,26-35,Medium,"Long Tenure","Very Close",Established,2.75,2.60,0.71,0,0,0,Bachelor,"Very High",Low,High,Better,Excellent,None
+412,26-35,Medium,Established,Moderate,Established,2.25,2.60,0.75,0,0,0,College,Medium,Low,High,Better,"Meets Expectations",None
+2062,36-45,High,Established,Close,Established,2.25,2.20,1.33,0,0,0,"Below College","Very High",Low,Low,Better,"Meets Expectations",Low
+417,36-45,High,"Long Tenure","Very Close",Established,2.50,2.80,1.28,0,0,0,Bachelor,High,"Very High",Low,Good,"Meets Expectations",High
+2049,26-35,Medium,Established,Moderate,New,3.50,3.40,0.76,0,0,0,Master,High,High,"Very High",Best,"Meets Expectations",Medium
+616,36-45,Medium,Established,"Very Close",Established,2.00,2.00,0.90,0,0,0,Master,Low,High,Low,Better,"Meets Expectations",None
+1903,36-45,Medium,"New Hire","Very Close",New,2.50,2.80,0.67,0,0,0,Master,Medium,Low,"Very High",Better,"Meets Expectations",Low
+422,56+,Medium,"Early Tenure","Very Close",New,3.50,3.00,0.75,0,0,0,Master,"Very High",High,"Very High",Better,"Meets Expectations",Low
+2026,56+,Medium,"Long Tenure","Very Close",Established,2.25,2.40,0.84,0,0,0,Master,High,High,Low,Good,Excellent,Low
+2009,26-35,Medium,Established,Moderate,New,2.50,2.60,0.65,0,1,0,College,Medium,"Very High",Low,Better,"Meets Expectations",Low
+1993,46-55,High,"Long Tenure",Far,Long-Term,2.25,2.40,1.15,0,0,0,Bachelor,Low,High,Medium,Better,Excellent,None
+470,36-45,Low,"Early Tenure","Very Close",New,3.00,3.00,0.64,0,0,0,"Below College",High,High,High,Better,"Meets Expectations",Low
+1778,36-45,Medium,Established,"Very Close",Established,2.75,2.80,0.84,0,0,0,Bachelor,Medium,"Very High",Medium,Better,"Meets Expectations",None
+878,36-45,Low,"Early Tenure",Close,Developing,2.00,2.00,0.55,0,0,0,Bachelor,Low,Low,High,Better,Excellent,None
+1747,26-35,Low,"Early Tenure",Close,New,3.00,2.80,0.51,1,0,1,Bachelor,High,"Very High",High,Good,"Meets Expectations",Low
+1152,36-45,Low,Established,"Very Close",New,3.50,3.60,0.67,0,1,0,Bachelor,High,High,"Very High",Best,"Meets Expectations",Low
+1746,18-25,Low,"New Hire",Close,New,3.00,3.00,0.51,0,0,0,Bachelor,Low,"Very High","Very High",Better,"Meets Expectations",Low
+1744,36-45,High,"Early Tenure","Very Close",Developing,3.25,2.80,2.30,0,0,0,Bachelor,High,High,High,Best,Excellent,Medium
+698,46-55,High,Established,Moderate,New,3.00,3.00,2.53,0,0,0,Master,High,Medium,High,Best,"Meets Expectations",Low
+1722,36-45,Medium,"Early Tenure","Very Close",New,2.50,2.20,1.52,0,0,0,Bachelor,High,Medium,Medium,Better,"Meets Expectations",Low
+1714,18-25,Low,"New Hire",Far,New,3.25,2.80,0.37,1,0,1,"Below College","Very High",High,High,Better,"Meets Expectations",Low
+1683,36-45,Medium,"New Hire","Very Close",New,2.75,2.80,0.75,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",High
+909,36-45,Medium,"Early Tenure","Very Close",Developing,3.50,3.20,1.23,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",Medium
+910,26-35,Low,"Early Tenure","Very Close",Developing,3.25,3.20,0.54,0,0,0,College,"Very High",Medium,High,Best,"Meets Expectations",Low
+1642,36-45,Medium,Established,"Very Close",New,2.75,2.80,1.36,0,0,0,Doctor,Low,"Very High",High,Better,"Meets Expectations",None
+321,56+,Low,"New Hire",Close,New,2.75,2.80,0.54,0,0,0,College,Medium,High,"Very High",Good,"Meets Expectations",None
+1563,36-45,Medium,Established,Close,New,3.00,3.00,1.43,0,0,0,Master,High,High,High,Better,"Meets Expectations",None
+1098,36-45,High,"Long Tenure","Very Close",Established,2.50,2.40,2.47,1,0,1,College,Medium,Low,"Very High",Better,"Meets Expectations",Low
+760,36-45,Medium,Established,"Very Close",Established,2.25,2.60,1.51,0,0,0,Bachelor,High,Medium,High,Bad,"Meets Expectations",Low
+103,46-55,Medium,"Early Tenure","Very Close",New,2.75,2.80,1.19,1,0,0,College,Medium,Medium,"Very High",Better,Excellent,Low
+1499,26-35,Low,"Early Tenure","Very Close",Developing,2.75,2.80,0.49,0,0,0,Bachelor,High,High,Low,Best,Excellent,Low
+566,18-25,Low,"New Hire","Very Close",New,3.00,2.80,0.61,1,0,1,College,Low,"Very High",High,Best,"Meets Expectations",None
+1467,26-35,Low,"New Hire",Close,New,2.75,2.80,0.65,1,0,1,Master,Low,High,"Very High",Better,"Meets Expectations",None
+1314,46-55,Medium,Established,"Very Close",Established,3.00,3.00,0.81,0,1,0,College,"Very High",Low,High,Best,"Meets Expectations",None
+590,26-35,High,"Early Tenure",Far,New,2.25,2.40,2.35,1,0,1,Bachelor,Medium,Low,High,Better,"Meets Expectations",High
+1461,26-35,Low,"Early Tenure",Close,New,3.25,3.40,0.50,0,0,0,College,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+184,26-35,Medium,"Long Tenure",Close,Established,3.00,3.00,1.50,0,0,0,Bachelor,High,"Very High","Very High",Bad,"Meets Expectations",None
+1231,36-45,Medium,"Early Tenure","Very Close",Developing,2.50,2.80,1.48,0,0,0,Doctor,"Very High",Low,Low,Best,"Meets Expectations",Low
+1944,26-35,Low,"New Hire",Far,New,1.75,1.80,0.68,1,0,1,Bachelor,Low,Medium,Low,Better,"Meets Expectations",None
+608,26-35,Low,Established,Moderate,New,2.25,2.40,0.65,1,0,1,Master,Medium,High,Medium,Good,"Meets Expectations",Low
+2040,26-35,High,Established,Far,Established,3.25,3.20,2.09,0,0,0,Master,High,"Very High",High,Better,"Meets Expectations",None
+1890,36-45,Medium,Established,"Very Close",Established,3.00,2.80,0.92,0,0,0,"Below College",Medium,"Very High","Very High",Good,Excellent,None
+847,26-35,Medium,"Early Tenure","Very Close",New,2.75,2.80,0.88,0,0,0,College,High,"Very High",High,Bad,"Meets Expectations",Low
+424,26-35,Medium,"New Hire","Very Close",New,2.25,2.20,1.51,0,0,0,Bachelor,Low,Low,"Very High",Better,"Meets Expectations",None
+1865,26-35,Low,"New Hire",Close,New,3.25,3.00,0.66,0,0,0,"Below College","Very High",Medium,"Very High",Better,"Meets Expectations",None
+1207,26-35,Medium,"Early Tenure","Very Close",Developing,3.00,3.00,0.85,0,0,0,Bachelor,Medium,High,"Very High",Better,"Meets Expectations",Low
+133,36-45,Low,"Early Tenure",Close,New,2.75,2.80,0.49,1,0,1,Master,High,Low,"Very High",Better,Excellent,None
+1858,26-35,Low,"Early Tenure","Very Close",New,3.00,3.00,0.64,0,0,0,College,High,"Very High",Medium,Better,"Meets Expectations",Low
+829,36-45,Low,"Early Tenure",Moderate,Developing,2.50,2.60,0.51,0,0,0,Bachelor,High,Medium,Medium,Better,"Meets Expectations",Low
+1844,26-35,Low,"New Hire",Moderate,New,2.25,2.20,0.55,1,0,1,Bachelor,Low,Low,"Very High",Better,"Meets Expectations",High
+1842,26-35,Low,"New Hire",Moderate,New,2.75,3.00,0.70,1,0,1,Doctor,"Very High",Low,High,Better,"Meets Expectations",None
+1164,26-35,Medium,"Early Tenure",Close,Developing,2.25,2.40,1.02,0,0,0,Master,High,High,Medium,Bad,"Meets Expectations",None
+1987,18-25,Low,"New Hire","Very Close",New,2.75,2.80,0.52,0,0,0,Bachelor,High,Medium,High,Better,"Meets Expectations",None
+1289,26-35,Medium,Established,Moderate,Established,3.25,3.00,1.06,0,0,0,Bachelor,High,Medium,"Very High",Best,"Meets Expectations",Medium
+1419,26-35,High,Established,Moderate,Established,1.50,1.60,1.89,0,0,0,Bachelor,Medium,Low,Low,Good,"Meets Expectations",None
+1818,26-35,Low,"Early Tenure",Moderate,Developing,3.00,3.00,0.51,1,0,1,College,"Very High",Medium,High,Better,"Meets Expectations",None
+177,26-35,Low,Established,Far,Established,3.25,3.20,0.69,0,1,0,"Below College",High,High,"Very High",Better,Excellent,Low
+665,36-45,Medium,"New Hire","Very Close",New,2.50,2.40,1.41,0,0,0,Master,Low,High,Medium,Best,"Meets Expectations",None
+1805,36-45,Low,"Long Tenure","Very Close",Established,2.50,2.60,0.61,0,0,0,Bachelor,Low,Medium,"Very High",Better,"Meets Expectations",High
+1972,36-45,Low,Established,"Very Close",New,2.75,2.80,0.71,0,0,0,Master,"Very High",Medium,Medium,Better,"Meets Expectations",Low
+1794,36-45,Medium,Established,Close,Established,2.50,2.60,0.96,0,0,0,College,High,Medium,High,Good,"Meets Expectations",None
+1049,36-45,Low,Established,Far,Developing,2.00,2.20,0.51,0,0,0,Master,Medium,Medium,Low,Better,"Meets Expectations",None
+869,26-35,Medium,"Early Tenure",Close,Developing,3.25,3.00,1.17,0,0,0,College,Medium,"Very High","Very High",Better,"Meets Expectations",Low
+249,46-55,Medium,"Early Tenure","Very Close",New,3.00,2.80,1.14,0,0,0,Bachelor,High,High,"Very High",Good,"Meets Expectations",Low
+392,36-45,Medium,"New Hire",Far,New,3.00,3.00,0.98,1,0,1,Bachelor,"Very High",High,"Very High",Bad,Excellent,Low
+4,36-45,Low,"New Hire","Very Close",New,3.00,2.80,0.65,1,0,1,College,"Very High",High,Medium,Better,"Meets Expectations",None
+394,26-35,Low,"Early Tenure",Moderate,New,2.50,2.60,0.73,1,0,1,Master,Low,Medium,"Very High",Better,"Meets Expectations",Low
+7,26-35,Medium,"New Hire","Very Close",New,2.50,2.60,1.07,0,0,0,"Below College",Low,Medium,"Very High",Better,"Meets Expectations",Low
+8,26-35,Medium,Established,"Very Close",Established,3.25,3.20,0.95,0,0,0,College,"Very High","Very High",High,Good,"Meets Expectations",None
+10,56+,Low,"New Hire","Very Close",New,1.75,2.20,0.82,0,0,0,Bachelor,High,Low,Low,Good,Excellent,High
+11,26-35,Low,"New Hire",Far,New,3.00,3.00,0.83,0,0,0,"Below College","Very High",High,Medium,Better,Excellent,Low
+1586,26-35,Medium,Established,"Very Close",Developing,2.50,2.60,1.46,1,0,0,"Below College",Medium,Low,"Very High",Better,"Meets Expectations",None
+14,26-35,Low,"Early Tenure",Moderate,Developing,2.25,2.60,0.75,0,0,0,Bachelor,Low,Medium,High,Better,"Meets Expectations",Low
+15,26-35,Medium,Established,Moderate,Established,3.50,3.20,1.30,0,0,0,College,"Very High",High,"Very High",Better,"Meets Expectations",None
+704,26-35,Low,"New Hire","Very Close",New,3.00,2.80,0.40,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Medium
+18,26-35,Low,"New Hire",Moderate,New,3.00,3.00,0.82,0,0,0,College,Medium,"Very High",High,Better,"Meets Expectations",Low
+19,26-35,Low,"Early Tenure",Far,Developing,2.75,2.60,0.63,1,0,1,Bachelor,High,High,Medium,Better,"Meets Expectations",None
+1594,36-45,Medium,"Early Tenure",Close,New,2.25,2.60,1.72,1,0,0,Master,Low,Low,"Very High",Better,"Meets Expectations",Low
+1596,26-35,Medium,Established,Far,Established,2.75,3.00,1.05,0,1,0,Bachelor,Medium,High,"Very High",Good,"Meets Expectations",Medium
+22,18-25,Low,"New Hire",Moderate,New,3.00,3.20,0.91,0,0,0,College,"Very High","Very High",Medium,Good,"Meets Expectations",Medium
+1599,36-45,Medium,Established,Far,New,3.00,3.20,1.51,0,0,0,Bachelor,"Very High",Medium,High,Better,"Meets Expectations",Low
+1601,26-35,Low,"New Hire",Close,New,3.25,3.00,0.83,0,0,0,College,High,"Very High","Very High",Good,"Meets Expectations",Low
+1604,26-35,Low,"New Hire",Far,New,2.75,2.80,0.74,1,0,1,Bachelor,High,Medium,High,Better,"Meets Expectations",High
+405,18-25,Low,"New Hire","Very Close",New,3.00,3.00,0.44,1,0,1,Bachelor,High,High,High,Better,"Meets Expectations",None
+1611,36-45,Medium,Established,"Very Close",Developing,2.00,1.80,1.78,0,0,0,Doctor,High,Low,Low,Better,"Meets Expectations",None
+407,36-45,Medium,"New Hire",Moderate,New,3.50,3.60,1.14,0,0,0,Master,High,"Very High","Very High",Better,"Meets Expectations",Medium
+1617,46-55,Medium,Established,Far,Developing,2.50,2.60,0.99,0,0,0,Master,High,Low,"Very High",Good,"Meets Expectations",Low
+716,46-55,Medium,"Long Tenure",Far,Established,3.25,3.40,1.00,0,0,0,"Below College","Very High",High,High,Better,"Meets Expectations",High
+1619,26-35,Medium,Established,Moderate,Established,2.25,2.20,1.26,0,0,0,Bachelor,"Very High",Low,Low,Better,"Meets Expectations",Medium
+1627,36-45,Medium,Established,"Very Close",Established,3.25,3.00,0.95,0,0,0,College,High,High,"Very High",Better,"Meets Expectations",Low
+419,36-45,Medium,Established,Far,Established,2.50,2.60,1.75,0,0,0,Master,Medium,Medium,High,Better,"Meets Expectations",Low
+39,26-35,Low,"New Hire","Very Close",New,3.50,3.40,0.77,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",None
+41,26-35,Low,Established,Close,Established,2.75,2.60,0.68,0,0,0,College,"Very High",High,Low,Better,"Meets Expectations",None
+1649,36-45,Low,"Early Tenure",Close,Developing,1.25,1.60,0.67,1,0,1,Bachelor,Low,Low,Medium,Bad,"Meets Expectations",None
+1659,36-45,Low,"Early Tenure",Close,Developing,2.25,2.40,0.62,0,0,0,Bachelor,Low,Medium,High,Better,"Meets Expectations",None
+1674,46-55,Low,"New Hire",Moderate,New,2.25,2.40,0.80,0,0,0,Bachelor,"Very High",Low,Medium,Good,"Meets Expectations",Low
+425,36-45,Medium,Veteran,Close,Long-Term,1.50,1.80,1.61,0,0,0,Bachelor,Low,Low,Low,Better,"Meets Expectations",Low
+1675,36-45,Low,"Early Tenure","Very Close",Developing,2.75,2.60,0.75,0,0,0,Bachelor,"Very High",Medium,Medium,Better,Excellent,None
+1684,18-25,Medium,"Early Tenure",Close,New,2.75,2.60,1.23,1,0,1,"Below College","Very High",High,Low,Better,"Meets Expectations",None
+1687,36-45,Medium,"New Hire","Very Close",New,3.25,3.20,1.02,0,0,0,College,"Very High",High,"Very High",Good,"Meets Expectations",Low
+53,26-35,Low,"New Hire","Very Close",New,3.25,3.20,0.60,0,0,0,College,High,"Very High",High,Better,"Meets Expectations",Low
+54,26-35,Low,"New Hire","Very Close",New,3.00,3.00,0.72,0,0,0,Master,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+55,26-35,Low,"New Hire",Far,New,2.25,2.00,0.71,1,0,1,Bachelor,Low,High,High,Good,"Meets Expectations",None
+430,36-45,Low,Established,Close,Established,2.75,2.80,0.76,0,0,0,Master,High,"Very High",Low,Better,"Meets Expectations",None
+57,26-35,Medium,"Long Tenure","Very Close",Established,3.50,3.40,1.24,0,0,0,College,High,"Very High","Very High",Better,Excellent,None
+1692,26-35,Low,"New Hire","Very Close",New,2.50,2.60,0.43,1,0,1,Master,"Very High",Medium,Low,Better,"Meets Expectations",None
+1693,26-35,Low,Established,Close,Established,3.50,3.40,0.79,0,1,0,Bachelor,"Very High","Very High",High,Better,Excellent,None
+1696,26-35,Medium,"Long Tenure","Very Close",Long-Term,3.25,3.00,1.23,0,0,0,College,Medium,"Very High",High,Best,"Meets Expectations",Low
+1698,26-35,Low,"Long Tenure",Far,Long-Term,2.75,3.00,0.63,0,0,0,Bachelor,Medium,Medium,"Very High",Better,"Meets Expectations",High
+63,26-35,Low,"New Hire",Close,New,3.75,3.80,0.70,0,0,0,"Below College","Very High","Very High","Very High",Better,"Meets Expectations",None
+64,46-55,Medium,"New Hire","Very Close",New,2.75,2.60,1.66,1,0,1,College,Low,High,"Very High",Better,"Meets Expectations",None
+65,26-35,Medium,"New Hire","Very Close",New,2.75,2.80,1.06,1,0,1,Master,High,High,High,Good,"Meets Expectations",None
+1709,26-35,Low,"Early Tenure",Close,New,3.25,3.20,0.92,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",Low
+1718,26-35,Low,"Early Tenure",Moderate,New,3.50,3.00,0.71,0,0,0,Master,"Very High",High,High,Best,"Meets Expectations",High
+1721,26-35,Medium,"Early Tenure","Very Close",Developing,3.25,3.20,1.07,0,0,0,Master,Medium,High,"Very High",Best,"Meets Expectations",Low
+1725,18-25,Medium,Established,Far,New,2.25,2.40,1.21,0,0,0,"Below College",Medium,Low,Medium,Best,"Meets Expectations",High
+75,26-35,Medium,"New Hire",Far,New,2.50,2.60,1.24,0,0,0,Master,High,Low,High,Better,"Meets Expectations",Low
+76,26-35,Medium,Established,Close,Established,3.50,3.40,1.83,0,0,0,Master,"Very High","Very High","Very High",Good,Excellent,Low
+744,36-45,Medium,"Early Tenure",Far,Developing,2.50,2.20,1.15,0,0,0,Bachelor,Low,High,High,Better,"Meets Expectations",None
+1735,18-25,Medium,"Early Tenure","Very Close",New,2.25,2.40,1.02,0,0,0,"Below College",High,Medium,High,Bad,"Meets Expectations",None
+79,36-45,Low,Established,Far,Established,3.75,3.60,0.74,0,1,0,Doctor,"Very High","Very High","Very High",Better,"Meets Expectations",None
+1737,36-45,Medium,Established,"Very Close",Established,3.75,3.60,2.00,0,1,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",Low
+1760,36-45,Low,Established,"Very Close",Developing,2.25,2.20,0.76,0,0,0,College,High,Medium,Medium,Good,"Meets Expectations",Low
+1768,36-45,Low,"Early Tenure",Moderate,Developing,2.00,2.20,0.85,0,0,0,Bachelor,Medium,Medium,Medium,Good,Excellent,High
+448,36-45,Medium,Established,Close,New,3.00,2.80,1.62,0,0,0,Master,High,High,Medium,Best,"Meets Expectations",Low
+1772,36-45,Low,"Early Tenure",Close,Developing,2.25,2.40,0.71,0,0,0,Master,High,Low,Medium,Better,Excellent,Medium
+758,18-25,Low,"Early Tenure",Close,New,2.75,2.80,0.77,0,0,0,"Below College",Medium,Low,"Very High",Best,"Meets Expectations",Low
+1782,36-45,Medium,"Early Tenure",Close,Developing,3.00,2.80,1.14,0,0,0,College,"Very High",High,Medium,Better,"Meets Expectations",Low
+1783,18-25,Low,"New Hire",Close,New,2.50,2.60,0.74,1,0,1,"Below College",High,Low,High,Better,"Meets Expectations",None
+454,26-35,Low,Established,Close,Established,2.25,2.00,0.65,1,0,1,Master,Medium,Low,"Very High",Good,"Meets Expectations",None
+455,26-35,Medium,"Early Tenure",Close,New,3.00,2.80,1.23,0,0,0,Doctor,Medium,"Very High",High,Better,"Meets Expectations",None
+769,46-55,Low,"New Hire",Close,New,3.75,3.60,0.76,0,0,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",None
+97,36-45,Medium,"New Hire",Close,New,2.75,3.00,0.94,0,0,0,Bachelor,Medium,"Very High",Medium,Better,"Meets Expectations",None
+772,26-35,Medium,Established,Far,Established,3.00,3.00,1.64,0,0,0,Master,Low,"Very High","Very High",Better,"Meets Expectations",Medium
+1807,26-35,Medium,Established,Close,Established,2.50,2.60,1.65,1,0,1,Master,"Very High",Low,High,Good,"Meets Expectations",Low
+1826,26-35,Low,"Early Tenure",Far,Developing,2.75,2.40,0.84,0,0,0,Master,Medium,High,Medium,Best,"Meets Expectations",Low
+1850,26-35,Low,"Early Tenure","Very Close",New,3.25,3.20,0.73,0,0,0,College,"Very High","Very High",High,Good,"Meets Expectations",None
+104,26-35,Medium,Established,"Very Close",New,3.25,3.00,1.58,0,0,0,"Below College","Very High","Very High",High,Good,"Meets Expectations",Medium
+1852,26-35,Medium,"Long Tenure",Moderate,Established,3.50,3.40,1.18,0,0,0,"Below College","Very High","Very High",Medium,Best,"Meets Expectations",None
+1856,46-55,Low,"New Hire",Close,New,2.75,2.80,0.65,0,0,0,Master,Medium,High,High,Better,"Meets Expectations",None
+1860,36-45,Medium,"New Hire",Close,New,3.50,3.40,1.23,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+1881,26-35,Medium,Established,Moderate,New,2.25,2.40,1.30,0,0,0,Bachelor,Medium,High,Low,Better,"Meets Expectations",Low
+1883,26-35,Low,"Early Tenure",Close,New,2.50,2.60,0.64,0,0,0,Bachelor,"Very High",Low,Medium,Better,"Meets Expectations",None
+1907,56+,Low,"Early Tenure",Far,New,3.00,3.00,0.80,1,0,1,College,Low,"Very High","Very High",Better,"Meets Expectations",None
+116,46-55,Low,"Early Tenure",Close,Developing,3.25,3.20,0.64,0,0,0,Master,"Very High","Very High",Medium,Better,Excellent,Medium
+1916,26-35,Medium,"New Hire","Very Close",New,2.00,2.40,1.23,0,0,0,Bachelor,Low,High,Medium,Good,"Meets Expectations",Low
+471,26-35,Low,Established,"Very Close",Established,2.75,2.80,0.73,0,0,0,Bachelor,High,Medium,High,Better,"Meets Expectations",Low
+1918,26-35,Low,Established,Close,Established,2.75,3.00,0.79,0,1,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",Low
+1949,36-45,Low,"Early Tenure",Close,New,2.00,2.40,0.87,0,0,0,Master,Low,Medium,Medium,Better,Excellent,None
+792,26-35,Medium,"New Hire","Very Close",New,2.25,2.00,1.35,0,0,0,College,Low,"Very High",Low,Better,"Meets Expectations",Low
+1952,26-35,Low,Established,"Very Close",Established,2.50,2.60,0.89,0,1,0,Bachelor,High,Low,"Very High",Good,"Meets Expectations",None
+1960,26-35,Low,"Early Tenure",Moderate,Developing,2.50,2.40,0.73,1,0,1,Bachelor,High,"Very High",Low,Good,"Meets Expectations",Low
+1974,26-35,Low,"New Hire","Very Close",New,3.50,3.00,0.35,0,0,0,"Below College","Very High","Very High",High,Better,"Meets Expectations",High
+132,36-45,Low,"Early Tenure",Far,New,2.75,2.80,0.63,0,0,0,Bachelor,Medium,Medium,High,Best,"Meets Expectations",Low
+1982,18-25,Low,"Early Tenure",Moderate,Developing,3.75,3.60,0.82,0,0,0,College,"Very High","Very High",High,Best,"Meets Expectations",None
+137,18-25,Low,"New Hire",Close,New,3.25,3.00,0.90,1,0,1,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",None
+483,36-45,Low,Established,Close,Established,3.25,3.40,0.68,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",Low
+1985,36-45,Medium,Established,Moderate,Developing,3.00,3.00,1.95,0,1,0,Bachelor,"Very High",High,Low,Best,"Meets Expectations",Low
+1989,26-35,Medium,"Long Tenure","Very Close",Established,2.75,2.80,1.16,0,0,0,College,"Very High",Medium,High,Good,"Meets Expectations",None
+486,36-45,Medium,"Early Tenure",Close,Developing,2.25,2.40,1.07,0,0,0,Bachelor,High,Low,Medium,Better,Excellent,Low
+1992,18-25,Medium,"New Hire","Very Close",New,3.00,3.00,1.23,0,0,0,"Below College","Very High",High,High,Good,"Meets Expectations",Low
+144,18-25,Low,"New Hire",Moderate,New,3.00,3.00,0.89,0,0,0,Bachelor,Medium,"Very High",High,Better,"Meets Expectations",None
+147,26-35,Medium,Established,Close,Established,2.75,2.40,1.88,1,0,1,Bachelor,Low,High,"Very High",Better,Excellent,None
+1994,26-35,Low,"New Hire","Very Close",New,2.50,2.40,0.62,0,0,0,College,Medium,High,High,Good,"Meets Expectations",High
+150,18-25,Low,"Early Tenure",Moderate,New,2.75,2.80,0.86,0,0,0,"Below College",Medium,High,High,Better,"Meets Expectations",Low
+806,26-35,Medium,"New Hire","Very Close",New,3.25,2.80,1.18,0,0,0,Bachelor,"Very High",High,High,Better,Excellent,Medium
+2003,26-35,Low,"New Hire",Moderate,New,3.25,3.20,0.82,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",Low
+2010,26-35,Low,Established,Far,New,2.75,2.60,0.88,0,0,0,Master,High,Medium,High,Better,"Meets Expectations",None
+811,18-25,Low,"New Hire",Close,New,2.50,2.80,0.49,1,0,1,Bachelor,High,Low,High,Better,Excellent,Medium
+155,36-45,Low,"New Hire","Very Close",New,2.25,2.40,0.88,0,0,0,College,Low,"Very High",Low,Better,Excellent,Low
+497,26-35,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,1.18,0,0,0,College,"Very High",Medium,Medium,Better,"Meets Expectations",Low
+812,18-25,Low,"New Hire",Close,New,2.75,2.60,0.83,0,0,0,Bachelor,High,Medium,High,Better,"Meets Expectations",High
+813,46-55,Medium,"Early Tenure",Moderate,Developing,3.00,3.00,0.97,0,0,0,Master,"Very High",High,Medium,Better,Excellent,Low
+2012,36-45,Low,"New Hire","Very Close",New,2.50,2.60,0.74,0,0,0,Master,Low,"Very High",High,Good,"Meets Expectations",Medium
+816,26-35,Low,"New Hire","Very Close",New,2.50,2.40,0.72,1,0,1,College,Medium,Low,"Very High",Better,"Meets Expectations",Low
+2032,56+,Low,Established,Close,Established,3.00,3.00,0.72,1,1,1,College,"Very High",High,"Very High",Bad,"Meets Expectations",Low
+2053,26-35,Medium,"Early Tenure",Moderate,Developing,2.50,2.40,1.24,0,0,0,College,"Very High",Medium,Low,Better,"Meets Expectations",Low
+2061,36-45,Low,"Early Tenure",Far,Developing,3.25,3.40,0.79,0,0,0,College,High,"Very High",High,Better,"Meets Expectations",Low
+169,18-25,Low,"New Hire","Very Close",New,3.25,3.20,0.78,0,0,0,"Below College",High,"Very High",High,Better,"Meets Expectations",Low
+832,36-45,Medium,"New Hire",Moderate,New,2.75,2.60,1.57,0,0,0,Master,Low,High,"Very High",Better,"Meets Expectations",None
+874,36-45,Low,"Early Tenure",Close,New,2.50,2.80,0.87,0,0,0,Master,Low,"Very High",High,Good,Excellent,Low
+882,26-35,Low,"Early Tenure","Very Close",New,3.25,3.20,0.71,0,0,0,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+888,18-25,Medium,"Early Tenure","Very Close",Developing,2.75,2.60,0.98,0,0,0,"Below College",Low,"Very High","Very High",Good,"Meets Expectations",None
+515,36-45,Medium,"Long Tenure",Moderate,Long-Term,2.50,2.60,0.94,0,1,0,Bachelor,"Very High",Low,High,Good,"Meets Expectations",Low
+894,36-45,Medium,"Early Tenure","Very Close",Developing,2.75,3.00,1.62,0,0,0,Bachelor,High,"Very High",Medium,Good,"Meets Expectations",Low
+517,36-45,Low,"Early Tenure","Very Close",New,2.00,2.20,0.80,0,0,0,Master,Medium,Low,Medium,Better,"Meets Expectations",Low
+911,26-35,Low,"New Hire",Far,New,2.25,2.40,0.86,1,0,1,Master,Low,"Very High",High,Bad,Excellent,None
+912,26-35,Low,"Early Tenure",Close,Developing,2.75,2.60,0.78,0,0,0,"Below College",Low,"Very High",High,Better,"Meets Expectations",High
+190,26-35,Medium,"Early Tenure",Close,Developing,1.75,2.00,1.30,1,0,1,Bachelor,Low,Low,Low,Best,Excellent,None
+521,36-45,Medium,"New Hire","Very Close",New,2.50,2.40,1.07,0,0,0,Bachelor,Medium,High,Medium,Better,Excellent,Low
+918,56+,Low,"New Hire","Very Close",New,3.50,3.20,0.74,1,0,1,"Below College","Very High","Very High","Very High",Good,"Meets Expectations",Low
+927,36-45,Low,Established,"Very Close",New,2.75,2.40,0.86,1,0,1,Master,Medium,"Very High",High,Good,"Meets Expectations",Low
+932,36-45,Low,"New Hire",Close,New,2.50,2.60,0.74,1,0,1,Bachelor,"Very High",Low,"Very High",Bad,Excellent,None
+525,36-45,Low,"Early Tenure",Far,New,3.00,3.00,0.70,0,0,0,Bachelor,"Very High","Very High",Low,Better,Excellent,Low
+198,26-35,Low,"Early Tenure","Very Close",New,3.25,3.00,0.84,0,0,0,"Below College",Medium,"Very High","Very High",Better,"Meets Expectations",None
+934,26-35,Low,"New Hire",Close,New,2.25,2.40,0.62,0,0,0,Bachelor,Medium,Medium,Medium,Better,"Meets Expectations",Medium
+200,36-45,Low,"Early Tenure",Close,Developing,2.75,2.80,0.69,0,0,0,Master,High,Low,"Very High",Better,Excellent,Low
+201,18-25,Low,"New Hire","Very Close",New,2.75,2.80,0.46,0,0,0,"Below College",Medium,Medium,"Very High",Better,"Meets Expectations",None
+944,46-55,High,Veteran,Close,Established,2.00,2.20,2.29,0,0,0,College,Low,Medium,High,Good,"Meets Expectations",Low
+530,26-35,Low,"Early Tenure","Very Close",New,2.75,2.60,0.69,0,0,0,College,"Very High",Low,High,Better,"Meets Expectations",Low
+951,26-35,Low,"Early Tenure","Very Close",New,2.75,2.60,0.72,0,0,0,Bachelor,High,Medium,High,Better,Excellent,None
+206,36-45,Low,"Long Tenure",Close,Long-Term,2.00,2.20,0.73,0,0,0,Bachelor,Medium,Medium,High,Bad,"Meets Expectations",Low
+957,36-45,Medium,"Long Tenure",Close,Long-Term,2.75,2.80,1.46,0,0,0,Bachelor,"Very High",Low,High,Better,"Meets Expectations",None
+958,36-45,Low,"Long Tenure","Very Close",Established,3.00,3.00,0.78,0,0,0,Master,High,High,High,Better,Excellent,None
+960,18-25,Low,"New Hire","Very Close",New,1.75,2.00,0.92,1,0,1,Bachelor,Low,Low,Medium,Better,"Meets Expectations",None
+536,26-35,Medium,Established,Moderate,Established,2.75,2.80,1.41,0,0,0,College,High,Low,"Very High",Better,"Meets Expectations",Low
+538,18-25,Medium,"New Hire","Very Close",New,2.00,2.20,1.25,1,0,1,Bachelor,Low,Low,High,Better,"Meets Expectations",Low
+972,36-45,Medium,Established,"Very Close",Established,2.25,2.40,1.37,0,0,0,College,High,Medium,Medium,Good,"Meets Expectations",None
+996,36-45,Low,"Early Tenure","Very Close",New,3.75,3.60,0.70,0,0,0,Master,"Very High","Very High","Very High",Better,"Meets Expectations",Medium
+1001,26-35,Low,"New Hire",Moderate,New,2.50,2.60,0.87,0,0,0,Master,High,Medium,Medium,Better,"Meets Expectations",Low
+1002,36-45,Medium,Established,Far,Established,2.75,2.80,1.12,0,0,0,College,"Very High",Low,High,Better,"Meets Expectations",Low
+1010,26-35,Medium,"Early Tenure",Moderate,New,2.50,2.40,1.16,1,0,1,Master,High,Medium,"Very High",Bad,Excellent,Low
+1017,26-35,Low,"Early Tenure","Very Close",New,2.00,2.20,0.75,1,0,1,Bachelor,Medium,Medium,Low,Better,"Meets Expectations",None
+1019,18-25,Low,"Early Tenure",Close,New,1.50,1.40,0.76,0,0,0,"Below College",Medium,Low,Low,Good,"Meets Expectations",Low
+2068,26-35,Medium,"Early Tenure",Close,New,2.50,2.80,1.36,0,0,0,Bachelor,Medium,High,Low,Best,"Meets Expectations",None
+1028,26-35,Medium,"Early Tenure",Close,New,2.25,2.40,1.21,0,0,0,Bachelor,Medium,"Very High",Low,Good,Excellent,Low
+556,36-45,Low,"New Hire","Very Close",New,3.50,3.40,0.53,0,0,0,College,"Very High","Very High",High,Better,Excellent,Low
+1030,46-55,Low,"New Hire",Close,New,2.50,2.60,0.74,0,0,0,Bachelor,Low,"Very High",Medium,Better,"Meets Expectations",None
+1042,36-45,Low,"Long Tenure",Moderate,Long-Term,2.50,2.80,0.85,1,1,1,Master,High,Low,High,Better,"Meets Expectations",None
+238,36-45,Low,Established,"Very Close",New,2.75,2.80,0.65,0,1,0,College,"Very High",Medium,High,Good,"Meets Expectations",None
+239,26-35,Medium,"Long Tenure",Close,Established,2.50,2.60,0.95,0,1,0,Bachelor,High,Low,High,Better,"Meets Expectations",Medium
+562,26-35,Low,"Early Tenure","Very Close",Developing,2.75,2.80,0.65,0,0,0,Bachelor,High,"Very High",High,Bad,"Meets Expectations",Low
+1046,26-35,Medium,Established,Far,Established,3.00,3.00,1.24,0,1,0,Master,"Very High",High,Medium,Better,"Meets Expectations",None
+1052,36-45,Medium,"New Hire",Moderate,New,2.00,2.20,1.49,1,0,1,Bachelor,Low,High,Medium,Good,"Meets Expectations",Low
+243,18-25,Low,"New Hire","Very Close",New,2.75,2.60,0.34,1,0,1,Bachelor,Medium,"Very High",High,Good,Excellent,None
+1079,18-25,Low,"New Hire",Close,New,1.75,1.80,0.44,1,0,1,Bachelor,High,Low,Low,Good,"Meets Expectations",None
+245,36-45,Low,"New Hire",Close,New,3.25,3.20,0.71,0,0,0,College,High,"Very High",High,Better,"Meets Expectations",None
+1083,26-35,Medium,"Early Tenure","Very Close",Developing,1.50,1.60,1.22,0,0,0,College,Low,Low,Low,Better,"Meets Expectations",Medium
+1094,26-35,Medium,"Early Tenure",Close,New,2.75,2.40,1.43,0,0,0,Doctor,Low,High,"Very High",Better,"Meets Expectations",High
+571,26-35,Low,"Long Tenure","Very Close",Established,3.00,3.00,0.79,0,1,0,Bachelor,High,"Very High",High,Good,"Meets Expectations",None
+1102,26-35,Low,"Early Tenure",Moderate,New,2.50,2.60,0.68,0,0,0,College,Low,High,"Very High",Good,"Meets Expectations",Low
+1106,18-25,Medium,Established,"Very Close",Established,3.50,3.40,1.14,1,1,1,"Below College","Very High","Very High",Medium,Best,"Meets Expectations",Low
+1107,26-35,Low,"New Hire",Far,New,2.25,2.40,0.73,1,0,1,Bachelor,Low,High,High,Good,Excellent,Low
+577,26-35,Medium,"Early Tenure",Far,Developing,3.25,2.80,1.31,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",None
+578,46-55,Medium,"New Hire",Close,New,3.00,3.00,1.17,0,0,0,Master,High,High,High,Better,"Meets Expectations",None
+1111,26-35,Low,"New Hire","Very Close",New,1.75,1.80,0.80,1,0,1,Bachelor,Low,Medium,Low,Better,"Meets Expectations",Medium
+1132,36-45,Medium,"Early Tenure",Close,Developing,2.50,2.60,2.10,0,0,0,Bachelor,High,Medium,High,Good,"Meets Expectations",None
+1148,36-45,Medium,"New Hire",Far,New,2.50,2.20,1.32,0,0,0,Bachelor,Medium,"Very High",Low,Better,"Meets Expectations",None
+1156,18-25,Low,"New Hire",Close,New,3.25,3.20,0.59,1,0,1,"Below College",High,High,"Very High",Better,"Meets Expectations",None
+584,26-35,Medium,"Early Tenure",Close,Developing,2.25,2.00,1.05,1,0,1,"Below College",Low,"Very High",Low,Better,"Meets Expectations",High
+1158,36-45,Medium,"New Hire",Moderate,New,2.50,2.60,1.47,0,0,0,Master,Medium,"Very High",Low,Better,"Meets Expectations",Low
+269,26-35,Medium,Established,"Very Close",New,2.75,2.80,1.37,0,0,0,Bachelor,Medium,Medium,"Very High",Better,"Meets Expectations",None
+591,36-45,Low,"New Hire","Very Close",New,3.00,3.00,0.65,0,0,0,College,Medium,High,"Very High",Better,"Meets Expectations",Low
+1160,26-35,Low,"New Hire",Moderate,New,2.75,2.80,0.81,1,0,1,Bachelor,High,High,High,Good,"Meets Expectations",Low
+593,18-25,Medium,"New Hire","Very Close",New,3.00,2.80,1.20,1,0,1,"Below College",High,High,High,Better,"Meets Expectations",None
+1172,26-35,Low,Established,"Very Close",Established,3.00,2.80,0.70,0,0,0,Master,"Very High",High,Medium,Better,"Meets Expectations",Low
+1173,18-25,Medium,"Early Tenure",Far,New,3.25,3.20,1.11,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,Excellent,None
+1175,26-35,Low,"New Hire",Moderate,New,3.25,3.20,0.78,1,0,1,"Below College",High,"Very High","Very High",Good,"Meets Expectations",None
+281,36-45,Low,Established,Moderate,Established,3.50,3.40,0.85,0,0,0,College,High,"Very High",High,Best,"Meets Expectations",Low
+1177,26-35,Medium,Established,"Very Close",Established,2.50,2.80,1.37,0,0,0,Master,Low,"Very High",Medium,Better,Excellent,Low
+1185,26-35,Low,"New Hire","Very Close",New,3.50,3.20,0.73,0,0,0,Master,"Very High","Very High",Medium,Best,"Meets Expectations",Low
+286,36-45,Low,Established,Moderate,Established,2.50,2.60,0.67,0,0,0,"Below College",Medium,"Very High",Low,Better,"Meets Expectations",None
+602,36-45,Medium,Established,Close,Established,2.50,2.60,1.16,0,0,0,"Below College",High,High,Low,Better,"Meets Expectations",Low
+1192,26-35,Medium,Established,Close,Established,2.50,2.60,0.97,0,0,0,"Below College",Medium,"Very High",Low,Better,"Meets Expectations",Low
+1198,18-25,Medium,"New Hire","Very Close",New,1.75,1.80,0.94,0,0,0,Bachelor,Low,High,Low,Good,"Meets Expectations",None
+1216,26-35,Medium,Established,Moderate,Developing,2.75,2.60,0.99,0,0,0,Master,"Very High",Low,High,Better,"Meets Expectations",High
+1219,18-25,Low,"New Hire",Moderate,New,2.00,2.20,0.68,1,0,1,College,"Very High",Medium,Low,Bad,"Meets Expectations",Low
+1221,36-45,Low,Established,Close,Established,3.00,2.60,0.85,0,0,0,Master,High,High,High,Better,"Meets Expectations",Low
+1224,26-35,Medium,Established,Close,Established,2.25,2.40,1.08,0,1,0,Master,High,High,Low,Good,"Meets Expectations",High
+1234,26-35,Low,"New Hire",Moderate,New,2.75,2.60,0.85,0,0,0,Bachelor,High,Medium,High,Better,Excellent,Low
+1258,46-55,Low,"New Hire","Very Close",New,2.75,3.00,0.79,0,0,0,College,"Very High",Medium,High,Good,"Meets Expectations",None
+1279,18-25,Low,"New Hire",Close,New,2.00,2.00,0.81,1,0,1,College,Low,High,High,Bad,Excellent,None
+304,36-45,Medium,"Long Tenure","Very Close",Established,3.50,3.40,1.83,0,0,0,College,"Very High",Medium,"Very High",Best,"Meets Expectations",None
+1285,26-35,Medium,"Long Tenure",Moderate,Established,3.00,3.00,1.37,0,1,0,Bachelor,High,Medium,High,Best,"Meets Expectations",Medium
+1286,26-35,Low,"Early Tenure","Very Close",New,3.00,3.00,0.67,0,0,0,Master,"Very High",High,High,Good,"Meets Expectations",None
+622,26-35,Low,"New Hire",Far,New,2.50,2.20,0.72,1,0,1,Bachelor,High,"Very High",Medium,Bad,"Meets Expectations",None
+1296,26-35,Medium,"New Hire","Very Close",New,3.25,3.00,1.19,0,0,0,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+1297,46-55,Low,Established,Close,Established,2.25,2.20,0.88,0,1,0,College,Medium,High,Medium,Good,"Meets Expectations",None
+1299,26-35,Medium,Established,Close,Established,2.25,2.40,1.03,1,1,1,Bachelor,Medium,High,Low,Better,"Meets Expectations",Medium
+1309,26-35,Medium,Established,Close,New,2.75,2.80,1.51,1,0,1,College,"Very High",High,Low,Better,"Meets Expectations",Low
+1311,26-35,Medium,Established,Close,Established,2.25,2.20,1.43,0,1,0,Bachelor,Low,"Very High",Low,Better,"Meets Expectations",Low
+1315,26-35,Medium,Established,"Very Close",Developing,2.75,2.40,2.06,0,1,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",High
+316,46-55,Medium,"New Hire","Very Close",New,2.75,2.60,0.99,0,0,0,Bachelor,High,"Very High",Medium,Good,"Meets Expectations",None
+1333,36-45,Low,"Early Tenure","Very Close",New,2.25,2.40,0.73,1,0,1,Bachelor,Low,Low,High,Best,"Meets Expectations",None
+1358,18-25,Medium,"Early Tenure",Moderate,New,3.25,3.20,1.13,0,0,0,"Below College","Very High","Very High",High,Good,"Meets Expectations",High
+325,26-35,Low,"Early Tenure",Moderate,Developing,2.75,2.80,0.75,1,0,1,Bachelor,High,"Very High",High,Bad,"Meets Expectations",Low
+1361,36-45,Low,"Early Tenure","Very Close",Developing,2.50,2.60,0.74,0,0,0,Master,Medium,Medium,High,Better,Excellent,Low
+328,26-35,Low,Established,"Very Close",Established,1.75,2.00,0.84,1,0,1,College,Low,Low,Low,Best,Excellent,None
+1368,18-25,Low,"New Hire","Very Close",New,3.75,3.60,0.50,0,0,0,Bachelor,"Very High","Very High",High,Best,"Meets Expectations",None
+643,18-25,Low,"New Hire",Moderate,New,3.25,3.00,0.66,0,0,0,College,"Very High",Medium,"Very High",Better,Excellent,Low
+331,26-35,Medium,"Early Tenure","Very Close",New,3.00,2.80,1.15,1,0,1,Bachelor,"Very High",High,"Very High",Bad,"Meets Expectations",None
+332,36-45,Low,"Early Tenure","Very Close",New,3.00,3.00,0.69,0,0,0,Master,High,High,High,Better,"Meets Expectations",High
+1369,26-35,Medium,Established,"Very Close",New,3.25,3.00,1.66,0,0,0,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+1377,26-35,Medium,Established,Far,Established,2.25,2.40,1.68,0,1,0,Bachelor,Medium,High,Low,Better,"Meets Expectations",Medium
+647,18-25,Low,Established,Close,New,2.75,2.80,0.89,1,0,1,Bachelor,Low,High,"Very High",Better,"Meets Expectations",Low
+1409,46-55,Low,"Early Tenure",Close,Developing,2.00,2.20,0.91,0,0,0,Master,High,Low,High,Bad,"Meets Expectations",None
+1411,36-45,Medium,"Early Tenure",Moderate,New,2.00,2.20,1.12,0,0,0,Bachelor,Low,High,Low,Better,"Meets Expectations",None
+1415,18-25,Medium,"Early Tenure","Very Close",New,2.25,2.40,1.00,0,0,0,Bachelor,Low,"Very High",Medium,Good,"Meets Expectations",Low
+652,26-35,Medium,"Early Tenure",Far,New,3.00,2.80,1.14,0,0,0,College,Low,"Very High","Very High",Better,"Meets Expectations",None
+1417,26-35,Medium,Established,Close,Established,2.75,3.00,1.11,0,0,0,Bachelor,High,Low,"Very High",Better,"Meets Expectations",None
+1420,46-55,Medium,"Early Tenure",Far,Developing,1.50,1.60,1.32,1,0,1,College,Low,Low,Low,Better,Excellent,None
+1434,26-35,Low,"Early Tenure",Moderate,Developing,2.25,2.40,0.65,0,0,0,"Below College",Medium,Low,Medium,Best,"Meets Expectations",None
+1435,36-45,Medium,Established,"Very Close",Established,2.50,2.40,1.79,0,0,0,Master,Low,"Very High",High,Good,"Meets Expectations",None
+1440,36-45,Medium,Established,"Very Close",Developing,2.00,2.40,1.08,0,0,0,College,High,High,Low,Bad,"Meets Expectations",None
+1447,26-35,Medium,"Early Tenure","Very Close",New,2.25,2.20,1.02,0,0,0,Bachelor,"Very High",Medium,Low,Good,"Meets Expectations",Low
+663,36-45,Medium,Established,Close,Established,3.00,3.00,1.75,0,0,0,Doctor,"Very High",High,Medium,Better,"Meets Expectations",Low
+351,36-45,Low,Established,"Very Close",Established,2.75,2.60,0.80,0,1,0,Bachelor,"Very High",Low,High,Better,"Meets Expectations",Low
+1449,36-45,Medium,Established,Close,Established,3.25,3.20,1.23,0,0,0,Master,High,High,High,Best,"Meets Expectations",Medium
+1458,36-45,Medium,"New Hire","Very Close",New,2.00,2.00,1.13,1,0,1,Bachelor,Low,Low,Medium,Best,Excellent,None
+355,26-35,Medium,"Early Tenure",Far,Developing,2.75,2.60,1.07,1,0,1,College,High,Medium,Medium,Best,"Meets Expectations",None
+359,26-35,Low,"Early Tenure",Close,Developing,2.00,2.40,0.86,0,0,0,Bachelor,Medium,Medium,High,Bad,Excellent,None
+1464,26-35,Medium,"New Hire","Very Close",New,2.50,2.60,1.15,1,0,1,Bachelor,Medium,"Very High",High,Bad,"Meets Expectations",Low
+362,26-35,Low,Established,"Very Close",Developing,3.00,2.80,0.67,0,0,0,"Below College","Very High",Low,"Very High",Better,"Meets Expectations",None
+1471,36-45,Medium,"Early Tenure","Very Close",Developing,3.25,3.00,0.98,0,0,0,Bachelor,High,High,"Very High",Better,"Meets Expectations",None
+364,26-35,Medium,"New Hire","Very Close",New,2.00,2.20,1.08,1,0,1,Master,Low,High,High,Bad,"Meets Expectations",None
+1480,36-45,Medium,"Long Tenure",Close,Established,2.75,2.80,1.13,0,1,0,College,Low,"Very High",High,Better,"Meets Expectations",None
+373,36-45,Medium,"Long Tenure",Close,Long-Term,3.50,3.40,0.99,0,1,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",Low
+1494,18-25,Medium,"New Hire",Close,New,2.00,2.20,0.98,1,0,1,Bachelor,Medium,Low,High,Good,"Meets Expectations",None
+1502,26-35,Medium,"Early Tenure","Very Close",New,2.50,2.40,1.19,0,0,0,Master,Low,Medium,"Very High",Better,"Meets Expectations",None
+1504,26-35,Low,"New Hire","Very Close",New,2.25,2.20,0.79,1,0,1,College,High,Low,High,Good,"Meets Expectations",None
+1509,46-55,Medium,"Early Tenure","Very Close",New,2.00,2.00,1.48,0,0,0,College,High,Low,Low,Better,Excellent,Low
+1513,26-35,Medium,"Early Tenure","Very Close",New,3.00,3.00,0.98,0,0,0,"Below College","Very High",Medium,High,Better,"Meets Expectations",High
+1533,18-25,Low,"Early Tenure",Moderate,New,2.25,2.40,0.70,0,0,0,"Below College",Low,High,Medium,Better,"Meets Expectations",None
+1534,36-45,Low,"Early Tenure",Close,New,2.00,2.20,0.62,1,0,1,Master,"Very High",Low,Medium,Bad,"Meets Expectations",None
+686,26-35,Low,"Early Tenure",Close,New,3.25,3.20,0.82,0,0,0,Bachelor,High,"Very High",High,Better,"Meets Expectations",Low
+1542,36-45,Medium,"New Hire","Very Close",New,2.50,2.40,1.50,0,0,0,Bachelor,High,Medium,Medium,Better,"Meets Expectations",Low
+1549,26-35,Medium,"Long Tenure",Far,Established,2.50,2.60,1.61,0,1,0,Master,Medium,High,Medium,Better,"Meets Expectations",Low
+1551,18-25,Low,"New Hire",Far,New,2.25,2.20,0.71,0,0,0,College,High,Low,Medium,Better,"Meets Expectations",High
+1802,36-45,Medium,"Early Tenure","Very Close",New,2.50,2.60,1.04,0,0,0,College,High,Low,"Very High",Good,"Meets Expectations",Low
+1564,26-35,Low,"Early Tenure","Very Close",New,2.50,2.40,0.76,0,0,0,Bachelor,"Very High",Low,Medium,Better,"Meets Expectations",None
+389,46-55,Medium,Established,Moderate,Established,3.25,3.20,1.67,0,0,0,College,Medium,"Very High","Very High",Better,"Meets Expectations",Low
+1569,26-35,Low,"New Hire","Very Close",New,2.25,2.40,0.64,1,0,1,Bachelor,Low,Low,"Very High",Better,"Meets Expectations",Low
+1215,46-55,"Very High","New Hire","Very Close",New,2.75,2.80,1.04,0,0,0,Bachelor,"Very High",Low,High,Better,Excellent,Low
+473,46-55,High,"New Hire",Far,New,1.75,2.00,0.73,0,0,0,"Below College",Low,High,Medium,Bad,Excellent,Low
+1204,46-55,"Very High",Veteran,"Very Close",Established,2.00,2.20,0.99,0,0,0,Bachelor,High,Low,Low,Better,Excellent,None
+1520,46-55,"Very High","Long Tenure",Moderate,Long-Term,2.50,2.60,0.93,0,0,0,Master,Medium,"Very High",Low,Better,Excellent,Low
+1280,46-55,"Very High","Long Tenure","Very Close",Established,3.00,2.80,1.09,0,0,0,College,"Very High",Medium,High,Better,"Meets Expectations",Low
+531,36-45,"Very High",Veteran,"Very Close",Established,2.75,2.80,1.12,0,0,0,"Below College",Medium,High,High,Better,"Meets Expectations",Low
+23,46-55,"Very High",Veteran,"Very Close",Established,2.75,2.60,0.90,0,0,0,Master,Low,"Very High",High,Better,"Meets Expectations",None
+731,36-45,"Very High",Veteran,Close,Established,2.50,2.40,1.11,0,0,0,Master,Medium,"Very High",Medium,Good,"Meets Expectations",High
+981,46-55,High,"Long Tenure","Very Close",New,3.25,3.20,0.86,0,0,0,College,High,High,High,Best,"Meets Expectations",Low
+1824,56+,"Very High","Long Tenure","Very Close",Long-Term,2.50,2.60,0.95,0,0,0,Bachelor,Medium,Medium,"Very High",Good,Excellent,Low
+1201,46-55,"Very High",Established,Close,Established,3.00,3.00,1.08,0,0,0,College,"Very High",High,Medium,Better,"Meets Expectations",Low
+1045,36-45,"Very High",Established,Moderate,New,3.50,3.40,1.03,0,0,0,College,"Very High","Very High",Medium,Best,"Meets Expectations",Low
+1408,36-45,"Very High","Long Tenure",Close,Established,2.50,2.60,0.98,0,0,0,Bachelor,High,Low,High,Better,"Meets Expectations",Low
+32,46-55,"Very High","Long Tenure","Very Close",Established,3.00,3.00,1.11,0,0,0,Bachelor,High,High,"Very High",Good,"Meets Expectations",Low
+1516,26-35,High,"Early Tenure",Close,New,3.25,3.20,0.65,0,0,0,Bachelor,High,"Very High",Medium,Best,Excellent,None
+597,46-55,"Very High",Established,Moderate,Established,2.50,2.60,0.98,0,0,0,Doctor,Low,Medium,"Very High",Better,Excellent,None
+38,46-55,"Very High","New Hire","Very Close",New,2.25,2.40,1.10,0,0,0,Master,Medium,Low,"Very High",Good,"Meets Expectations",None
+976,46-55,"Very High",Established,"Very Close",Established,3.00,3.00,1.00,0,0,0,College,"Very High","Very High",Medium,Good,"Meets Expectations",Low
+1074,46-55,"Very High",Established,"Very Close",New,2.50,2.40,0.98,0,0,0,"Below College",High,Low,Medium,Best,"Meets Expectations",None
+1109,36-45,"Very High",Veteran,"Very Close",Established,3.00,3.00,1.03,0,0,0,College,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+1866,36-45,"Very High","Long Tenure",Close,Long-Term,2.75,2.60,1.13,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",None
+992,26-35,"Very High",Established,Moderate,New,3.50,3.40,1.02,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+226,46-55,"Very High","Early Tenure",Moderate,Developing,2.50,2.60,1.16,0,0,0,Bachelor,High,Medium,Medium,Better,"Meets Expectations",None
+140,56+,"Very High","Early Tenure","Very Close",New,3.50,3.20,1.10,0,0,0,Master,High,"Very High","Very High",Better,Excellent,Low
+1352,46-55,High,Veteran,"Very Close",Established,2.50,2.60,0.82,0,0,0,Bachelor,High,Medium,Medium,Better,"Meets Expectations",Low
+1256,46-55,"Very High","New Hire","Very Close",New,2.75,2.60,1.09,0,0,0,College,Low,High,High,Best,"Meets Expectations",Low
+671,36-45,"Very High","New Hire","Very Close",New,3.25,3.20,1.14,0,0,0,Master,"Very High","Very High",Low,Best,"Meets Expectations",Low
+1277,36-45,"Very High",Veteran,"Very Close",Long-Term,1.75,1.60,1.10,1,0,1,Bachelor,Low,Medium,Low,Better,"Meets Expectations",None
+1973,46-55,"Very High",Established,Far,Developing,2.25,2.60,1.14,0,0,0,Master,High,Medium,Low,Better,"Meets Expectations",Low
+1267,36-45,"Very High",Veteran,"Very Close",Established,2.50,2.60,1.06,0,0,0,Bachelor,Medium,Medium,High,Better,"Meets Expectations",Low
+505,46-55,"Very High","Early Tenure","Very Close",New,3.25,3.20,0.97,0,0,0,Bachelor,High,"Very High",High,Better,"Meets Expectations",None
+148,46-55,"Very High","Early Tenure",Far,Developing,3.50,3.60,1.01,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",None
+1900,46-55,"Very High",Veteran,Far,Established,3.25,3.20,1.00,0,0,0,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+734,36-45,"Very High",Veteran,"Very Close",Established,3.00,2.80,1.12,0,0,0,Bachelor,"Very High",High,Medium,Better,"Meets Expectations",Low
+153,26-35,High,"Long Tenure","Very Close",Established,2.75,2.60,0.68,0,0,0,Bachelor,High,Low,"Very High",Better,"Meets Expectations",None
+664,46-55,"Very High","Early Tenure","Very Close",New,1.75,1.80,0.90,0,0,0,Master,"Very High",Low,Low,Bad,"Meets Expectations",Low
+1892,36-45,"Very High","Long Tenure","Very Close",Long-Term,1.50,1.80,0.98,0,0,0,Master,Low,Low,Low,Better,"Meets Expectations",Low
+84,46-55,High,"Early Tenure",Close,New,3.25,3.20,0.86,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",High
+158,36-45,"Very High",Veteran,Far,Long-Term,3.75,3.60,0.99,0,0,0,College,High,"Very High","Very High",Best,"Meets Expectations",Medium
+1048,56+,High,Established,"Very Close",Developing,2.50,2.60,0.69,0,0,0,College,Medium,"Very High",High,Bad,"Meets Expectations",Low
+644,46-55,"Very High",Veteran,"Very Close",Established,2.25,2.40,1.06,0,0,0,Bachelor,Low,Medium,High,Better,"Meets Expectations",Low
+199,36-45,"Very High",Established,Close,Established,2.25,2.20,1.00,0,0,0,Bachelor,"Very High",Low,Medium,Good,"Meets Expectations",Low
+1336,46-55,"Very High","Long Tenure","Very Close",Long-Term,3.50,3.00,1.12,0,0,0,College,"Very High",High,"Very High",Better,"Meets Expectations",Low
+1191,56+,"Very High","Early Tenure","Very Close",New,3.00,3.00,1.16,0,0,0,Master,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+1306,36-45,"Very High","New Hire",Far,New,2.50,2.60,1.05,0,0,0,Bachelor,Medium,Medium,High,Better,Excellent,None
+625,36-45,"Very High","Long Tenure","Very Close",Established,2.00,2.20,0.97,0,0,0,Doctor,Medium,Low,Medium,Better,"Meets Expectations",Low
+1938,56+,"Very High","New Hire",Far,New,3.25,3.20,1.04,0,0,0,Bachelor,"Very High","Very High",High,Good,"Meets Expectations",Low
+2031,36-45,"Very High",Veteran,"Very Close",Long-Term,1.75,2.00,1.10,0,0,0,Bachelor,Low,High,Low,Good,"Meets Expectations",None
+1338,56+,"Very High",Established,Close,Established,2.50,2.60,1.15,0,0,0,Master,"Very High",Medium,Low,Better,"Meets Expectations",None
+851,46-55,"Very High","Long Tenure",Far,Long-Term,2.25,2.40,0.95,0,0,0,Master,Low,High,High,Good,"Meets Expectations",Low
+1282,46-55,"Very High",Veteran,Close,Established,2.25,2.40,1.16,0,0,0,Bachelor,"Very High",Medium,Low,Good,Excellent,Low
+2022,36-45,"Very High",Established,Close,Developing,3.25,3.20,1.13,0,0,0,Bachelor,"Very High","Very High",High,Good,"Meets Expectations",None
+1786,46-55,High,"New Hire","Very Close",New,2.75,2.80,0.76,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",None
+253,36-45,"Very High","Long Tenure","Very Close",Established,3.00,3.00,1.11,0,0,0,"Below College","Very High",High,Medium,Better,"Meets Expectations",Low
+259,46-55,"Very High",Veteran,"Very Close",Established,2.50,2.40,1.16,0,0,0,Master,High,High,Low,Better,"Meets Expectations",Low
+264,36-45,"Very High","Long Tenure","Very Close",Established,3.00,2.80,0.98,0,0,0,College,Low,"Very High","Very High",Better,Excellent,Low
+1740,36-45,"Very High",Veteran,Close,Established,2.00,2.20,1.15,0,0,0,Master,Medium,Medium,Medium,Good,"Meets Expectations",None
+298,36-45,High,"New Hire",Close,New,3.50,3.40,0.79,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",None
+1038,46-55,"Very High",Veteran,"Very Close",Established,3.00,2.60,1.16,1,0,1,"Below College",Low,"Very High","Very High",Better,"Meets Expectations",Low
+546,46-55,"Very High","Early Tenure","Very Close",Developing,3.25,3.20,0.96,0,0,0,College,"Very High","Very High","Very High",Bad,"Meets Expectations",None
+776,46-55,"Very High",Veteran,"Very Close",Long-Term,2.25,2.20,0.98,0,0,0,Master,High,Low,Low,Best,"Meets Expectations",None
+1677,46-55,"Very High",Established,"Very Close",New,2.50,2.60,0.90,0,0,0,Bachelor,High,High,Low,Better,"Meets Expectations",None
+1676,46-55,"Very High","Early Tenure","Very Close",New,2.50,2.80,0.93,0,0,0,Master,Medium,Medium,High,Better,"Meets Expectations",High
+613,26-35,High,"Early Tenure",Close,New,3.00,2.80,0.67,0,0,0,Bachelor,High,"Very High",High,Good,Excellent,Low
+1665,46-55,"Very High",Established,Far,Established,2.75,2.80,1.01,0,0,0,Doctor,Medium,High,High,Better,Excellent,Low
+319,36-45,"Very High",Veteran,"Very Close",Long-Term,3.50,3.40,1.12,0,0,0,College,High,"Very High","Very High",Better,"Meets Expectations",None
+323,46-55,"Very High",Established,"Very Close",Established,3.25,3.20,1.14,0,0,0,Master,"Very High","Very High",High,Good,"Meets Expectations",Low
+327,36-45,"Very High","Long Tenure",Moderate,Established,3.50,3.40,0.93,0,0,0,Bachelor,"Very High","Very High",High,Better,Excellent,Low
+329,46-55,"Very High",Veteran,"Very Close",Long-Term,3.00,2.80,1.11,0,0,0,Master,Low,High,"Very High",Best,"Meets Expectations",None
+1029,36-45,"Very High","New Hire","Very Close",New,3.25,3.20,1.07,0,0,0,College,"Very High",High,Medium,Best,"Meets Expectations",None
+905,46-55,"Very High",Veteran,"Very Close",Established,2.25,2.40,1.04,0,0,0,Master,Low,Low,"Very High",Better,"Meets Expectations",Low
+336,36-45,"Very High",Veteran,"Very Close",Established,3.25,3.40,1.12,0,0,0,Bachelor,High,"Very High",High,Better,"Meets Expectations",Low
+1644,46-55,"Very High","New Hire","Very Close",New,3.00,2.80,0.88,0,0,0,Doctor,High,"Very High",Medium,Better,Excellent,Low
+549,56+,"Very High",Veteran,Close,Established,1.75,2.00,1.14,0,0,0,Bachelor,Low,Low,"Very High",Bad,"Meets Expectations",None
+1288,36-45,"Very High",Veteran,"Very Close",Long-Term,2.50,2.80,1.12,0,0,0,College,High,Low,"Very High",Good,"Meets Expectations",Medium
+363,46-55,"Very High",Established,"Very Close",Established,2.25,2.00,0.98,0,0,0,Bachelor,High,Medium,Medium,Good,"Meets Expectations",Low
+1334,36-45,"Very High","Long Tenure","Very Close",Established,3.00,3.00,1.04,0,0,0,"Below College",High,High,"Very High",Good,"Meets Expectations",None
+374,46-55,"Very High",Veteran,"Very Close",Long-Term,2.75,2.80,1.11,0,0,0,Bachelor,"Very High",Low,High,Better,"Meets Expectations",None
+376,46-55,High,Established,Far,Established,2.25,2.40,0.69,1,0,1,Master,Low,Medium,"Very High",Good,"Meets Expectations",Low
+787,46-55,"Very High","Early Tenure","Very Close",Developing,3.00,3.00,1.16,1,0,1,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+381,26-35,High,Established,Far,New,2.00,2.40,0.70,0,0,0,Bachelor,Medium,Medium,Medium,Good,"Meets Expectations",Low
+1625,46-55,"Very High","Early Tenure",Far,New,3.25,3.20,1.14,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",Low
+558,36-45,"Very High","Long Tenure","Very Close",Long-Term,3.25,3.20,1.05,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",None
+1602,46-55,"Very High",Veteran,"Very Close",Long-Term,2.00,2.40,1.02,0,0,0,Master,"Very High",Low,Medium,Bad,"Meets Expectations",None
+410,36-45,"Very High",Veteran,"Very Close",Developing,2.75,2.80,0.93,0,0,0,Master,"Very High",Medium,Medium,Better,"Meets Expectations",None
+1124,46-55,"Very High","Long Tenure","Very Close",Established,2.75,2.80,1.02,0,0,0,"Below College",Low,High,"Very High",Better,"Meets Expectations",Low
+1595,36-45,"Very High","New Hire",Close,New,3.75,3.40,1.14,0,0,0,College,"Very High","Very High","Very High",Better,Excellent,None
+428,26-35,High,Established,"Very Close",Established,2.75,2.80,0.69,0,0,0,Master,"Very High",Medium,Medium,Better,"Meets Expectations",Medium
+429,36-45,"Very High",Veteran,Close,Established,2.75,2.80,0.99,0,0,0,"Below College",High,Low,"Very High",Better,"Meets Expectations",None
+1591,46-55,"Very High","New Hire",Close,New,3.00,3.00,1.13,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Low
+1578,46-55,"Very High",Veteran,Far,Long-Term,3.25,3.00,1.14,0,0,0,Doctor,High,"Very High",High,Better,Excellent,Low
+1116,46-55,"Very High","Early Tenure","Very Close",New,2.50,2.80,0.98,0,0,0,Master,Low,"Very High",High,Good,Excellent,None
+444,36-45,"Very High",Veteran,Close,Developing,2.75,2.60,1.12,0,0,0,College,High,"Very High",Low,Better,"Meets Expectations",Low
+809,36-45,"Very High",Veteran,Close,Established,2.50,2.60,1.07,0,0,0,Bachelor,Medium,"Very High",Medium,Good,"Meets Expectations",Low
+582,26-35,High,Established,Moderate,Established,3.25,3.20,0.79,1,0,1,"Below College",Medium,High,"Very High",Best,"Meets Expectations",None
+1307,36-45,"Very High","Long Tenure",Moderate,New,3.00,2.80,1.00,0,0,0,Master,High,Medium,"Very High",Better,"Meets Expectations",Medium
+1550,36-45,"Very High",Veteran,Close,Established,3.50,3.40,0.96,0,0,0,College,High,"Very High","Very High",Better,Excellent,None
+1321,26-35,High,Established,Moderate,Established,2.50,2.60,0.69,1,0,0,Master,Medium,Low,"Very High",Better,Excellent,Medium
+820,46-55,"Very High",Veteran,"Very Close",New,3.00,3.00,0.97,0,0,0,College,High,"Very High",High,Good,"Meets Expectations",Low
+1527,46-55,"Very High","Long Tenure","Very Close",New,3.25,3.20,0.97,0,0,0,Bachelor,High,Medium,"Very High",Best,"Meets Expectations",Low
+568,56+,High,"New Hire",Far,New,2.50,2.40,0.82,0,0,0,Bachelor,Low,"Very High",High,Good,"Meets Expectations",Low
+569,46-55,"Very High",Veteran,Far,Established,2.50,2.40,0.99,0,0,0,Master,Medium,High,Medium,Better,"Meets Expectations",Low
+178,36-45,Medium,"Early Tenure",Close,New,2.75,2.80,0.68,0,0,0,College,Medium,Medium,"Very High",Better,Excellent,Medium
+179,46-55,High,"Early Tenure",Close,Developing,3.00,2.60,1.46,1,0,1,Master,Low,"Very High","Very High",Better,"Meets Expectations",None
+733,26-35,High,Established,Close,Established,2.50,2.60,1.21,0,0,0,College,"Very High",Low,High,Good,Excellent,Medium
+845,26-35,High,Established,Close,Established,3.00,3.00,1.40,0,0,0,Bachelor,High,High,Medium,Best,Excellent,None
+1888,36-45,Medium,Established,Far,Established,3.00,2.80,0.81,0,0,0,College,Medium,"Very High","Very High",Good,"Meets Expectations",Medium
+1237,36-45,High,Established,"Very Close",Established,2.50,2.20,1.41,0,0,0,Bachelor,High,Low,High,Better,Excellent,Low
+1886,26-35,Medium,"Early Tenure",Moderate,New,3.25,3.00,0.66,0,0,0,College,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+208,26-35,Medium,Established,"Very Close",Established,2.75,2.80,0.59,0,0,0,"Below College","Very High",High,Low,Better,"Meets Expectations",Low
+211,46-55,Medium,"New Hire",Close,New,2.75,2.60,0.84,0,0,0,Master,Medium,High,High,Better,"Meets Expectations",None
+987,46-55,Medium,"Long Tenure",Moderate,Established,3.25,3.40,0.69,0,0,0,Master,High,High,High,Best,"Meets Expectations",None
+1857,46-55,High,Established,"Very Close",Established,3.25,3.20,1.18,0,0,0,College,"Very High","Very High",High,Good,"Meets Expectations",Low
+1027,26-35,Medium,"Early Tenure","Very Close",New,2.50,2.60,0.58,0,0,0,Master,Low,"Very High",Medium,Better,"Meets Expectations",Low
+1827,46-55,High,Veteran,"Very Close",Established,2.75,2.60,1.42,0,0,0,Bachelor,High,Medium,High,Better,"Meets Expectations",Low
+743,36-45,High,"New Hire","Very Close",New,3.50,3.40,1.08,0,0,0,Bachelor,High,High,"Very High",Best,"Meets Expectations",None
+1043,36-45,High,Veteran,Far,Established,2.75,2.80,1.49,0,0,0,Bachelor,"Very High",Low,High,Better,"Meets Expectations",None
+543,46-55,High,"Early Tenure","Very Close",Developing,3.25,3.00,1.09,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",None
+1283,56+,High,Established,Moderate,Developing,3.50,3.40,1.44,0,0,0,Master,"Very High","Very High","Very High",Good,"Meets Expectations",None
+1816,26-35,High,Established,Close,New,2.25,2.40,1.33,0,0,0,Bachelor,Low,High,Medium,Better,"Meets Expectations",None
+1809,36-45,Medium,Established,Close,Established,2.00,2.20,0.58,1,0,1,Master,"Very High",Low,Medium,Bad,"Meets Expectations",None
+1367,46-55,High,"Early Tenure",Moderate,Developing,2.50,2.40,1.80,0,0,0,College,"Very High",Medium,Medium,Good,"Meets Expectations",None
+1804,26-35,Medium,Established,"Very Close",Established,3.00,3.00,0.79,0,0,0,College,Medium,"Very High",High,Better,"Meets Expectations",Low
+867,46-55,High,Established,Far,New,3.25,3.00,1.90,0,0,0,Master,High,"Very High",High,Better,Excellent,None
+966,26-35,Medium,Established,"Very Close",Developing,2.75,2.80,0.92,0,1,0,Master,High,Low,High,Best,"Meets Expectations",Low
+250,46-55,Medium,"Early Tenure",Moderate,Developing,2.75,3.00,0.61,0,0,0,College,"Very High",Low,High,Better,"Meets Expectations",Medium
+12,36-45,High,Established,Far,Established,3.00,2.80,1.31,0,0,0,Bachelor,"Very High",High,Medium,Better,Excellent,None
+20,26-35,High,Established,Far,Established,2.25,2.60,1.37,0,0,0,Master,Medium,Low,High,Better,"Meets Expectations",Low
+872,18-25,Medium,"New Hire","Very Close",New,2.50,2.40,0.65,0,0,0,College,"Very High","Very High",Low,Bad,Excellent,Medium
+256,26-35,High,Established,"Very Close",Established,3.00,2.80,1.31,0,0,0,"Below College","Very High",High,High,Good,"Meets Expectations",None
+1298,26-35,Medium,Established,Close,Established,3.00,3.00,0.64,0,0,0,College,High,High,High,Better,"Meets Expectations",None
+1775,46-55,High,"Early Tenure","Very Close",New,2.50,2.40,1.78,0,0,0,Master,Low,High,"Very High",Good,Excellent,High
+261,26-35,Medium,"New Hire",Far,New,2.25,2.20,0.81,1,0,1,College,Medium,High,Low,Better,"Meets Expectations",None
+880,26-35,High,"Long Tenure",Close,Long-Term,3.00,2.80,1.46,0,0,0,Bachelor,"Very High",High,Medium,Better,Excellent,Low
+574,46-55,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,0.69,0,0,0,College,Low,"Very High",High,Better,"Meets Expectations",High
+26,18-25,Medium,"Early Tenure",Moderate,Developing,2.50,2.80,0.55,0,0,0,College,Low,High,"Very High",Good,"Meets Expectations",Low
+270,36-45,Medium,"Early Tenure",Far,New,2.75,2.80,0.72,0,0,0,College,High,High,Medium,Better,"Meets Expectations",Low
+271,36-45,Medium,"New Hire","Very Close",New,3.00,3.00,0.90,0,0,0,Master,"Very High",High,Medium,Better,"Meets Expectations",None
+273,36-45,Medium,Established,Far,Established,2.50,2.60,0.86,0,0,0,Bachelor,"Very High","Very High",Low,Bad,"Meets Expectations",Low
+274,26-35,Medium,"New Hire","Very Close",New,2.50,2.40,0.59,0,0,0,"Below College",High,Low,High,Better,"Meets Expectations",Low
+275,46-55,Medium,Established,Moderate,Established,3.00,3.00,0.93,0,0,0,Master,"Very High","Very High",Low,Better,"Meets Expectations",Medium
+1736,26-35,Medium,"Early Tenure",Far,Developing,3.50,3.40,0.72,0,0,0,"Below College","Very High","Very High","Very High",Good,Excellent,None
+1728,26-35,Medium,Established,Far,Established,3.00,3.00,0.94,0,0,0,Master,"Very High",High,Medium,Better,"Meets Expectations",Low
+1026,36-45,High,Veteran,"Very Close",Established,3.50,3.20,1.75,0,0,0,"Below College","Very High","Very High",High,Better,"Meets Expectations",Low
+1724,36-45,Medium,"New Hire",Close,New,2.00,2.20,0.89,1,0,0,College,Medium,Low,Medium,Better,"Meets Expectations",Low
+292,26-35,High,"Long Tenure","Very Close",Established,3.00,2.80,1.16,0,0,0,"Below College",High,High,High,Better,Excellent,None
+899,26-35,High,"Long Tenure",Far,Established,2.50,2.40,1.49,0,0,0,Bachelor,"Very High",Medium,Low,Better,"Meets Expectations",None
+1389,26-35,Medium,Established,Far,Established,3.25,3.20,0.85,1,1,1,Master,"Very High",High,"Very High",Good,"Meets Expectations",Medium
+1150,26-35,Medium,Established,Close,New,2.75,2.60,0.69,0,0,0,"Below College",Medium,"Very High",High,Good,"Meets Expectations",Low
+1025,36-45,Medium,"New Hire",Close,New,3.00,3.00,0.69,0,0,0,College,"Very High",High,Medium,Better,"Meets Expectations",None
+1363,46-55,High,Established,"Very Close",Established,3.50,3.40,1.08,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",None
+1322,36-45,Medium,Established,Moderate,Established,2.00,2.20,0.62,0,0,0,College,Low,High,Low,Better,"Meets Expectations",None
+1140,26-35,Medium,"Early Tenure","Very Close",New,3.25,3.20,0.55,0,0,0,College,"Very High",High,"Very High",Good,"Meets Expectations",None
+775,26-35,Medium,"New Hire",Close,New,2.25,2.40,0.70,0,0,0,Doctor,Medium,Low,High,Better,"Meets Expectations",Low
+1182,26-35,High,Established,"Very Close",Developing,2.75,2.60,1.41,0,0,0,Bachelor,High,Medium,Medium,Best,"Meets Expectations",Low
+1018,26-35,Medium,Established,"Very Close",Developing,3.25,3.40,0.75,0,0,0,College,"Very High","Very High",Medium,Better,"Meets Expectations",None
+487,46-55,Medium,"New Hire",Close,New,3.25,3.20,0.72,0,0,0,Master,High,High,High,Best,"Meets Expectations",None
+308,26-35,Medium,"Early Tenure","Very Close",Developing,3.25,2.80,0.60,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",Low
+1096,46-55,High,"Early Tenure","Very Close",New,2.75,2.80,1.50,0,0,0,"Below College","Very High",Medium,Medium,Better,"Meets Expectations",Low
+1007,46-55,High,Established,Close,Established,3.00,3.00,1.49,0,0,0,College,"Very High",High,Medium,Better,"Meets Expectations",Low
+1514,26-35,Medium,Established,Far,Established,2.25,2.00,0.90,0,0,0,"Below College",High,Medium,Medium,Good,"Meets Expectations",Medium
+1032,56+,High,"Early Tenure","Very Close",Developing,2.75,2.60,1.88,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",None
+1496,36-45,High,"New Hire","Very Close",New,2.25,2.40,1.40,0,0,0,"Below College",Medium,High,Medium,Good,"Meets Expectations",None
+1465,36-45,High,"Early Tenure",Far,New,3.50,3.40,1.29,0,0,0,Bachelor,Medium,"Very High","Very High",Best,"Meets Expectations",Medium
+1459,26-35,High,Established,"Very Close",Established,2.25,2.60,1.02,1,0,1,Doctor,High,Medium,Low,Better,"Meets Expectations",None
+1005,46-55,High,"Long Tenure",Far,Developing,3.50,3.40,1.92,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",Low
+1373,56+,High,"Long Tenure",Far,Established,2.50,2.60,1.84,0,0,0,Bachelor,"Very High",Medium,Low,Better,"Meets Expectations",Low
+1009,18-25,Medium,"Early Tenure",Moderate,New,3.00,2.80,0.60,0,0,0,"Below College","Very High",High,Medium,Better,"Meets Expectations",Medium
+689,36-45,High,Established,"Very Close",Established,3.00,3.00,1.29,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Low
+1662,36-45,Medium,"Early Tenure","Very Close",New,3.25,3.00,0.60,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",None
+1228,46-55,High,Established,"Very Close",Developing,3.25,3.20,1.01,0,0,0,Master,"Very High","Very High",High,Good,"Meets Expectations",Low
+699,36-45,High,"Early Tenure",Close,New,2.50,2.40,1.21,1,0,0,College,Medium,Medium,High,Better,"Meets Expectations",Low
+548,26-35,Medium,"Early Tenure","Very Close",New,3.25,2.80,0.83,0,0,0,Bachelor,High,"Very High",High,Better,Excellent,None
+1654,36-45,Medium,"Early Tenure",Moderate,New,3.00,3.00,0.73,0,0,0,Bachelor,"Very High",Medium,High,Better,Excellent,None
+339,26-35,Medium,"Long Tenure","Very Close",Established,2.50,2.40,0.82,0,1,0,Master,"Very High",Low,Medium,Better,"Meets Expectations",Low
+1653,18-25,Medium,Established,"Very Close",Established,3.25,3.40,0.71,0,0,0,"Below College","Very High",High,High,Better,"Meets Expectations",Medium
+341,36-45,Medium,"Early Tenure",Close,New,2.75,3.00,0.88,0,0,0,Master,Low,High,"Very High",Better,"Meets Expectations",Low
+342,36-45,High,"New Hire",Close,New,2.25,2.40,1.38,1,0,1,Bachelor,Low,High,Medium,Better,"Meets Expectations",Medium
+77,36-45,Medium,Established,"Very Close",Established,2.75,2.60,0.82,0,0,0,Master,Low,High,High,Best,"Meets Expectations",Low
+1641,36-45,High,"Early Tenure",Moderate,Developing,3.25,3.20,1.09,0,0,0,Bachelor,High,"Very High","Very High",Good,"Meets Expectations",None
+1638,36-45,High,"Early Tenure","Very Close",New,3.75,3.40,1.06,0,0,0,College,"Very High",High,"Very High",Best,"Meets Expectations",Low
+350,18-25,Medium,"Early Tenure","Very Close",New,2.75,2.80,0.67,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",Medium
+78,26-35,Medium,Established,"Very Close",Established,2.50,2.60,0.84,0,1,0,Bachelor,Low,"Very High",Medium,Better,Excellent,Low
+1635,36-45,Medium,Established,"Very Close",Established,3.00,2.80,0.79,0,0,0,College,"Very High","Very High",Low,Better,"Meets Expectations",Medium
+1073,36-45,High,"Long Tenure",Moderate,Established,3.00,2.80,1.21,0,0,0,Doctor,"Very High","Very High",Medium,Good,"Meets Expectations",None
+85,36-45,Medium,Established,Moderate,Developing,2.50,2.40,0.89,0,0,0,Bachelor,Medium,Medium,High,Better,"Meets Expectations",None
+1011,26-35,Medium,"Early Tenure","Very Close",Developing,2.50,2.60,0.57,0,0,0,"Below College",High,Low,High,Better,"Meets Expectations",Low
+635,36-45,Medium,Established,"Very Close",Developing,2.00,2.20,0.88,0,0,0,Master,Medium,Medium,Medium,Good,"Meets Expectations",Low
+823,36-45,Medium,Established,"Very Close",Developing,2.25,2.40,0.72,0,0,0,Bachelor,High,Medium,Low,Better,"Meets Expectations",Low
+1633,36-45,Medium,Established,"Very Close",Established,2.25,2.40,0.69,0,0,0,Bachelor,Low,High,"Very High",Bad,"Meets Expectations",None
+2057,26-35,High,Established,"Very Close",Established,2.00,2.20,1.36,0,0,0,Bachelor,Medium,Low,Medium,Better,"Meets Expectations",None
+1631,36-45,Medium,"Early Tenure",Moderate,New,2.25,2.40,0.79,0,0,0,Bachelor,High,High,Low,Good,"Meets Expectations",High
+550,46-55,Medium,Established,Moderate,Established,2.75,2.80,0.66,0,0,0,Bachelor,High,High,High,Good,"Meets Expectations",Low
+2034,36-45,High,"Long Tenure",Far,Established,2.25,2.20,1.86,0,0,0,Master,Low,Medium,High,Better,Excellent,Low
+920,36-45,Medium,"New Hire",Close,New,2.50,2.60,0.65,0,0,0,Bachelor,Low,Medium,High,Best,Excellent,Low
+384,26-35,Medium,Established,"Very Close",Developing,1.75,2.00,0.88,0,0,0,Bachelor,High,Medium,Low,Bad,Excellent,Low
+1401,46-55,High,"Early Tenure",Far,New,2.75,3.00,1.82,0,0,0,College,"Very High",High,Medium,Good,"Meets Expectations",Low
+611,26-35,Medium,"Early Tenure",Moderate,New,3.50,3.40,0.58,0,0,0,Bachelor,"Very High","Very High",Medium,Best,"Meets Expectations",Medium
+1628,36-45,High,"Long Tenure",Moderate,Long-Term,2.75,2.60,1.43,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",Medium
+1133,36-45,High,"Long Tenure",Moderate,Established,2.25,2.40,1.07,0,0,0,Master,Low,"Very High",Low,Better,Excellent,None
+98,26-35,Medium,"Long Tenure",Close,Established,3.50,3.40,0.61,0,0,0,Master,High,"Very High","Very High",Better,Excellent,None
+1622,26-35,Medium,"Early Tenure",Far,New,1.75,1.60,0.67,0,0,0,Bachelor,Medium,Low,Medium,Good,Excellent,Low
+518,36-45,Medium,"New Hire",Close,New,2.75,2.80,0.58,0,0,0,Master,High,Medium,"Very High",Good,"Meets Expectations",None
+1618,36-45,Medium,Established,Close,Established,2.50,2.60,0.74,0,1,0,Doctor,Medium,Low,"Very High",Better,"Meets Expectations",High
+1615,26-35,Medium,Established,Close,New,2.75,3.00,0.65,0,1,0,Master,High,"Very High",Low,Better,"Meets Expectations",Low
+1614,36-45,Medium,"Early Tenure",Moderate,New,2.75,2.80,0.64,0,0,0,Master,High,High,Medium,Better,"Meets Expectations",Medium
+581,26-35,High,"Long Tenure",Close,Established,3.25,3.20,1.46,0,0,0,"Below College",High,Medium,"Very High",Best,Excellent,Low
+799,46-55,Medium,"Early Tenure",Moderate,Developing,2.50,2.60,0.75,0,0,0,Master,"Very High",Low,Medium,Better,"Meets Expectations",Medium
+1126,36-45,High,Established,Far,New,2.50,2.60,1.48,0,0,0,Bachelor,High,Low,High,Better,"Meets Expectations",Low
+408,46-55,Medium,"Early Tenure","Very Close",New,3.25,2.80,0.75,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,"Meets Expectations",Low
+2025,36-45,Medium,"Early Tenure","Very Close",New,2.75,2.80,0.70,0,0,0,College,"Very High",Medium,Medium,Better,"Meets Expectations",High
+1412,26-35,High,"New Hire",Moderate,New,3.25,3.20,1.28,0,0,0,College,High,"Very High",High,Better,"Meets Expectations",None
+110,26-35,Medium,"Early Tenure","Very Close",Developing,2.25,2.40,0.59,0,0,0,College,Low,Medium,High,Better,"Meets Expectations",None
+803,36-45,Medium,"Long Tenure","Very Close",Long-Term,2.25,2.60,0.82,1,0,0,Master,Low,Low,"Very High",Better,"Meets Expectations",None
+605,36-45,High,Established,Far,Established,2.75,2.80,1.02,0,0,0,Bachelor,"Very High",Low,"Very High",Good,Excellent,Low
+112,56+,High,Established,Close,New,2.75,2.40,1.00,0,0,0,Bachelor,"Very High","Very High",Low,Good,"Meets Expectations",None
+1121,26-35,High,Established,"Very Close",Established,2.50,2.60,1.05,0,0,0,Bachelor,"Very High",Medium,Medium,Good,"Meets Expectations",High
+827,36-45,Medium,"Early Tenure","Very Close",New,3.75,3.40,0.83,0,0,0,College,"Very High","Very High","Very High",Better,"Meets Expectations",Low
+1997,36-45,Medium,Established,Close,Established,2.75,2.60,0.73,0,1,0,Master,Low,High,"Very High",Better,"Meets Expectations",Low
+1013,46-55,High,Established,Moderate,Established,3.00,3.00,1.47,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Low
+926,18-25,Medium,"Early Tenure","Very Close",New,2.50,2.60,0.57,1,0,1,"Below College",Medium,High,Low,Best,"Meets Expectations",Low
+830,26-35,Medium,"Long Tenure","Very Close",Established,3.00,2.80,0.84,0,1,0,Bachelor,High,High,High,Better,"Meets Expectations",Low
+1360,56+,High,Established,Close,Established,2.50,2.40,1.37,1,0,1,Master,High,Low,"Very High",Good,"Meets Expectations",None
+1294,36-45,Medium,"Long Tenure","Very Close",Long-Term,3.00,3.00,0.74,0,1,0,Master,High,Medium,"Very High",Better,"Meets Expectations",None
+1573,36-45,Medium,"Early Tenure","Very Close",Developing,2.25,2.40,0.67,1,0,1,Bachelor,High,Medium,Low,Better,"Meets Expectations",Medium
+1572,46-55,High,Veteran,"Very Close",Established,3.00,2.80,1.39,1,0,1,Doctor,High,"Very High",Medium,Better,"Meets Expectations",Low
+1196,36-45,Medium,"Long Tenure","Very Close",Long-Term,3.00,2.80,0.89,0,0,0,Bachelor,"Very High","Very High",Medium,Good,"Meets Expectations",Low
+442,26-35,High,Established,Close,Established,2.50,2.40,1.23,0,0,0,College,High,High,Low,Better,Excellent,Low
+833,26-35,Medium,"New Hire","Very Close",New,2.75,2.60,0.94,0,0,0,Bachelor,High,"Very High",Medium,Good,Excellent,None
+1980,46-55,Medium,"Early Tenure",Close,Developing,2.75,2.80,0.61,0,0,0,Bachelor,High,Low,"Very High",Better,"Meets Expectations",None
+836,36-45,Medium,Established,Far,Established,2.50,2.60,0.61,0,1,0,Bachelor,Medium,Medium,"Very High",Good,"Meets Expectations",Low
+601,36-45,High,"Long Tenure",Close,Long-Term,2.75,2.80,1.81,0,0,0,Bachelor,Medium,High,High,Better,"Meets Expectations",None
+1966,26-35,High,"New Hire","Very Close",New,3.25,3.00,1.33,0,0,0,Master,"Very High","Very High",Medium,Better,Excellent,None
+725,26-35,High,Established,"Very Close",Established,2.75,2.80,1.02,0,0,0,College,High,Low,"Very High",Better,"Meets Expectations",None
+1545,26-35,Medium,"Early Tenure",Far,New,3.25,3.00,0.59,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+2064,26-35,Medium,Established,"Very Close",Developing,2.25,2.60,0.84,1,0,0,Bachelor,Medium,Medium,Medium,Better,Excellent,Low
+524,26-35,Medium,"Long Tenure",Close,Long-Term,1.50,1.80,0.59,0,0,0,College,Medium,Low,Medium,Bad,"Meets Expectations",Low
+623,36-45,High,Established,"Very Close",New,3.50,3.40,1.03,0,0,0,Bachelor,Medium,"Very High","Very High",Best,"Meets Expectations",None
+460,36-45,Medium,Established,"Very Close",Developing,3.25,3.20,0.87,0,0,0,College,"Very High","Very High",High,Good,"Meets Expectations",Medium
+170,46-55,Medium,"Long Tenure",Moderate,Long-Term,2.25,2.40,0.90,0,1,0,Master,High,Low,High,Good,"Meets Expectations",None
+462,26-35,High,"Long Tenure",Close,Established,3.00,3.00,0.98,0,0,0,Master,High,"Very High",High,Good,"Meets Expectations",None
+1936,36-45,Medium,Established,Close,Established,2.25,2.40,0.71,0,1,0,College,Low,Low,"Very High",Better,Excellent,Low
+464,26-35,High,"Long Tenure","Very Close",Long-Term,3.00,3.00,1.11,0,0,0,Master,High,Medium,"Very High",Better,"Meets Expectations",None
+1525,36-45,High,"New Hire",Close,New,2.75,2.80,1.15,0,0,0,Bachelor,Medium,Medium,"Very High",Better,"Meets Expectations",None
+466,36-45,Medium,"Early Tenure",Close,New,3.25,3.00,0.83,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+1084,26-35,High,Established,Moderate,New,2.25,2.40,1.36,0,0,0,Bachelor,High,Low,High,Good,"Meets Expectations",Low
+1245,46-55,High,"Early Tenure","Very Close",Developing,2.25,2.40,1.44,0,0,0,Master,"Very High",High,Low,Bad,"Meets Expectations",Low
+254,46-55,"Very High",Veteran,Moderate,Long-Term,3.00,3.20,1.17,0,0,0,Master,High,Medium,"Very High",Better,"Meets Expectations",None
+1128,36-45,"Very High","Long Tenure",Moderate,Established,2.75,2.60,1.22,0,0,0,Bachelor,High,High,Low,Best,"Meets Expectations",None
+1655,46-55,"Very High","Early Tenure",Far,New,2.00,2.20,1.02,0,0,0,Master,Low,Medium,Medium,Better,"Meets Expectations",Medium
+1656,46-55,High,"Long Tenure",Moderate,Long-Term,2.75,2.60,0.83,0,0,0,Doctor,"Very High",Low,High,Better,"Meets Expectations",High
+1666,36-45,"Very High","Long Tenure",Moderate,Long-Term,2.50,2.40,1.10,0,0,0,College,High,High,Low,Better,Excellent,Low
+997,46-55,"Very High","Early Tenure","Very Close",Developing,3.25,3.20,1.09,0,0,0,College,"Very High","Very High",High,Good,Excellent,Low
+28,26-35,High,"Long Tenure",Close,Long-Term,2.25,2.40,0.75,0,0,0,Master,Low,Medium,High,Better,"Meets Expectations",None
+1719,36-45,"Very High",Veteran,Far,Established,3.00,2.80,1.04,0,0,0,College,"Very High",Medium,High,Better,"Meets Expectations",None
+1770,46-55,"Very High","New Hire","Very Close",New,2.25,2.20,1.19,0,0,0,Bachelor,High,Low,Medium,Better,"Meets Expectations",High
+1166,36-45,High,"Long Tenure",Close,Long-Term,2.50,2.60,0.84,0,0,0,Master,Medium,High,High,Good,"Meets Expectations",None
+1789,46-55,"Very High","New Hire","Very Close",New,3.25,3.20,1.21,0,0,0,Master,High,"Very High",High,Better,"Meets Expectations",Low
+1800,36-45,High,"Early Tenure",Close,New,3.00,3.00,0.84,0,0,0,"Below College",High,High,High,Better,Excellent,None
+1837,56+,"Very High","New Hire",Moderate,New,2.25,2.40,0.98,0,0,0,Master,Low,High,Medium,Better,"Meets Expectations",None
+1867,46-55,"Very High",Veteran,Close,Established,3.25,3.00,1.23,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+1911,36-45,High,"Long Tenure",Close,Established,2.50,2.60,0.83,0,0,0,Bachelor,High,Low,Medium,Best,"Meets Expectations",Low
+1264,26-35,"Very High",Established,"Very Close",Established,3.00,2.80,1.01,0,0,0,Bachelor,"Very High","Very High",Medium,Good,"Meets Expectations",Medium
+844,26-35,High,Established,"Very Close",Established,3.00,2.80,0.80,0,0,0,"Below College",High,"Very High",Medium,Better,"Meets Expectations",Low
+58,36-45,"Very High",Veteran,Moderate,Established,3.00,3.00,1.22,1,0,1,Bachelor,Medium,High,"Very High",Better,"Meets Expectations",None
+1941,46-55,"Very High","Early Tenure","Very Close",Developing,3.25,3.20,1.20,0,0,0,"Below College",Medium,"Very High","Very High",Better,"Meets Expectations",None
+843,36-45,"Very High","Early Tenure",Moderate,New,2.25,2.40,1.07,0,0,0,College,Medium,Low,High,Better,Excellent,Low
+1979,26-35,High,"Long Tenure",Close,Established,3.25,3.20,0.69,0,0,0,Bachelor,High,High,High,Best,Excellent,Low
+73,26-35,High,"Long Tenure","Very Close",Long-Term,2.75,2.80,0.84,0,0,0,College,Low,"Very High",High,Better,"Meets Expectations",None
+80,46-55,"Very High",Veteran,Close,Established,2.75,2.60,1.17,0,0,0,College,Medium,High,"Very High",Good,"Meets Expectations",Low
+2000,46-55,High,"Long Tenure","Very Close",Long-Term,1.75,2.00,0.75,0,0,0,"Below College",High,Medium,Low,Bad,"Meets Expectations",Medium
+2015,36-45,High,"Long Tenure",Close,Long-Term,2.25,2.00,0.82,0,0,0,Bachelor,Medium,High,Low,Better,"Meets Expectations",Low
+2017,36-45,High,"Long Tenure",Close,Established,2.75,3.00,0.86,0,0,0,Bachelor,High,"Very High",Low,Better,Excellent,Low
+825,56+,"Very High",Veteran,"Very Close",Established,3.25,3.20,1.20,1,0,1,Master,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+901,46-55,High,"Long Tenure",Far,Established,3.50,3.40,0.89,0,0,0,Master,"Very High","Very High",High,Better,"Meets Expectations",None
+101,36-45,High,"New Hire",Close,New,2.75,2.80,0.83,0,0,0,Master,"Very High",Low,Medium,Best,"Meets Expectations",None
+102,36-45,High,"Early Tenure",Close,New,2.25,2.40,0.85,0,0,0,Master,Low,High,Low,Best,"Meets Expectations",None
+126,46-55,High,"Early Tenure","Very Close",Developing,1.50,1.80,0.85,0,0,0,Master,Low,High,Low,Bad,"Meets Expectations",Low
+141,46-55,"Very High",Established,"Very Close",Established,1.50,1.80,1.13,1,0,0,Bachelor,Low,Medium,Low,Good,"Meets Expectations",None
+162,46-55,"Very High","Long Tenure",Close,Long-Term,2.50,2.60,1.22,0,0,0,Bachelor,Low,High,High,Better,"Meets Expectations",None
+1061,46-55,"Very High",Established,"Very Close",Established,2.75,2.80,1.20,0,0,0,Master,Medium,High,"Very High",Good,"Meets Expectations",Low
+1430,26-35,"Very High","Early Tenure",Close,New,2.50,2.60,1.02,0,0,0,Doctor,Low,Medium,High,Best,"Meets Expectations",None
+730,46-55,High,"Early Tenure",Close,Developing,3.00,3.20,0.92,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",None
+1424,46-55,High,Established,"Very Close",New,3.50,3.60,0.92,0,0,0,Master,Medium,"Very High","Very High",Best,"Meets Expectations",Medium
+742,36-45,High,Established,Close,Developing,1.50,2.00,0.73,0,0,0,Bachelor,Low,Low,Low,Better,"Meets Expectations",Low
+1423,56+,"Very High",Established,"Very Close",Developing,2.75,2.80,1.23,0,0,0,Bachelor,"Very High",Low,High,Better,Excellent,Low
+1422,46-55,"Very High","Long Tenure","Very Close",Established,3.50,3.40,1.08,0,0,0,Bachelor,"Very High","Very High","Very High",Good,"Meets Expectations",None
+296,46-55,High,Established,Close,Established,2.25,2.20,0.78,0,0,0,Master,Medium,Medium,"Very High",Bad,"Meets Expectations",Medium
+306,36-45,High,Established,Moderate,Established,3.00,3.00,0.76,0,0,0,Bachelor,Medium,"Very High",High,Better,"Meets Expectations",High
+1317,46-55,"Very High","Early Tenure",Far,New,2.50,2.60,1.05,0,0,0,Bachelor,"Very High",Low,Medium,Better,"Meets Expectations",None
+337,26-35,High,"New Hire","Very Close",New,2.25,2.40,0.85,0,0,0,Master,Medium,High,Low,Better,"Meets Expectations",Low
+352,36-45,"Very High",Veteran,"Very Close",Established,2.75,2.80,1.21,0,0,0,College,Low,High,"Very High",Better,"Meets Expectations",Low
+380,36-45,High,"Early Tenure","Very Close",New,2.25,2.40,0.85,0,0,0,Master,Low,"Very High",Low,Better,"Meets Expectations",Medium
+385,46-55,"Very High",Established,"Very Close",Established,1.50,1.80,1.19,0,0,0,"Below College",Low,Medium,Low,Good,"Meets Expectations",Medium
+386,46-55,"Very High","Early Tenure","Very Close",Developing,3.00,3.00,1.10,0,0,0,Master,High,High,"Very High",Good,"Meets Expectations",High
+396,46-55,"Very High","Early Tenure",Close,New,2.75,2.80,1.16,0,0,0,Master,High,Low,"Very High",Better,"Meets Expectations",None
+421,36-45,High,Established,Far,New,2.25,2.20,0.75,0,0,0,College,Low,Medium,High,Better,"Meets Expectations",Low
+815,46-55,"Very High","Early Tenure","Very Close",Developing,3.25,3.20,1.10,0,0,0,Bachelor,High,High,"Very High",Better,"Meets Expectations",None
+447,46-55,"Very High","Early Tenure","Very Close",New,3.00,3.00,1.14,0,0,0,Doctor,"Very High",High,Medium,Better,"Meets Expectations",Low
+817,26-35,High,"Long Tenure",Close,Established,3.50,3.40,0.73,0,0,0,Bachelor,High,High,"Very High",Best,"Meets Expectations",None
+461,36-45,High,"Long Tenure",Moderate,Established,3.00,2.80,0.72,0,0,0,College,High,"Very High",Medium,Better,"Meets Expectations",Low
+1069,46-55,"Very High","New Hire","Very Close",New,3.75,3.60,1.22,0,0,0,Master,"Very High","Very High","Very High",Better,"Meets Expectations",Medium
+468,36-45,"Very High","New Hire",Far,New,2.50,2.60,1.00,0,0,0,Doctor,Low,"Very High",Medium,Better,"Meets Expectations",None
+1217,46-55,"Very High","Early Tenure",Moderate,Developing,2.50,2.60,1.19,0,0,0,College,"Very High",Medium,Low,Better,"Meets Expectations",Low
+520,36-45,High,Veteran,Moderate,Established,2.25,2.20,0.89,0,0,0,Bachelor,Low,Medium,High,Better,"Meets Expectations",Low
+522,46-55,"Very High","Early Tenure","Very Close",New,1.75,2.00,1.21,0,0,0,College,Low,Low,High,Good,"Meets Expectations",Low
+564,26-35,High,Established,"Very Close",Established,2.75,2.60,0.74,0,0,0,Master,Medium,High,High,Better,"Meets Expectations",None
+575,46-55,"Very High","Early Tenure","Very Close",New,2.00,2.20,1.11,0,0,0,Bachelor,Low,High,High,Bad,"Meets Expectations",None
+1242,36-45,High,"New Hire",Far,New,2.00,2.20,0.82,1,0,0,Doctor,Low,Low,High,Better,"Meets Expectations",None
+727,26-35,High,Established,"Very Close",Established,3.50,3.40,0.70,0,0,0,College,High,"Very High","Very High",Better,"Meets Expectations",None
+612,26-35,"Very High",Established,"Very Close",Developing,2.50,2.80,1.01,0,0,0,Doctor,Low,High,High,Better,"Meets Expectations",Low
+1250,46-55,"Very High",Established,"Very Close",Established,3.00,3.00,1.11,0,0,0,Bachelor,"Very High","Very High",Low,Better,"Meets Expectations",None
+1255,36-45,"Very High",Established,"Very Close",Established,3.00,2.60,1.23,0,0,0,Bachelor,High,"Very High",Medium,Better,"Meets Expectations",Low
+638,46-55,"Very High",Veteran,Moderate,Established,3.25,3.00,1.22,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",Low
+661,36-45,"Very High","New Hire",Close,New,2.75,2.60,1.04,0,0,0,Master,Medium,"Very High",High,Good,"Meets Expectations",Low
+1263,46-55,"Very High","New Hire","Very Close",New,3.75,3.40,1.14,0,0,0,Bachelor,"Very High","Very High",High,Best,"Meets Expectations",None
+1443,46-55,"Very High","Long Tenure","Very Close",Established,2.50,2.60,1.07,0,0,0,Master,Low,High,Medium,Best,"Meets Expectations",Medium
+1468,36-45,High,Established,Close,Established,3.00,2.80,0.86,0,0,0,"Below College","Very High",Medium,High,Better,"Meets Expectations",Low
+1472,46-55,"Very High",Established,"Very Close",Established,2.50,2.80,1.04,0,0,0,Bachelor,"Very High",Medium,Medium,Good,"Meets Expectations",None
+1485,26-35,"Very High","Long Tenure",Moderate,Established,2.25,2.40,1.06,0,0,0,Bachelor,Medium,Low,"Very High",Good,"Meets Expectations",Medium
+950,36-45,High,"Long Tenure","Very Close",Long-Term,2.50,2.60,0.85,0,0,0,Bachelor,"Very High",Low,Medium,Better,"Meets Expectations",Low
+1015,26-35,High,Established,Close,Established,2.00,2.40,0.71,1,0,0,College,Medium,Low,High,Good,"Meets Expectations",High
+1035,36-45,"Very High",Veteran,Close,Established,2.50,2.20,1.25,0,0,0,"Below College",Medium,High,Medium,Better,Excellent,Medium
+1523,36-45,"Very High","Long Tenure",Far,Long-Term,3.00,3.00,1.02,0,0,0,Bachelor,"Very High",Low,High,Best,"Meets Expectations",Low
+1539,46-55,High,Veteran,Far,Established,3.50,3.00,0.90,0,0,0,Doctor,High,"Very High","Very High",Better,"Meets Expectations",None
+999,36-45,"Very High","Long Tenure",Close,Long-Term,2.50,2.60,1.21,0,0,0,Bachelor,Low,High,Medium,Best,"Meets Expectations",Low
+1608,36-45,"Very High",Veteran,Close,Established,3.00,3.00,1.19,0,0,0,Bachelor,Medium,"Very High","Very High",Good,"Meets Expectations",Low
+5,26-35,Low,Established,"Very Close",New,3.25,3.20,0.90,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",None
+16,26-35,Low,"Early Tenure",Far,Developing,2.50,2.60,0.90,0,0,0,"Below College",Low,High,"Very High",Good,"Meets Expectations",Low
+21,26-35,Medium,Established,"Very Close",Developing,2.25,2.60,1.02,1,0,0,College,Low,Medium,"Very High",Good,"Meets Expectations",Medium
+24,36-45,Medium,"Early Tenure","Very Close",New,3.50,3.40,1.22,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",None
+1438,46-55,Medium,Established,"Very Close",New,2.50,2.60,1.06,0,0,0,Bachelor,Low,"Very High",High,Good,"Meets Expectations",Low
+30,18-25,Low,"New Hire",Moderate,New,3.50,3.40,0.38,0,0,0,College,High,"Very High","Very High",Better,"Meets Expectations",None
+31,26-35,Low,"Early Tenure",Close,Developing,2.25,2.40,0.91,1,0,1,"Below College",Medium,Low,High,Better,"Meets Expectations",None
+33,26-35,Medium,Established,Moderate,Established,2.00,1.80,1.21,1,1,1,"Below College",Medium,Low,Medium,Better,Excellent,None
+680,26-35,Low,"New Hire","Very Close",New,3.00,3.00,0.64,0,0,0,Bachelor,High,High,High,Better,Excellent,Low
+45,18-25,Low,"New Hire","Very Close",New,2.25,2.40,0.71,1,0,1,Bachelor,Medium,"Very High",Low,Good,"Meets Expectations",Low
+46,36-45,Low,"Early Tenure","Very Close",Developing,3.25,3.40,0.82,0,0,0,College,"Very High",High,"Very High",Good,"Meets Expectations",Medium
+1433,26-35,Low,"New Hire",Close,New,2.50,2.40,0.39,1,0,1,Bachelor,Low,Medium,High,Best,"Meets Expectations",None
+51,36-45,Medium,"New Hire","Very Close",New,2.75,2.60,1.06,1,0,0,Master,Medium,Low,"Very High",Best,"Meets Expectations",Low
+683,26-35,Low,Established,"Very Close",Established,3.00,3.00,0.83,0,1,0,Doctor,Medium,"Very High","Very High",Good,"Meets Expectations",Low
+1265,26-35,Low,"New Hire",Moderate,New,3.00,3.20,0.80,0,0,0,Bachelor,High,High,"Very High",Good,"Meets Expectations",None
+61,36-45,Medium,"New Hire",Moderate,New,2.00,2.20,0.93,0,0,0,College,Medium,Medium,Low,Better,Excellent,None
+691,26-35,Medium,"Long Tenure",Close,Established,2.75,2.40,2.05,0,1,0,Master,Medium,"Very High",Medium,Better,"Meets Expectations",None
+700,26-35,Low,"Early Tenure","Very Close",New,3.00,2.80,0.63,0,0,0,Master,Low,"Very High","Very High",Better,"Meets Expectations",None
+86,36-45,High,"New Hire",Close,New,2.25,2.40,3.00,0,0,0,Bachelor,Medium,Low,High,Better,"Meets Expectations",Low
+88,26-35,Low,"Early Tenure","Very Close",New,2.25,2.40,0.68,0,0,0,Bachelor,Medium,Low,"Very High",Good,"Meets Expectations",Low
+90,36-45,Medium,"New Hire",Close,New,2.50,2.40,1.05,1,0,1,Bachelor,"Very High",High,Low,Good,"Meets Expectations",Low
+701,18-25,Low,"New Hire",Close,New,3.50,3.40,0.31,1,0,1,"Below College","Very High",High,"Very High",Better,"Meets Expectations",None
+1350,26-35,Medium,Established,"Very Close",New,2.75,2.80,1.31,0,0,0,Master,High,High,Medium,Better,"Meets Expectations",None
+1081,46-55,Low,Established,"Very Close",Established,2.75,2.80,0.76,1,0,1,Master,Low,High,High,Best,"Meets Expectations",High
+1080,46-55,Medium,"Long Tenure",Close,Established,2.25,2.20,1.42,0,0,0,Master,"Very High",Low,Low,Better,Excellent,High
+501,36-45,Low,"New Hire","Very Close",New,3.00,3.00,0.78,0,0,0,Bachelor,"Very High",High,Medium,Better,"Meets Expectations",Low
+675,18-25,Low,"New Hire",Close,New,2.75,2.80,0.86,0,0,0,"Below College",Low,High,"Very High",Better,Excellent,None
+565,26-35,Low,"New Hire",Far,New,2.75,2.60,0.79,1,0,1,Doctor,High,Medium,Medium,Best,"Meets Expectations",None
+679,26-35,Medium,Established,Close,Developing,2.75,2.80,1.95,0,0,0,Master,Low,"Very High","Very High",Good,"Meets Expectations",Low
+1097,26-35,Medium,Established,Close,Established,3.50,3.40,1.13,0,0,0,Bachelor,High,High,"Very High",Best,"Meets Expectations",None
+1441,56+,Low,"Early Tenure","Very Close",New,2.50,2.60,0.64,0,0,0,College,Low,Low,"Very High",Best,Excellent,Low
+1248,18-25,Low,"New Hire",Close,New,2.25,2.20,0.57,1,0,1,Bachelor,Low,Medium,Medium,Best,Excellent,None
+1006,36-45,Low,"New Hire",Close,New,2.50,2.60,0.83,0,0,0,"Below College",High,High,Medium,Good,"Meets Expectations",Low
+1448,36-45,Low,"Early Tenure","Very Close",Developing,2.00,2.40,0.66,0,0,0,Doctor,Medium,High,Low,Good,"Meets Expectations",None
+1225,36-45,Medium,"Long Tenure",Far,Long-Term,3.25,3.20,1.40,0,1,0,Master,"Very High","Very High",Medium,Better,Excellent,None
+495,26-35,Low,"Early Tenure",Far,New,3.75,3.60,0.68,0,0,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",None
+964,36-45,Medium,"New Hire",Close,New,3.25,3.20,1.12,0,0,0,Master,"Very High",Medium,"Very High",Better,"Meets Expectations",Low
+1101,26-35,Medium,"Long Tenure",Far,Established,2.25,2.20,1.39,1,0,1,Master,Low,High,Medium,Better,Excellent,None
+1405,26-35,Low,Established,Moderate,Established,3.50,3.40,0.74,1,1,1,Master,"Very High",High,"Very High",Better,"Meets Expectations",None
+560,26-35,Low,"Early Tenure",Far,New,2.00,2.20,0.89,0,0,0,Bachelor,Low,"Very High",Medium,Bad,Excellent,Medium
+1016,18-25,Low,"New Hire",Moderate,New,2.25,2.20,0.80,1,0,1,Bachelor,"Very High",Low,Low,Better,"Meets Expectations",None
+1249,26-35,Medium,"Early Tenure","Very Close",New,2.25,2.40,1.16,0,0,0,Bachelor,Low,"Very High",Low,Better,"Meets Expectations",High
+1474,36-45,Low,"Early Tenure","Very Close",New,3.25,3.20,0.72,0,0,0,Bachelor,High,High,High,Best,"Meets Expectations",Low
+1475,36-45,Medium,"Early Tenure",Moderate,Developing,2.75,2.80,1.06,0,0,0,Bachelor,"Very High",Medium,High,Good,"Meets Expectations",None
+1004,26-35,Low,"Early Tenure",Far,New,2.25,2.40,0.66,1,0,1,Bachelor,Low,High,Medium,Better,"Meets Expectations",None
+1482,26-35,Low,"New Hire",Close,New,2.50,2.60,0.39,0,0,0,Bachelor,High,High,Medium,Good,"Meets Expectations",Medium
+1483,56+,Medium,"Long Tenure","Very Close",Established,2.00,2.40,1.51,0,0,0,College,Medium,High,Low,Good,Excellent,Low
+1394,36-45,Low,Established,"Very Close",Developing,3.25,3.20,0.92,0,0,0,"Below College",High,High,"Very High",Better,"Meets Expectations",None
+493,26-35,Low,"New Hire",Close,New,3.00,2.80,0.82,0,0,0,Master,High,Medium,"Very High",Better,"Meets Expectations",None
+1308,56+,Low,"New Hire",Far,New,2.75,2.80,0.73,0,0,0,Master,Low,High,"Very High",Better,"Meets Expectations",Medium
+949,36-45,Medium,Established,Close,New,3.00,3.00,1.44,0,0,0,Master,Medium,"Very High",High,Better,"Meets Expectations",None
+547,36-45,Medium,"Early Tenure",Far,New,2.25,2.40,1.41,0,0,0,College,Low,High,Medium,Better,"Meets Expectations",Low
+544,36-45,Low,"New Hire",Close,New,2.75,2.80,0.82,0,0,0,College,Low,"Very High","Very High",Good,Excellent,Medium
+1506,26-35,Low,"New Hire","Very Close",New,2.25,2.20,0.48,0,0,0,Bachelor,Low,High,"Very High",Bad,"Meets Expectations",Low
+1108,26-35,Low,"New Hire",Far,New,2.00,2.00,0.71,1,0,1,Bachelor,Low,Medium,Medium,Better,Excellent,None
+1053,26-35,Low,"Early Tenure","Very Close",New,1.75,2.00,0.63,1,0,1,Bachelor,Low,Low,Medium,Better,"Meets Expectations",Low
+1301,26-35,Low,"Early Tenure","Very Close",New,2.25,2.40,0.64,0,0,0,Bachelor,"Very High",Low,Medium,Good,"Meets Expectations",None
+1407,26-35,Medium,"Early Tenure","Very Close",New,3.00,2.80,1.20,0,0,0,"Below College",Low,"Very High","Very High",Better,"Meets Expectations",None
+474,36-45,Medium,Established,Close,Established,2.00,2.40,1.84,0,1,0,Bachelor,High,Low,Low,Better,"Meets Expectations",Medium
+1522,26-35,Low,Established,"Very Close",Established,1.50,1.60,0.73,1,0,1,Master,Low,Low,High,Bad,"Meets Expectations",None
+1244,26-35,Low,Established,Moderate,Established,2.00,2.20,0.69,1,1,0,Bachelor,Low,Low,"Very High",Good,"Meets Expectations",Medium
+465,18-25,Low,"Early Tenure",Far,New,3.00,3.00,0.90,0,0,0,"Below College",High,"Very High",High,Good,"Meets Expectations",Medium
+1068,26-35,Low,"Early Tenure","Very Close",Developing,2.50,2.40,0.62,0,0,0,"Below College",Low,High,High,Better,"Meets Expectations",Medium
+945,46-55,Low,"New Hire",Moderate,New,2.50,2.60,0.70,0,0,0,Master,"Very High",High,Low,Good,"Meets Expectations",Medium
+1537,26-35,Medium,Established,"Very Close",Established,2.25,2.40,1.26,1,1,1,Bachelor,"Very High",High,Low,Bad,"Meets Expectations",None
+1238,26-35,Low,"Long Tenure",Close,Established,2.50,2.60,0.86,0,0,0,Bachelor,Low,"Very High",Medium,Better,"Meets Expectations",Low
+1543,36-45,Medium,Established,Moderate,Established,2.25,2.40,1.32,0,0,0,Bachelor,Low,"Very High",Low,Better,"Meets Expectations",None
+452,36-45,Medium,Established,Close,Established,3.00,3.00,1.14,0,1,0,Master,"Very High","Very High",Low,Better,"Meets Expectations",Medium
+1546,36-45,Low,"Early Tenure",Far,Developing,3.75,3.60,0.66,0,0,0,Bachelor,"Very High","Very High","Very High",Better,Excellent,Low
+939,26-35,Low,"Early Tenure","Very Close",New,2.25,2.20,0.86,0,0,0,Master,High,Low,Medium,Better,"Meets Expectations",None
+1115,26-35,Low,"New Hire","Very Close",New,3.50,3.20,0.92,0,0,0,Master,High,"Very High","Very High",Better,"Meets Expectations",High
+450,46-55,Medium,"Early Tenure",Moderate,Developing,3.25,3.20,1.50,0,0,0,Master,"Very High",High,"Very High",Good,"Meets Expectations",None
+441,26-35,Medium,Established,Far,Established,3.75,3.60,1.78,0,0,0,College,"Very High","Very High","Very High",Better,"Meets Expectations",Medium
+933,26-35,Low,"New Hire","Very Close",New,2.75,2.80,0.72,0,0,0,Bachelor,Medium,High,High,Better,"Meets Expectations",None
+1555,26-35,Medium,Established,"Very Close",Developing,2.50,2.40,1.81,0,0,0,College,"Very High",Medium,Low,Better,"Meets Expectations",Low
+1558,26-35,Low,"New Hire",Close,New,2.25,2.60,0.76,0,0,0,Bachelor,High,High,Low,Good,"Meets Expectations",Medium
+930,26-35,Low,"New Hire",Close,New,2.75,2.80,0.73,0,0,0,Bachelor,High,High,Medium,Better,"Meets Expectations",Low
+440,26-35,Medium,"Early Tenure","Very Close",New,2.75,2.40,1.07,1,0,1,Master,Low,"Very High","Very High",Good,"Meets Expectations",None
+439,26-35,Medium,Established,"Very Close",Established,2.50,2.80,1.56,0,0,0,Master,Low,"Very High",High,Good,"Meets Expectations",None
+1574,26-35,Medium,Established,"Very Close",New,2.25,2.40,1.26,0,0,0,Master,"Very High",Low,Medium,Good,"Meets Expectations",Low
+1576,46-55,Low,Established,Moderate,Established,2.50,2.60,0.73,0,1,0,Master,High,Low,"Very High",Good,"Meets Expectations",Low
+1577,26-35,Low,"New Hire",Close,New,2.25,2.40,0.92,0,0,0,Master,Low,"Very High",High,Bad,"Meets Expectations",None
+804,26-35,Medium,Established,"Very Close",Developing,2.50,2.40,1.35,0,0,0,Master,High,Low,High,Better,"Meets Expectations",None
+1580,26-35,Medium,"New Hire","Very Close",New,2.50,2.60,1.69,0,0,0,Master,Medium,"Very High",Medium,Good,"Meets Expectations",Low
+1581,26-35,Low,"New Hire","Very Close",New,2.25,2.40,0.64,0,0,0,Bachelor,Low,"Very High",Low,Better,Excellent,None
+1120,26-35,Low,Established,Far,Established,2.75,2.80,0.78,0,0,0,Master,High,"Very High",Low,Better,Excellent,Low
+434,26-35,Low,"Early Tenure","Very Close",New,2.25,2.40,0.76,0,0,0,Bachelor,High,Medium,Medium,Good,"Meets Expectations",None
+433,46-55,Medium,Established,Close,Established,2.00,2.00,1.53,1,1,1,Master,High,Medium,Low,Good,"Meets Expectations",None
+1592,18-25,Low,"New Hire",Close,New,3.50,3.60,0.64,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",Low
+426,26-35,Low,"New Hire","Very Close",New,2.50,2.60,0.83,0,0,0,Master,High,"Very High",Medium,Bad,"Meets Expectations",Low
+423,26-35,Medium,"Early Tenure","Very Close",Developing,3.25,3.20,1.49,0,0,0,Master,High,"Very High",High,Better,"Meets Expectations",Low
+802,36-45,Low,"Early Tenure",Close,Developing,2.25,2.40,0.86,0,0,0,"Below College","Very High",Low,Medium,Good,"Meets Expectations",Medium
+923,18-25,Low,"New Hire",Moderate,New,2.75,2.80,0.83,1,0,1,"Below College","Very High","Very High",Low,Good,"Meets Expectations",None
+1340,36-45,Medium,"Early Tenure",Moderate,New,2.75,2.80,1.09,0,0,0,College,High,High,Medium,Better,"Meets Expectations",Low
+403,36-45,Low,"Early Tenure",Close,New,2.75,2.80,0.72,0,0,0,Bachelor,Medium,"Very High",High,Good,"Meets Expectations",High
+1071,56+,Low,"Early Tenure",Close,Developing,2.25,2.40,0.91,0,0,0,Bachelor,Low,High,Medium,Better,"Meets Expectations",Low
+1605,18-25,Low,"Early Tenure",Far,Developing,2.25,2.20,0.87,0,0,0,College,Medium,High,Medium,Good,"Meets Expectations",None
+1607,26-35,Medium,"Early Tenure","Very Close",New,3.25,3.40,1.02,0,0,0,Master,Medium,"Very High","Very High",Better,"Meets Expectations",Medium
+1310,36-45,Medium,"Early Tenure",Far,Developing,2.00,2.20,1.20,1,0,1,Bachelor,High,Low,Low,Better,"Meets Expectations",None
+1609,26-35,Low,Established,Close,New,2.00,2.00,0.66,0,0,0,Bachelor,Medium,Medium,Medium,Good,"Meets Expectations",Low
+529,36-45,Medium,"Long Tenure",Far,Established,2.25,2.40,1.37,0,1,0,Doctor,Medium,High,Low,Better,"Meets Expectations",Medium
+797,26-35,Medium,"Early Tenure","Very Close",Developing,3.00,3.20,1.01,0,0,0,Master,Medium,"Very High",High,Better,"Meets Expectations",None
+1085,36-45,Medium,Established,Close,Established,2.75,3.00,1.04,0,0,0,College,Medium,High,High,Better,"Meets Expectations",None
+1131,18-25,Low,"New Hire","Very Close",New,3.25,3.00,0.64,0,0,0,"Below College","Very High",Medium,High,Best,"Meets Expectations",None
+397,36-45,Medium,Established,"Very Close",Established,3.00,3.00,1.38,0,1,0,Bachelor,High,Medium,"Very High",Better,"Meets Expectations",None
+1621,26-35,Medium,"Long Tenure",Moderate,Established,2.50,2.80,1.61,0,0,0,Doctor,Medium,Low,"Very High",Better,"Meets Expectations",None
+395,26-35,Medium,"Early Tenure",Close,New,3.75,3.60,1.02,0,0,0,College,"Very High","Very High","Very High",Better,Excellent,None
+1623,18-25,Medium,"New Hire","Very Close",New,3.25,3.20,0.96,0,0,0,"Below College",High,"Very High",High,Better,"Meets Expectations",None
+391,36-45,Low,"Long Tenure","Very Close",Established,3.25,3.20,0.65,0,1,0,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",None
+1292,36-45,Low,"New Hire",Close,New,2.75,3.00,0.73,1,0,0,Master,Medium,Medium,"Very High",Better,"Meets Expectations",None
+791,46-55,Medium,"Early Tenure",Moderate,New,3.00,3.00,1.31,0,0,0,Master,"Very High","Very High",Low,Better,"Meets Expectations",Low
+1291,26-35,Medium,"Early Tenure",Close,New,3.25,3.20,1.08,0,0,0,"Below College",High,High,"Very High",Better,"Meets Expectations",None
+379,18-25,Medium,"Early Tenure","Very Close",New,3.00,2.80,1.00,0,0,0,College,"Very High",High,Low,Best,"Meets Expectations",None
+377,26-35,Low,"Early Tenure",Close,Developing,3.50,3.40,0.64,0,0,0,Bachelor,"Very High","Very High","Very High",Good,Excellent,Low
+353,46-55,Low,"New Hire","Very Close",New,2.75,2.80,0.84,0,0,0,Bachelor,High,"Very High",Medium,Good,"Meets Expectations",None
+784,18-25,Medium,"New Hire",Close,New,2.75,3.00,1.08,0,0,0,"Below College",Low,High,"Very High",Better,"Meets Expectations",None
+1640,36-45,Medium,Established,Close,Established,1.50,1.80,1.21,0,1,0,Bachelor,Medium,Medium,Low,Bad,"Meets Expectations",Low
+347,36-45,Medium,"Early Tenure",Moderate,New,2.75,3.00,2.02,0,0,0,College,"Very High",Low,High,Better,"Meets Expectations",None
+346,26-35,Low,Established,Moderate,Developing,2.75,2.80,0.72,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",None
+1646,18-25,Medium,Established,"Very Close",Developing,2.75,2.80,1.16,0,0,0,"Below College",Low,"Very High",High,Better,"Meets Expectations",None
+1647,26-35,Medium,"Early Tenure",Close,New,2.25,2.60,1.09,0,0,0,Bachelor,Medium,High,Low,Better,"Meets Expectations",None
+1648,26-35,Low,"Early Tenure","Very Close",New,3.25,3.20,0.80,0,0,0,Bachelor,"Very High","Very High",High,Good,"Meets Expectations",None
+913,36-45,Low,Established,Close,New,2.50,2.60,0.79,1,1,0,College,Medium,Low,"Very High",Better,"Meets Expectations",None
+340,36-45,Medium,"Early Tenure","Very Close",New,1.75,1.80,1.21,0,0,0,College,High,Low,Low,Good,"Meets Expectations",Low
+338,26-35,Low,"New Hire","Very Close",New,3.00,2.80,0.90,0,0,0,Master,High,"Very High",High,Good,"Meets Expectations",Low
+1235,26-35,Medium,Established,"Very Close",Established,3.50,3.40,1.54,0,0,0,College,"Very High",High,"Very High",Better,"Meets Expectations",None
+579,26-35,Low,Established,"Very Close",Established,3.25,3.00,0.85,0,1,0,Master,"Very High",High,High,Better,"Meets Expectations",Low
+1658,26-35,Medium,"Long Tenure","Very Close",Established,3.00,3.00,1.68,0,1,0,Bachelor,"Very High",Medium,High,Better,"Meets Expectations",Low
+1136,26-35,Medium,"Early Tenure","Very Close",Developing,1.25,1.40,0.99,0,0,0,"Below College",Low,Medium,Low,Bad,"Meets Expectations",None
+335,36-45,Medium,Established,Far,Established,2.25,2.40,1.02,0,0,0,College,Low,"Very High",Low,Better,"Meets Expectations",Medium
+334,36-45,Medium,"New Hire",Moderate,New,1.75,2.00,0.95,0,0,0,College,High,Low,Low,Good,"Meets Expectations",Medium
+315,26-35,Low,"Early Tenure",Moderate,New,3.00,2.80,0.74,1,0,1,"Below College",High,"Very High",High,Good,"Meets Expectations",None
+630,46-55,Medium,Established,Close,Established,2.50,2.60,1.72,0,1,0,College,"Very High",Low,Medium,Better,"Meets Expectations",Medium
+1668,36-45,Medium,"Long Tenure","Very Close",Established,4.00,3.80,1.46,0,0,0,Bachelor,"Very High","Very High","Very High",Best,"Meets Expectations",Medium
+1671,26-35,Medium,Established,"Very Close",Established,2.75,2.80,1.69,0,0,0,Bachelor,"Very High",Medium,High,Good,"Meets Expectations",Medium
+780,26-35,Low,Established,"Very Close",Established,3.25,3.20,0.83,1,1,1,Master,"Very High","Very High",High,Good,"Meets Expectations",None
+309,56+,Low,"New Hire","Very Close",New,2.75,2.60,0.67,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",Low
+305,26-35,Low,"Early Tenure","Very Close",New,3.00,2.80,0.81,0,0,0,Master,High,Medium,"Very High",Better,Excellent,None
+773,36-45,Medium,"New Hire","Very Close",New,2.50,2.60,0.94,0,0,0,Doctor,"Very High",High,Medium,Bad,"Meets Expectations",Low
+1143,26-35,Medium,Established,Close,New,3.00,3.00,1.02,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",Medium
+300,26-35,Low,Established,"Very Close",Developing,3.00,3.00,0.64,1,0,1,Bachelor,High,High,"Very High",Good,"Meets Expectations",None
+297,26-35,Low,"Early Tenure","Very Close",Developing,2.75,2.80,0.82,1,0,1,Bachelor,"Very High",Low,High,Better,"Meets Expectations",None
+1694,46-55,Medium,"Early Tenure",Far,New,2.50,2.40,1.09,0,0,0,Bachelor,Low,Medium,"Very High",Better,"Meets Expectations",Low
+1346,36-45,Medium,Established,"Very Close",Established,3.25,3.20,1.44,0,1,0,Bachelor,High,"Very High",High,Better,"Meets Expectations",None
+763,36-45,Low,"Early Tenure","Very Close",Developing,3.50,3.20,0.72,0,0,0,"Below College","Very High","Very High","Very High",Good,Excellent,None
+1154,26-35,Low,"Early Tenure",Close,New,3.25,3.00,0.83,0,0,0,Bachelor,High,High,"Very High",Better,"Meets Expectations",Low
+1701,26-35,Low,Established,Moderate,Established,2.75,2.60,0.90,0,1,0,Bachelor,Medium,"Very High",Medium,Better,"Meets Expectations",None
+1180,36-45,Medium,"New Hire",Far,New,3.00,2.80,1.36,0,0,0,College,High,"Very High","Very High",Bad,"Meets Expectations",Low
+1704,26-35,Medium,"Early Tenure","Very Close",Developing,3.00,2.80,1.52,0,0,0,Master,Low,"Very High",High,Best,"Meets Expectations",None
+1707,18-25,Medium,"Early Tenure",Close,Developing,3.25,3.40,1.36,0,0,0,Bachelor,High,High,"Very High",Better,"Meets Expectations",Low
+895,26-35,Low,Established,Moderate,New,3.25,3.20,0.73,0,0,0,Master,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+1382,36-45,Low,"Early Tenure",Close,Developing,3.50,3.60,0.81,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",High
+1720,26-35,Medium,"Early Tenure",Close,Developing,1.75,2.00,1.06,0,0,0,Bachelor,Low,High,Low,Good,"Meets Expectations",Low
+1012,18-25,Low,"New Hire","Very Close",New,3.25,3.20,0.32,0,0,0,College,Medium,"Very High","Very High",Better,"Meets Expectations",None
+284,18-25,Low,"Early Tenure","Very Close",New,2.25,2.60,0.72,0,0,0,Bachelor,"Very High",Medium,Low,Good,"Meets Expectations",Low
+752,36-45,Low,"New Hire",Moderate,New,3.25,3.40,0.85,1,0,1,Bachelor,High,High,"Very High",Better,"Meets Expectations",None
+1729,26-35,Low,Established,Moderate,Established,2.50,2.60,0.88,0,0,0,"Below College",Medium,"Very High",Medium,Good,"Meets Expectations",Low
+995,26-35,Medium,"Early Tenure",Moderate,New,2.50,2.60,1.07,0,0,0,"Below College",Medium,"Very High",Low,Better,"Meets Expectations",None
+277,26-35,Medium,"Early Tenure",Close,New,3.75,3.60,1.18,0,0,0,Master,"Very High",High,"Very High",Best,"Meets Expectations",Low
+1162,26-35,Low,"Early Tenure",Close,New,3.25,3.00,0.78,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",Low
+267,36-45,Medium,Established,Far,Established,1.50,2.00,1.10,1,0,0,Bachelor,Medium,Low,Low,Good,"Meets Expectations",Low
+887,46-55,Medium,"Early Tenure","Very Close",New,2.25,2.40,1.10,0,0,0,Bachelor,High,Low,Medium,Better,"Meets Expectations",Low
+1745,26-35,Medium,Established,"Very Close",Established,3.00,2.80,1.53,0,0,0,Master,"Very High",Low,"Very High",Better,"Meets Expectations",None
+881,26-35,Low,Established,Far,Established,2.25,2.40,0.62,1,1,1,Master,"Very High",Medium,Low,Good,"Meets Expectations",Low
+1751,26-35,Medium,Established,Close,Developing,3.00,3.00,1.06,0,0,0,Bachelor,High,"Very High",High,Good,"Meets Expectations",None
+262,36-45,Low,"Early Tenure",Close,New,4.00,4.00,0.64,0,0,0,Bachelor,"Very High","Very High","Very High",Best,"Meets Expectations",High
+1755,26-35,Low,"Early Tenure","Very Close",New,3.00,3.20,0.90,0,0,0,Master,"Very High","Very High",Low,Better,"Meets Expectations",High
+1762,26-35,Low,"New Hire","Very Close",New,2.75,2.60,0.65,0,0,0,Bachelor,"Very High",Low,High,Better,"Meets Expectations",Low
+1764,26-35,Low,Established,"Very Close",Established,2.25,2.40,0.84,0,0,0,Master,Medium,Medium,Medium,Better,"Meets Expectations",None
+875,36-45,Low,"New Hire","Very Close",New,3.25,3.20,0.78,0,0,0,"Below College",Medium,"Very High","Very High",Better,"Meets Expectations",None
+1767,36-45,Low,"New Hire",Moderate,New,3.25,3.00,0.75,1,0,1,Bachelor,High,High,"Very High",Better,"Meets Expectations",Low
+994,26-35,Low,"New Hire",Close,New,2.75,2.60,0.74,1,0,1,Bachelor,"Very High",Low,High,Better,Excellent,None
+514,26-35,Low,"New Hire","Very Close",New,3.25,3.20,0.71,1,0,1,Bachelor,High,"Very High",High,Better,Excellent,None
+1771,26-35,Medium,Established,"Very Close",Established,3.00,3.00,0.94,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",Medium
+260,26-35,Low,Established,Close,Developing,3.00,3.00,0.70,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",None
+2,46-55,Medium,Established,Close,Established,3.00,2.80,1.58,0,0,0,"Below College",High,Medium,"Very High",Better,Excellent,Low
+1241,26-35,Medium,"Long Tenure","Very Close",Established,2.50,2.60,1.10,0,1,0,Bachelor,"Very High",Medium,Low,Better,Excellent,Low
+252,26-35,Low,Established,Moderate,Established,3.25,3.20,0.85,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,"Meets Expectations",Low
+639,18-25,Low,Established,Far,Developing,2.75,3.00,0.84,0,0,0,Bachelor,Medium,"Very High",Medium,Better,"Meets Expectations",Medium
+1792,36-45,Low,"Early Tenure","Very Close",Developing,2.50,2.60,0.72,1,0,1,College,High,Medium,High,Good,"Meets Expectations",High
+247,26-35,Low,"Early Tenure",Far,New,3.25,3.20,0.71,0,0,0,College,"Very High",Medium,"Very High",Better,"Meets Expectations",None
+1798,26-35,Medium,Established,Close,Established,2.50,2.80,0.97,0,1,0,Master,"Very High",Low,Medium,Better,"Meets Expectations",Low
+1799,26-35,Low,"Early Tenure","Very Close",Developing,3.50,3.40,0.63,0,0,0,Bachelor,High,"Very High",High,Best,"Meets Expectations",Low
+1257,36-45,Medium,"Long Tenure","Very Close",Established,2.50,2.60,1.14,0,0,0,Bachelor,High,Medium,High,Good,"Meets Expectations",None
+865,26-35,Medium,"Early Tenure",Close,Developing,2.75,3.00,1.60,0,0,0,College,High,High,High,Good,"Meets Expectations",Low
+246,26-35,Medium,"Early Tenure",Moderate,New,3.25,3.20,1.21,0,0,0,"Below College",High,"Very High",High,Better,Excellent,Low
+242,26-35,Low,"Early Tenure","Very Close",New,3.00,3.00,0.77,0,0,0,Bachelor,High,"Very High",Low,Best,"Meets Expectations",None
+1813,36-45,Low,"Early Tenure",Close,New,2.25,2.40,0.75,0,0,0,Bachelor,Low,High,High,Good,"Meets Expectations",None
+241,56+,Medium,"New Hire",Close,New,2.50,2.60,1.31,0,0,0,Bachelor,High,Low,High,Better,"Meets Expectations",Low
+861,26-35,Medium,"Early Tenure","Very Close",Developing,2.50,2.40,1.16,0,0,0,Master,Medium,"Very High",Medium,Good,"Meets Expectations",Low
+233,26-35,Medium,"Early Tenure",Moderate,New,2.75,2.80,0.94,0,0,0,Bachelor,High,Medium,"Very High",Good,"Meets Expectations",Low
+231,26-35,Medium,"Early Tenure",Close,Developing,2.50,2.60,0.94,0,0,0,Doctor,High,High,Low,Better,Excellent,None
+227,36-45,Low,Established,Moderate,Established,2.00,2.20,0.76,0,0,0,Bachelor,Low,High,Low,Better,"Meets Expectations",Low
+856,26-35,Low,Established,Far,New,2.50,2.40,0.79,0,0,0,"Below College",High,Low,"Very High",Good,"Meets Expectations",None
+1830,46-55,Medium,Established,Close,Established,3.00,3.00,2.12,0,0,0,Master,"Very High","Very High",Medium,Good,"Meets Expectations",Low
+1834,26-35,Medium,"Early Tenure","Very Close",New,2.50,2.60,1.11,0,0,0,Bachelor,High,Low,High,Better,Excellent,Low
+1303,18-25,Low,"New Hire","Very Close",New,3.00,3.00,0.65,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",None
+1839,18-25,Low,"New Hire",Moderate,New,2.25,2.40,0.47,0,0,0,Bachelor,Medium,High,High,Bad,"Meets Expectations",None
+854,18-25,Medium,"Early Tenure","Very Close",New,1.75,2.20,1.06,0,0,0,"Below College",Low,Low,High,Good,"Meets Expectations",None
+1847,36-45,Medium,"New Hire","Very Close",New,3.25,3.20,2.15,0,0,0,Master,"Very High",Medium,"Very High",Better,Excellent,Low
+224,26-35,Low,"New Hire","Very Close",New,3.00,2.80,0.79,0,0,0,Bachelor,High,High,"Very High",Good,"Meets Expectations",Low
+1854,36-45,Low,Established,Close,Developing,2.50,2.60,0.91,0,0,0,Master,High,High,Medium,Good,Excellent,Medium
+221,26-35,Low,"Early Tenure",Far,New,2.75,2.80,0.84,0,0,0,Bachelor,High,"Very High",High,Bad,"Meets Expectations",Low
+218,26-35,Low,"New Hire",Close,New,2.75,2.80,0.62,0,0,0,Bachelor,"Very High",Medium,"Very High",Bad,"Meets Expectations",Low
+217,18-25,Low,"New Hire",Moderate,New,2.75,2.80,0.72,0,0,0,"Below College",High,"Very High",Low,Better,Excellent,Medium
+850,26-35,Low,"New Hire","Very Close",New,3.25,3.20,0.53,0,0,0,Bachelor,"Very High","Very High",High,Good,"Meets Expectations",High
+848,26-35,Low,Established,"Very Close",Established,2.50,2.40,0.73,1,0,1,College,High,High,Low,Better,"Meets Expectations",Low
+214,56+,Medium,"New Hire",Close,New,2.00,2.00,1.03,1,0,0,Bachelor,Medium,Medium,Medium,Good,Excellent,Low
+511,18-25,Low,"New Hire",Moderate,New,2.50,2.60,0.69,0,0,0,Bachelor,Low,Medium,"Very High",Better,"Meets Expectations",Low
+1868,26-35,Low,"New Hire",Far,New,3.00,2.80,0.75,1,0,1,College,"Very High","Very High",Medium,Good,Excellent,None
+1870,26-35,Medium,Established,Moderate,Developing,2.75,2.60,1.47,0,1,0,Bachelor,"Very High",Low,"Very High",Good,"Meets Expectations",Low
+1871,36-45,Medium,"New Hire",Moderate,New,3.25,3.20,1.20,0,0,0,Master,"Very High","Very High",Medium,Better,"Meets Expectations",High
+1873,46-55,Low,"Early Tenure","Very Close",Developing,3.00,2.80,0.82,0,0,0,Master,Medium,"Very High",Medium,Best,Excellent,Low
+1878,18-25,Low,"New Hire",Close,New,2.50,2.60,0.76,1,0,1,"Below College","Very High",Medium,Low,Better,Excellent,None
+1392,36-45,Medium,Established,Far,Developing,2.75,2.80,1.69,0,0,0,Bachelor,"Very High","Very High",Low,Good,"Meets Expectations",Medium
+1885,36-45,Medium,"Early Tenure",Close,Developing,2.75,2.80,1.32,0,0,0,Master,"Very High",Low,High,Better,Excellent,Low
+741,26-35,Low,Established,"Very Close",Established,2.50,2.20,0.68,1,0,1,College,Low,Medium,"Very High",Better,"Meets Expectations",None
+202,36-45,Medium,"Long Tenure",Far,Long-Term,2.00,2.20,1.73,0,0,0,Bachelor,Medium,Medium,Low,Better,"Meets Expectations",Low
+197,26-35,Medium,"Early Tenure","Very Close",New,3.00,3.00,0.99,0,0,0,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+1893,26-35,Low,"New Hire","Very Close",New,2.50,2.40,0.91,0,0,0,College,Medium,High,High,Good,"Meets Expectations",Low
+194,26-35,Low,"Early Tenure",Moderate,Developing,2.25,2.40,0.81,0,0,0,Bachelor,Low,High,High,Good,"Meets Expectations",None
+193,36-45,Medium,"Early Tenure","Very Close",New,3.00,3.00,1.33,0,0,0,Doctor,"Very High",High,Medium,Better,Excellent,None
+1905,26-35,Low,"Early Tenure",Moderate,New,2.50,2.20,0.71,1,0,1,Master,"Very High",Low,Medium,Better,Excellent,Low
+192,36-45,Medium,Established,Far,Developing,2.75,2.80,1.07,0,0,0,Bachelor,High,"Very High",Medium,Good,"Meets Expectations",None
+1374,26-35,Low,"Early Tenure",Far,New,2.50,2.40,0.63,0,0,0,"Below College",Low,High,High,Better,Excellent,High
+649,26-35,Medium,Established,"Very Close",Developing,3.25,3.00,1.12,0,0,0,College,Medium,"Very High","Very High",Better,"Meets Expectations",Low
+1931,26-35,Low,"Early Tenure","Very Close",New,2.25,2.40,0.69,0,0,0,Master,Medium,Medium,High,Good,"Meets Expectations",Low
+1932,26-35,Medium,"Long Tenure",Far,Long-Term,3.00,2.80,1.77,0,1,0,Master,High,"Very High",Medium,Better,"Meets Expectations",None
+1934,46-55,Medium,Established,Moderate,Established,3.00,3.00,1.69,0,0,0,Master,High,Medium,High,Best,"Meets Expectations",Low
+171,36-45,Medium,"Early Tenure",Far,New,3.00,3.20,1.46,0,0,0,Bachelor,Medium,High,"Very High",Better,"Meets Expectations",None
+1937,36-45,Low,"Long Tenure",Close,Established,3.00,2.80,0.66,0,0,0,Bachelor,"Very High",Medium,High,Better,"Meets Expectations",Low
+164,26-35,Low,"Early Tenure",Close,Developing,2.50,2.40,0.73,0,0,0,Bachelor,High,Medium,High,Good,"Meets Expectations",None
+1939,26-35,Low,"Early Tenure","Very Close",Developing,2.00,2.40,0.75,1,0,1,College,Low,High,Low,Better,"Meets Expectations",None
+1940,36-45,Medium,"Early Tenure",Close,Developing,3.50,3.40,1.47,0,0,0,College,Medium,"Very High","Very High",Best,"Meets Expectations",Medium
+1060,36-45,Low,"New Hire","Very Close",New,2.50,2.60,0.87,0,0,0,Master,High,High,Low,Better,"Meets Expectations",Low
+1259,26-35,Low,"Early Tenure","Very Close",Developing,2.25,2.40,0.78,0,0,0,College,Low,High,Medium,Better,"Meets Expectations",High
+1947,26-35,Low,"Early Tenure",Moderate,Developing,2.75,2.80,0.66,0,0,0,Bachelor,High,High,High,Good,"Meets Expectations",None
+1948,26-35,Medium,"Early Tenure","Very Close",Developing,3.00,3.00,0.95,0,0,0,College,High,Low,"Very High",Best,"Meets Expectations",Low
+161,56+,Medium,"Early Tenure",Moderate,Developing,2.00,2.20,1.53,1,0,1,Master,Medium,Medium,Low,Better,"Meets Expectations",High
+1956,26-35,Medium,Established,"Very Close",Established,2.50,2.20,1.54,0,1,0,Bachelor,"Very High",Low,Medium,Better,Excellent,None
+159,26-35,Low,Established,Far,Established,2.25,2.00,0.81,0,0,0,Bachelor,Low,High,High,Good,Excellent,High
+977,56+,Low,"New Hire","Very Close",New,2.75,2.80,0.77,1,0,1,Bachelor,"Very High",High,Low,Better,Excellent,None
+1969,46-55,Low,"Early Tenure",Close,Developing,2.25,2.40,0.89,0,0,0,College,Low,High,High,Good,"Meets Expectations",Medium
+838,26-35,Low,"Early Tenure",Moderate,Developing,3.25,3.00,0.79,0,0,0,Master,High,"Very High",High,Better,"Meets Expectations",None
+151,26-35,Medium,"New Hire",Close,New,2.75,2.60,1.39,0,0,0,Master,High,Medium,High,Better,"Meets Expectations",Low
+834,36-45,Low,"New Hire","Very Close",New,3.00,2.80,0.70,0,0,0,Bachelor,Medium,High,"Very High",Better,"Meets Expectations",None
+143,18-25,Low,"New Hire",Close,New,3.50,3.20,0.89,0,0,0,"Below College","Very High","Very High",High,Better,"Meets Expectations",Medium
+1193,18-25,Low,"New Hire",Close,New,2.50,2.60,0.79,0,0,0,College,High,Low,High,Better,Excellent,None
+1976,36-45,Medium,"Long Tenure",Far,Established,3.50,3.20,1.34,0,0,0,College,"Very High",High,"Very High",Better,"Meets Expectations",None
+655,26-35,Low,"Early Tenure",Close,Developing,2.25,2.20,0.68,0,0,0,Master,Low,High,High,Good,"Meets Expectations",Medium
+138,26-35,Medium,"Long Tenure",Close,Established,2.50,2.60,1.48,0,0,0,Master,Low,High,High,Better,"Meets Expectations",None
+134,26-35,Low,"New Hire","Very Close",New,3.00,3.00,0.91,0,0,0,"Below College","Very High",Low,"Very High",Better,"Meets Expectations",None
+1195,36-45,Medium,"Early Tenure",Close,New,2.25,2.40,1.38,0,0,0,Bachelor,Low,High,High,Good,"Meets Expectations",Low
+1275,26-35,Low,Established,"Very Close",New,2.75,2.80,0.89,0,0,0,College,High,"Very High",Medium,Good,Excellent,None
+715,36-45,Medium,"New Hire",Close,New,3.00,3.20,1.44,0,0,0,College,"Very High","Very High",Low,Better,"Meets Expectations",None
+1270,18-25,Low,"New Hire","Very Close",New,3.50,3.40,0.38,0,0,0,College,"Very High",High,"Very High",Better,Excellent,Low
+1200,36-45,Low,Established,Close,New,3.00,3.00,0.91,1,0,1,Master,High,High,High,Better,"Meets Expectations",None
+828,26-35,Medium,"New Hire","Very Close",New,3.00,3.00,1.35,1,0,1,Master,High,High,"Very High",Good,"Meets Expectations",None
+710,26-35,Low,Established,"Very Close",Established,3.25,2.80,0.84,0,0,0,Master,Medium,"Very High","Very High",Better,"Meets Expectations",Low
+1269,18-25,Low,"New Hire",Far,New,3.25,3.40,0.92,0,0,0,Bachelor,Medium,"Very High","Very High",Better,"Meets Expectations",None
+1998,36-45,Medium,"Early Tenure",Moderate,New,2.50,2.60,1.67,0,0,0,Master,"Very High",Low,High,Good,"Meets Expectations",Low
+1999,36-45,Low,"Early Tenure","Very Close",New,3.00,3.00,0.86,0,0,0,Bachelor,"Very High","Very High",Low,Better,Excellent,Low
+510,26-35,Medium,Established,"Very Close",Developing,2.50,2.60,0.96,1,0,1,"Below College",High,Low,High,Better,Excellent,None
+1202,26-35,Low,"Early Tenure",Moderate,Developing,2.25,2.00,0.67,0,0,0,"Below College",Medium,"Very High",Low,Good,"Meets Expectations",Low
+2007,18-25,Medium,"Early Tenure","Very Close",New,3.75,3.60,1.04,0,0,0,College,"Very High",High,"Very High",Best,"Meets Expectations",None
+2008,26-35,Medium,Established,Close,Established,2.50,2.60,1.57,0,0,0,Master,Medium,High,Medium,Better,"Meets Expectations",None
+1431,26-35,Low,"Early Tenure","Very Close",Developing,2.75,2.80,0.92,0,0,0,Master,"Very High",Low,High,Better,"Meets Expectations",Medium
+1203,18-25,Low,"New Hire","Very Close",New,3.00,2.80,0.88,1,0,1,Master,High,"Very High",Medium,Better,"Meets Expectations",Low
+107,36-45,Medium,"Long Tenure",Close,Established,3.25,2.80,1.64,0,0,0,Bachelor,Medium,"Very High","Very High",Better,"Meets Expectations",High
+2014,36-45,Medium,Established,Far,Established,2.25,2.40,1.27,0,0,0,"Below College",Low,"Very High",Low,Better,"Meets Expectations",None
+657,18-25,Low,"New Hire","Very Close",New,3.50,3.20,0.88,0,0,0,Bachelor,"Very High",Medium,"Very High",Best,"Meets Expectations",None
+1246,36-45,Low,Established,"Very Close",Established,3.00,3.20,0.62,0,1,0,"Below College",Low,"Very High","Very High",Better,"Meets Expectations",Low
+2020,36-45,Low,"Early Tenure","Very Close",New,3.00,3.00,0.75,0,0,0,Bachelor,Medium,"Very High",High,Better,"Meets Expectations",None
+705,18-25,Low,"Early Tenure","Very Close",New,1.75,2.20,0.87,0,0,0,Bachelor,Low,Low,Low,Best,"Meets Expectations",Low
+105,26-35,Low,Established,"Very Close",Developing,2.25,2.20,0.88,0,0,0,Bachelor,Medium,High,Low,Better,"Meets Expectations",None
+826,26-35,Low,"New Hire","Very Close",New,3.25,3.40,0.77,0,0,0,Master,"Very High",High,High,Better,"Meets Expectations",None
+2027,26-35,Medium,"New Hire","Very Close",New,2.75,2.80,1.48,1,0,1,Master,Low,"Very High",Medium,Best,"Meets Expectations",High
+702,26-35,Medium,Established,"Very Close",Established,1.50,1.80,1.03,1,1,1,Bachelor,Low,Low,Low,Better,"Meets Expectations",None
+1206,36-45,Low,"New Hire",Moderate,New,3.50,3.00,0.71,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+96,26-35,Medium,Established,"Very Close",Established,2.25,2.40,1.92,0,0,0,Bachelor,Medium,Medium,Medium,Better,"Meets Expectations",Medium
+2038,26-35,Low,"Early Tenure","Very Close",New,3.00,3.00,0.75,0,0,0,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",None
+662,36-45,Low,"New Hire","Very Close",New,2.50,2.60,0.81,0,0,0,"Below College",High,Low,"Very High",Good,"Meets Expectations",None
+2048,36-45,Low,"New Hire","Very Close",New,3.25,3.00,0.87,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",None
+824,26-35,Low,Established,Far,Established,3.00,3.20,0.83,0,0,0,College,High,High,High,Better,Excellent,Low
+2051,36-45,Low,"Early Tenure","Very Close",New,2.75,2.80,0.62,0,0,0,Master,High,High,Medium,Better,"Meets Expectations",High
+2052,26-35,Low,"Early Tenure","Very Close",New,3.50,3.00,0.92,0,0,0,Master,High,"Very High","Very High",Better,"Meets Expectations",Low
+991,26-35,Low,"Early Tenure",Close,New,2.00,2.00,0.72,1,0,1,College,High,Low,Low,Better,Excellent,None
+2054,26-35,Medium,"Early Tenure",Far,Developing,2.00,2.00,1.17,0,0,0,Master,"Very High",Low,Medium,Bad,"Meets Expectations",None
+95,26-35,Low,"New Hire","Very Close",New,2.50,2.60,0.77,0,0,0,Master,High,Medium,Medium,Better,"Meets Expectations",None
+1210,36-45,Low,"New Hire","Very Close",New,1.00,1.20,0.65,1,0,1,College,Low,Low,Low,Bad,"Meets Expectations",Low
+94,26-35,Low,"Early Tenure","Very Close",Developing,3.00,3.00,0.83,0,0,0,Bachelor,High,Medium,"Very High",Better,Excellent,Low
+1402,36-45,Medium,"Long Tenure",Close,Established,1.50,1.60,1.26,0,0,0,Bachelor,Low,High,Low,Bad,"Meets Expectations",None
+388,26-35,Medium,Established,"Very Close",Established,2.25,2.40,0.66,0,0,0,College,Medium,"Very High",Low,Good,"Meets Expectations",None
+401,26-35,Medium,Established,"Very Close",Developing,3.25,3.00,0.84,1,1,1,Master,"Very High","Very High",Medium,Better,"Meets Expectations",None
+404,36-45,High,"Long Tenure",Far,Established,3.25,3.20,1.95,0,0,0,Bachelor,High,Medium,"Very High",Best,"Meets Expectations",Low
+1582,36-45,High,Established,Moderate,Established,3.00,3.00,1.43,0,1,0,Bachelor,High,Medium,"Very High",Better,"Meets Expectations",Low
+1583,36-45,Medium,"Early Tenure",Moderate,New,2.50,2.60,0.61,0,0,0,Bachelor,Medium,Medium,Medium,Best,"Meets Expectations",None
+1585,36-45,Medium,"New Hire","Very Close",New,2.25,2.40,0.98,0,0,0,Master,Medium,High,Low,Better,"Meets Expectations",None
+406,26-35,High,"Long Tenure",Moderate,Established,2.50,2.60,1.16,0,0,0,Bachelor,High,Medium,High,Good,"Meets Expectations",Medium
+416,26-35,Medium,Established,Close,Established,2.50,2.80,1.00,0,1,0,Bachelor,Medium,"Very High",Medium,Good,"Meets Expectations",Low
+1588,36-45,High,Established,Close,Established,2.75,3.00,1.19,0,0,0,Bachelor,"Very High",High,Low,Better,"Meets Expectations",Low
+420,26-35,Medium,"Long Tenure",Close,Established,3.00,2.80,0.79,0,0,0,Bachelor,"Very High",High,High,Good,"Meets Expectations",Low
+436,26-35,Medium,"Long Tenure",Close,Established,3.00,2.80,0.76,0,1,0,College,High,Medium,"Very High",Better,"Meets Expectations",None
+437,26-35,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,0.65,0,0,0,Bachelor,"Very High",High,Low,Better,"Meets Expectations",None
+438,26-35,High,Established,Close,Established,3.75,3.60,1.09,0,0,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",High
+445,36-45,Medium,"New Hire","Very Close",New,2.50,2.60,0.76,1,0,1,College,"Very High",High,Low,Good,"Meets Expectations",None
+446,26-35,Medium,Established,Close,New,2.75,2.60,0.68,0,0,0,Bachelor,Medium,"Very High",High,Good,"Meets Expectations",None
+1598,36-45,Medium,"Early Tenure",Moderate,New,2.75,2.80,0.67,0,0,0,College,"Very High",Low,High,Better,"Meets Expectations",Low
+1125,36-45,High,"New Hire","Very Close",New,3.00,3.00,1.06,0,0,0,College,"Very High",Medium,High,Better,"Meets Expectations",None
+449,26-35,Medium,"Early Tenure","Very Close",Developing,3.00,3.00,0.92,0,0,0,"Below College",High,Medium,"Very High",Better,"Meets Expectations",Low
+453,36-45,High,"Early Tenure","Very Close",New,2.75,2.40,1.08,0,0,0,College,Medium,"Very High",High,Good,Excellent,High
+456,26-35,Medium,Established,"Very Close",New,3.25,3.00,0.88,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",High
+458,26-35,Medium,Established,Close,Established,2.00,2.20,0.90,0,0,0,Master,Medium,Medium,Low,Better,"Meets Expectations",Low
+463,26-35,High,Established,Close,Established,2.50,2.40,1.19,0,0,0,"Below College","Very High",Medium,Low,Better,"Meets Expectations",Medium
+469,26-35,Medium,"Early Tenure","Very Close",New,2.50,2.60,0.67,0,0,0,Bachelor,"Very High",High,Low,Good,"Meets Expectations",Low
+475,26-35,Medium,"New Hire",Far,New,3.25,3.20,0.68,0,0,0,College,"Very High",High,Medium,Best,"Meets Expectations",Low
+476,26-35,Medium,Established,"Very Close",Established,2.75,2.80,0.76,0,1,0,Bachelor,High,High,Medium,Better,"Meets Expectations",Low
+1612,36-45,Medium,Established,Far,Developing,1.50,1.60,0.63,0,0,0,Bachelor,Low,Low,Low,Better,"Meets Expectations",Low
+1613,26-35,Medium,"Early Tenure","Very Close",Developing,3.00,3.00,0.77,0,0,0,Master,"Very High",Low,"Very High",Better,"Meets Expectations",None
+479,36-45,Medium,"New Hire","Very Close",New,3.25,3.20,0.96,0,0,0,Doctor,"Very High","Very High",Medium,Better,"Meets Expectations",None
+481,36-45,High,"Long Tenure","Very Close",Long-Term,2.25,2.20,1.40,0,0,0,Master,Low,"Very High",Low,Better,"Meets Expectations",Low
+488,36-45,High,Established,"Very Close",Established,2.25,2.40,1.35,1,1,1,Bachelor,Low,Medium,High,Better,"Meets Expectations",None
+492,36-45,Medium,Established,Far,New,2.50,2.40,0.92,1,0,1,College,High,High,Low,Better,"Meets Expectations",Medium
+1037,26-35,Medium,"New Hire",Far,New,2.50,2.20,0.72,1,0,1,College,Medium,Low,"Very High",Better,"Meets Expectations",None
+498,26-35,Medium,Established,Close,Established,3.25,3.20,0.76,0,0,0,Master,Medium,"Very High","Very High",Better,"Meets Expectations",None
+500,46-55,Medium,Established,Moderate,Established,3.00,3.00,0.71,0,0,0,College,High,"Very High",High,Good,"Meets Expectations",Low
+502,26-35,Medium,"Early Tenure",Moderate,Developing,2.25,2.60,0.77,1,0,1,Bachelor,Low,"Very High",Medium,Good,"Meets Expectations",None
+507,18-25,Medium,"Early Tenure",Close,Developing,3.75,3.60,0.62,0,0,0,Master,"Very High",High,"Very High",Best,"Meets Expectations",Low
+513,36-45,High,Established,"Very Close",New,2.50,2.40,1.10,0,0,0,College,Medium,High,Medium,Better,"Meets Expectations",Medium
+516,36-45,Medium,"Early Tenure","Very Close",Developing,3.00,3.00,0.83,0,0,0,College,"Very High",Medium,High,Better,"Meets Expectations",Medium
+523,26-35,Medium,"Early Tenure","Very Close",New,2.50,2.60,0.94,0,0,0,Master,High,High,Low,Better,"Meets Expectations",Low
+527,18-25,Medium,"Early Tenure","Very Close",Developing,2.75,2.60,0.65,0,0,0,College,Medium,"Very High",Medium,Better,"Meets Expectations",None
+532,56+,High,Established,Close,Established,2.50,2.80,1.91,0,0,0,Bachelor,High,Low,"Very High",Good,"Meets Expectations",High
+533,26-35,Medium,"Early Tenure",Moderate,Developing,2.50,2.60,0.95,0,0,0,Bachelor,Medium,High,Medium,Better,"Meets Expectations",None
+534,36-45,High,Established,"Very Close",Established,2.25,2.60,1.21,0,0,0,Bachelor,Medium,Low,High,Better,"Meets Expectations",Low
+1639,26-35,High,"Long Tenure",Close,New,2.75,2.60,1.49,1,0,1,Bachelor,"Very High",Low,High,Better,"Meets Expectations",None
+567,26-35,High,Established,Far,Established,2.50,2.60,1.21,0,0,0,Master,High,Low,High,Better,"Meets Expectations",None
+573,56+,High,"Long Tenure",Far,Long-Term,3.00,2.80,1.48,0,0,0,Bachelor,High,Low,"Very High",Best,"Meets Expectations",None
+916,26-35,Medium,"Early Tenure","Very Close",New,2.50,2.60,0.71,0,0,0,Master,Low,"Very High",Medium,Better,"Meets Expectations",None
+580,46-55,High,"Early Tenure",Close,New,3.25,3.00,1.31,0,0,0,Bachelor,High,"Very High",High,Better,"Meets Expectations",Low
+1645,26-35,Medium,"New Hire",Moderate,New,2.75,2.40,0.79,1,0,1,College,Low,"Very High","Very High",Good,"Meets Expectations",Medium
+592,36-45,High,Established,Close,Established,3.00,3.00,1.44,0,0,0,Master,Medium,"Very High","Very High",Good,"Meets Expectations",None
+595,46-55,Medium,Established,"Very Close",Established,2.50,2.60,0.59,0,1,0,Doctor,Medium,"Very High",Low,Better,"Meets Expectations",Low
+599,36-45,Medium,"Long Tenure",Close,Established,3.75,3.60,0.90,0,0,0,College,"Very High","Very High","Very High",Better,"Meets Expectations",None
+1650,26-35,Medium,"Early Tenure",Close,Developing,3.00,2.80,0.85,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",None
+600,26-35,Medium,"Long Tenure","Very Close",Established,2.75,2.80,0.68,0,1,0,Bachelor,Medium,High,High,Better,"Meets Expectations",None
+604,26-35,Medium,Established,"Very Close",Developing,3.25,3.20,0.95,0,0,0,"Below College",Medium,"Very High",High,Best,"Meets Expectations",None
+606,36-45,Medium,Established,"Very Close",Established,3.00,3.00,0.69,0,0,0,Bachelor,"Very High",Medium,Medium,Best,"Meets Expectations",Low
+615,36-45,High,"New Hire",Far,New,2.50,2.20,1.58,0,0,0,Bachelor,High,Low,High,Better,"Meets Expectations",Low
+618,26-35,Medium,"New Hire",Far,New,2.00,2.20,0.62,0,0,0,College,Low,High,Low,Better,"Meets Expectations",Medium
+620,26-35,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,0.70,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",None
+621,26-35,Medium,Established,Far,Established,3.75,3.80,0.77,0,1,0,Master,"Very High","Very High","Very High",Better,"Meets Expectations",None
+626,36-45,High,Established,Close,Established,2.50,2.60,1.28,0,0,0,Master,Low,Medium,"Very High",Better,"Meets Expectations",Low
+631,26-35,Medium,"Early Tenure",Moderate,New,3.50,3.60,0.68,1,0,1,Master,"Very High",High,"Very High",Better,"Meets Expectations",None
+904,36-45,High,Established,Moderate,Established,2.50,2.60,1.10,1,0,0,College,Low,Medium,"Very High",Better,"Meets Expectations",None
+641,26-35,Medium,"Early Tenure",Far,Developing,2.75,2.80,0.91,0,0,0,College,Low,Medium,"Very High",Best,Excellent,Medium
+650,26-35,Medium,"Early Tenure",Moderate,New,1.75,2.00,0.61,1,0,1,Master,Medium,Low,High,Bad,"Meets Expectations",None
+1667,26-35,Medium,"Long Tenure",Moderate,Established,3.25,3.20,0.66,1,1,1,Master,"Very High","Very High",Low,Best,Excellent,None
+653,26-35,Medium,Established,Close,Established,3.25,3.40,0.79,0,1,0,Master,Low,"Very High","Very High",Best,Excellent,Medium
+1669,26-35,Medium,Established,"Very Close",Established,1.75,1.80,0.60,1,0,0,Bachelor,Low,Medium,Medium,Good,"Meets Expectations",Low
+1670,26-35,Medium,Established,"Very Close",Developing,3.50,3.40,0.80,0,0,0,Master,"Very High","Very High",High,Better,"Meets Expectations",Medium
+656,36-45,High,"Early Tenure","Very Close",New,3.00,3.00,1.39,0,0,0,Bachelor,"Very High",High,High,Good,"Meets Expectations",Low
+1673,26-35,Medium,Established,"Very Close",New,2.25,2.40,0.79,0,0,0,Master,Low,"Very High",Low,Better,"Meets Expectations",Medium
+1137,26-35,Medium,"Early Tenure",Moderate,New,3.75,3.60,0.72,0,0,0,College,"Very High","Very High","Very High",Better,"Meets Expectations",Low
+1138,46-55,High,Established,Close,Developing,2.75,2.60,1.89,0,0,0,Master,"Very High",Medium,Medium,Better,"Meets Expectations",Low
+677,26-35,High,"Early Tenure",Close,New,3.25,3.20,1.03,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",None
+682,46-55,High,"Long Tenure","Very Close",Established,3.25,3.20,1.21,0,1,0,"Below College","Very High",Low,"Very High",Best,Excellent,None
+1678,36-45,High,"New Hire",Far,New,3.50,3.40,1.02,0,0,0,College,"Very High",High,"Very High",Better,"Meets Expectations",None
+1681,26-35,Medium,Established,Moderate,New,3.25,3.20,0.78,0,0,0,Bachelor,High,"Very High",High,Better,Excellent,Low
+903,46-55,Medium,Established,"Very Close",Established,2.75,2.80,0.66,0,1,0,College,High,"Very High",Low,Better,Excellent,Low
+684,36-45,Medium,"New Hire",Far,New,2.25,2.40,0.62,1,0,1,Master,Low,Low,"Very High",Better,"Meets Expectations",Medium
+690,26-35,Medium,Established,"Very Close",New,2.00,2.20,0.80,0,0,0,College,Medium,High,Low,Good,"Meets Expectations",Low
+707,18-25,Medium,"Early Tenure",Close,New,3.00,3.20,0.70,0,0,0,Bachelor,"Very High",Medium,High,Better,Excellent,Low
+709,36-45,Medium,Established,Close,Developing,3.00,2.80,0.58,0,0,0,Master,"Very High","Very High",Low,Better,Excellent,None
+712,46-55,High,"New Hire","Very Close",New,2.75,3.00,1.17,0,0,0,"Below College",Medium,Medium,"Very High",Better,"Meets Expectations",None
+714,26-35,Medium,Established,"Very Close",Developing,3.25,3.40,0.67,0,0,0,"Below College","Very High","Very High",Medium,Better,Excellent,Medium
+720,18-25,Medium,"New Hire","Very Close",New,2.00,2.20,0.66,1,0,1,College,Low,High,Low,Better,"Meets Expectations",None
+722,26-35,Medium,Established,Close,Established,3.50,3.40,0.78,0,0,0,Bachelor,"Very High","Very High","Very High",Good,"Meets Expectations",None
+723,46-55,Medium,"Early Tenure",Close,Developing,2.25,2.40,0.98,1,0,1,College,Medium,High,Low,Better,"Meets Expectations",Low
+1700,36-45,High,Established,"Very Close",Developing,3.00,2.60,1.38,0,0,0,Master,High,"Very High",High,Good,"Meets Expectations",Medium
+728,46-55,Medium,Established,Moderate,Established,3.00,3.00,0.72,0,0,0,Master,"Very High",Low,"Very High",Better,"Meets Expectations",None
+729,36-45,High,"Long Tenure","Very Close",Long-Term,2.75,2.60,1.51,0,0,0,Master,"Very High",Low,High,Better,Excellent,Low
+897,46-55,High,"New Hire",Close,New,2.75,2.80,1.71,0,0,0,Bachelor,Low,"Very High",High,Better,"Meets Expectations",Low
+732,56+,Medium,"New Hire",Moderate,New,2.25,2.40,0.78,0,0,0,Master,Low,Low,"Very High",Better,"Meets Expectations",None
+1706,36-45,High,Established,"Very Close",Established,3.00,3.00,1.13,0,1,0,Bachelor,"Very High","Very High",Low,Better,"Meets Expectations",Low
+746,46-55,High,Veteran,"Very Close",Long-Term,3.25,3.20,1.99,0,0,0,Bachelor,"Very High",High,"Very High",Good,"Meets Expectations",Medium
+1708,36-45,High,Established,Close,Established,3.00,3.00,1.33,0,0,0,Bachelor,"Very High",High,Medium,Better,"Meets Expectations",None
+1039,36-45,High,"Long Tenure",Far,Long-Term,3.50,3.60,1.92,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",Low
+747,26-35,Medium,Established,Far,Established,3.25,3.20,0.77,0,1,0,Doctor,High,"Very High","Very High",Good,Excellent,Low
+1716,46-55,High,Veteran,Close,Established,2.50,2.20,1.87,1,0,1,Bachelor,High,High,High,Bad,"Meets Expectations",None
+1157,26-35,High,"Early Tenure",Close,Developing,1.50,1.80,1.19,1,0,1,Master,Low,Low,Low,Better,"Meets Expectations",None
+754,36-45,Medium,"New Hire",Moderate,New,3.50,3.20,0.98,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",Low
+781,18-25,Medium,Established,Far,Developing,2.75,2.80,0.89,0,0,0,"Below College",High,"Very High",Medium,Good,Excellent,None
+1040,46-55,Medium,"Long Tenure","Very Close",Long-Term,2.75,2.80,0.92,0,0,0,Bachelor,"Very High",High,Low,Better,"Meets Expectations",Low
+785,46-55,Medium,"Early Tenure",Far,Developing,3.00,3.20,0.92,1,0,1,College,Medium,High,"Very High",Better,"Meets Expectations",None
+786,26-35,Medium,Established,"Very Close",Developing,3.50,3.40,0.91,0,0,0,Bachelor,"Very High","Very High",High,Better,Excellent,None
+889,26-35,Medium,Established,"Very Close",Developing,2.75,2.80,0.94,0,1,0,College,Medium,Medium,"Very High",Better,"Meets Expectations",Low
+789,36-45,High,Established,Close,Established,1.75,1.80,1.10,0,0,0,Master,Low,Low,Medium,Better,"Meets Expectations",None
+796,26-35,Medium,"Early Tenure",Close,New,2.50,2.40,0.77,1,0,1,Bachelor,"Very High",Low,High,Good,"Meets Expectations",None
+1731,46-55,Medium,"New Hire","Very Close",New,2.50,2.60,0.72,0,0,0,Master,High,Medium,"Very High",Bad,"Meets Expectations",Low
+1732,46-55,High,Established,"Very Close",Developing,2.75,2.80,1.50,0,0,0,Bachelor,High,"Very High",Medium,Good,"Meets Expectations",Low
+1733,36-45,Medium,"New Hire",Moderate,New,2.00,2.00,0.89,1,0,1,Doctor,Medium,Low,Medium,Better,"Meets Expectations",High
+1734,26-35,Medium,"New Hire","Very Close",New,2.00,1.80,0.97,1,0,1,College,Low,Medium,Medium,Better,"Meets Expectations",None
+800,26-35,Medium,"Early Tenure",Close,New,3.00,3.00,0.63,0,0,0,"Below College",High,"Very High",Medium,Better,"Meets Expectations",Low
+808,26-35,Medium,"Early Tenure",Close,New,2.25,2.40,0.94,0,0,0,College,High,Low,Medium,Better,"Meets Expectations",Low
+819,26-35,Medium,"Early Tenure",Moderate,New,2.00,2.20,0.77,1,0,1,Bachelor,Low,Low,High,Better,"Meets Expectations",None
+1739,26-35,High,"Early Tenure",Moderate,New,2.75,2.40,1.39,0,0,0,Bachelor,"Very High",High,High,Bad,"Meets Expectations",Low
+1211,26-35,Medium,"Early Tenure",Far,Developing,2.50,2.60,0.59,0,0,0,Master,High,Low,High,Better,"Meets Expectations",High
+1212,36-45,Medium,"New Hire","Very Close",New,2.75,2.80,0.62,0,0,0,Master,Medium,Medium,"Very High",Better,"Meets Expectations",High
+1050,46-55,High,"Long Tenure","Very Close",Long-Term,2.25,2.20,1.09,0,0,0,Bachelor,High,Medium,Low,Better,"Meets Expectations",Low
+885,18-25,Medium,"Early Tenure","Very Close",Developing,2.25,2.20,0.61,0,0,0,"Below College",High,Low,Low,Best,"Meets Expectations",None
+1218,26-35,High,Established,Moderate,Established,2.75,2.80,1.29,0,0,0,Master,High,Low,"Very High",Better,"Meets Expectations",High
+1749,26-35,High,"Early Tenure","Very Close",New,2.50,2.60,1.21,0,0,0,Bachelor,Low,High,High,Better,"Meets Expectations",Low
+1220,26-35,Medium,Established,Far,New,2.00,2.20,0.66,0,0,0,Bachelor,Medium,High,Low,Good,"Meets Expectations",Low
+990,36-45,Medium,Established,Close,Established,3.00,3.00,0.73,0,0,0,Master,Low,"Very High","Very High",Better,"Meets Expectations",Medium
+1754,26-35,High,Established,Moderate,Established,2.00,2.00,1.03,0,0,0,College,High,Low,Low,Better,"Meets Expectations",Low
+1233,56+,Medium,"Long Tenure",Close,Established,2.75,3.00,0.75,0,0,0,Master,Medium,"Very High",Medium,Better,"Meets Expectations",Low
+1756,26-35,Medium,"Long Tenure","Very Close",Established,3.00,3.00,0.74,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",None
+1757,46-55,Medium,"Early Tenure",Moderate,Developing,3.75,3.60,0.65,0,0,0,Master,"Very High","Very High",High,Best,"Meets Expectations",None
+1758,26-35,High,"New Hire",Moderate,New,1.75,2.00,1.24,1,0,1,Bachelor,Low,Low,High,Good,Excellent,None
+1163,26-35,Medium,Established,Close,Developing,2.00,2.20,0.83,0,0,0,"Below College",Medium,High,Low,Good,Excellent,None
+1761,26-35,High,"New Hire",Moderate,New,2.00,2.20,1.18,1,0,1,Master,Low,High,Low,Better,"Meets Expectations",High
+1239,36-45,Medium,"Early Tenure",Close,Developing,2.50,2.40,0.99,0,0,0,Bachelor,Medium,Medium,Medium,Best,"Meets Expectations",Low
+879,18-25,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,0.61,0,0,0,"Below College",High,Low,"Very High",Better,"Meets Expectations",None
+1240,18-25,Medium,"Early Tenure",Close,New,3.00,3.00,0.71,0,0,0,Master,High,"Very High",Medium,Better,"Meets Expectations",None
+1243,26-35,High,"Long Tenure",Close,Long-Term,2.75,2.60,1.50,0,0,0,College,High,"Very High",Medium,Good,"Meets Expectations",Low
+986,36-45,High,"New Hire",Far,New,2.50,2.80,1.91,1,0,1,Bachelor,Medium,Medium,"Very High",Good,"Meets Expectations",None
+1254,56+,Medium,Established,"Very Close",Developing,3.50,3.20,0.75,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",None
+985,36-45,High,Established,"Very Close",Established,2.75,3.00,1.14,0,0,0,Doctor,Low,High,"Very High",Better,"Meets Expectations",None
+1268,26-35,High,Established,Close,Established,3.50,3.60,1.21,0,0,0,Doctor,"Very High",High,"Very High",Better,"Meets Expectations",Medium
+1165,26-35,High,"Long Tenure",Far,Established,1.75,1.80,1.06,1,0,1,"Below College","Very High",Low,Low,Bad,"Meets Expectations",Low
+1774,26-35,Medium,"Long Tenure",Close,Established,3.25,3.20,0.58,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",Low
+984,26-35,High,Established,"Very Close",Established,3.25,3.20,1.13,0,0,0,Master,"Very High","Very High",Medium,Better,"Meets Expectations",Low
+1281,26-35,Medium,"Early Tenure","Very Close",New,2.75,2.80,0.66,0,0,0,Bachelor,High,Low,"Very High",Better,"Meets Expectations",None
+1779,26-35,Medium,"New Hire","Very Close",New,3.00,2.60,0.87,0,0,0,College,"Very High","Very High",Low,Better,"Meets Expectations",None
+1066,36-45,High,Established,Far,Developing,2.00,2.20,1.21,0,1,0,Bachelor,High,Low,Medium,Good,"Meets Expectations",Low
+1167,36-45,High,Veteran,Moderate,Long-Term,2.00,2.20,1.99,1,0,1,Bachelor,High,Low,Medium,Good,"Meets Expectations",None
+1784,26-35,Medium,"Long Tenure",Far,Established,2.25,2.20,0.79,0,1,0,Master,Low,"Very High",Low,Better,"Meets Expectations",Medium
+983,36-45,Medium,"Early Tenure",Close,Developing,3.00,3.00,0.82,0,0,0,Bachelor,High,"Very High",Medium,Better,"Meets Expectations",None
+1787,36-45,Medium,"Early Tenure",Close,Developing,2.00,2.00,0.60,0,0,0,College,Medium,Medium,Low,Better,"Meets Expectations",Medium
+1293,36-45,High,Veteran,"Very Close",Long-Term,4.00,3.60,1.48,0,0,0,Master,"Very High","Very High","Very High",Best,"Meets Expectations",None
+868,36-45,Medium,"New Hire",Moderate,New,3.50,3.20,0.91,0,0,0,Master,"Very High",High,"Very High",Better,"Meets Expectations",Medium
+982,26-35,High,Established,Close,Established,2.75,2.80,1.05,0,0,0,College,High,High,Low,Best,"Meets Expectations",Low
+1070,46-55,High,Established,"Very Close",New,2.75,2.60,1.54,0,0,0,Master,High,High,Medium,Better,"Meets Expectations",Low
+1797,26-35,Medium,Established,Far,Established,3.50,3.40,0.84,1,1,1,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",None
+1304,26-35,Medium,Established,Close,Established,3.50,3.60,0.90,0,0,0,Bachelor,High,"Very High",High,Best,"Meets Expectations",Medium
+1318,36-45,High,"Early Tenure",Far,New,3.00,2.80,1.31,1,0,1,Master,"Very High",Medium,High,Better,"Meets Expectations",None
+1319,46-55,High,Established,"Very Close",Established,2.25,2.40,1.22,1,0,1,Bachelor,Medium,Medium,High,Good,"Meets Expectations",None
+1801,46-55,High,"New Hire",Far,New,2.50,2.40,1.15,0,0,0,College,Medium,Medium,High,Better,"Meets Expectations",None
+1,36-45,Medium,Established,"Very Close",Developing,2.00,2.20,0.87,1,0,1,College,Medium,"Very High",Low,Bad,"Meets Expectations",None
+1324,26-35,High,Established,"Very Close",Established,2.50,2.60,1.42,0,0,0,Master,"Very High",High,Low,Good,"Meets Expectations",Low
+1329,36-45,Medium,"Long Tenure",Close,Established,2.25,2.00,0.89,0,1,0,College,High,Medium,Low,Better,"Meets Expectations",None
+864,36-45,High,"Early Tenure",Close,New,2.75,2.80,1.55,0,0,0,Bachelor,"Very High",Low,High,Better,"Meets Expectations",Low
+1171,36-45,Medium,Established,"Very Close",Developing,2.75,2.80,0.74,0,0,0,Master,Medium,Low,"Very High",Best,"Meets Expectations",None
+1076,36-45,High,"New Hire",Far,New,3.25,3.00,1.56,0,0,0,Bachelor,High,"Very High",High,Better,"Meets Expectations",Low
+1812,36-45,Medium,"New Hire",Moderate,New,3.50,3.40,0.60,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",Low
+1535,26-35,High,Established,"Very Close",Established,3.50,3.20,1.02,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+862,46-55,High,"Early Tenure",Close,Developing,3.00,2.80,1.58,0,0,0,College,Low,"Very High","Very High",Better,"Meets Expectations",Low
+1815,36-45,High,Veteran,"Very Close",Developing,3.50,3.40,1.51,0,0,0,"Below College",High,High,"Very High",Best,"Meets Expectations",Low
+1349,36-45,Medium,Established,"Very Close",Established,2.75,2.80,0.59,0,0,0,Bachelor,High,Low,"Very High",Better,"Meets Expectations",Low
+1355,36-45,Medium,Established,"Very Close",Established,2.50,2.60,1.00,0,0,0,College,Medium,Low,"Very High",Better,"Meets Expectations",Low
+859,26-35,Medium,"Early Tenure",Moderate,Developing,2.75,2.80,0.64,0,0,0,Master,Medium,"Very High",High,Good,"Meets Expectations",Low
+857,36-45,Medium,"Long Tenure","Very Close",Long-Term,3.00,3.00,0.90,0,0,0,College,Medium,"Very High","Very High",Good,"Meets Expectations",Low
+1823,26-35,Medium,Established,Close,Established,2.75,3.00,0.98,0,0,0,College,Medium,High,High,Better,Excellent,Medium
+1356,26-35,Medium,Established,Moderate,Established,3.00,3.00,0.88,0,1,0,College,High,Low,"Very High",Best,"Meets Expectations",None
+1362,36-45,Medium,"Long Tenure",Close,Long-Term,2.00,2.40,0.67,0,1,0,Bachelor,Low,Low,"Very High",Good,"Meets Expectations",Low
+1371,26-35,Medium,Established,"Very Close",New,3.25,2.80,0.73,0,0,0,"Below College","Very High","Very High",Medium,Better,Excellent,None
+1372,46-55,High,"Long Tenure",Moderate,Established,2.25,2.60,1.98,1,0,1,Master,Low,High,High,Good,"Meets Expectations",None
+975,26-35,Medium,"Early Tenure",Moderate,New,2.75,2.80,0.66,0,0,0,Bachelor,High,High,Medium,Better,"Meets Expectations",None
+1833,26-35,High,"Early Tenure",Close,New,2.25,2.40,1.39,0,0,0,Master,Low,Low,"Very High",Better,"Meets Expectations",Medium
+1380,26-35,Medium,"Early Tenure",Moderate,New,3.00,3.00,0.67,1,0,1,Master,"Very High",High,High,Good,"Meets Expectations",Low
+1836,26-35,Medium,"Early Tenure",Close,New,2.75,2.80,0.68,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",None
+1387,26-35,Medium,"Early Tenure",Far,Developing,2.50,2.40,0.68,0,0,0,Bachelor,High,Low,High,Better,"Meets Expectations",Low
+1390,36-45,Medium,"Early Tenure",Far,Developing,3.25,3.00,0.88,0,0,0,Master,Low,"Very High","Very High",Best,"Meets Expectations",Medium
+855,26-35,Medium,Established,"Very Close",Established,1.50,2.00,0.58,0,0,0,Bachelor,Low,Low,Low,Better,Excellent,Low
+1391,46-55,High,"Early Tenure","Very Close",New,2.25,2.40,1.53,0,0,0,Bachelor,Medium,Medium,Medium,Better,"Meets Expectations",None
+1845,36-45,Medium,Established,"Very Close",Established,3.00,3.00,0.74,0,1,0,Master,High,High,Medium,Best,Excellent,Medium
+1395,26-35,High,"Early Tenure","Very Close",New,2.75,2.80,1.44,0,0,0,"Below College",Medium,"Very High",Low,Best,"Meets Expectations",None
+1849,36-45,Medium,Established,"Very Close",Established,2.75,2.80,0.82,0,1,0,Master,Low,"Very High",High,Better,Excellent,Low
+1396,26-35,Medium,"Early Tenure","Very Close",New,2.00,2.20,0.59,0,0,0,"Below College",High,Medium,Low,Good,"Meets Expectations",High
+1853,26-35,Medium,"New Hire",Close,New,3.75,3.60,0.67,0,0,0,Master,"Very High","Very High",High,Best,"Meets Expectations",None
+970,36-45,High,"Long Tenure","Very Close",Established,2.00,2.00,1.53,1,0,1,Master,Low,High,High,Bad,"Meets Expectations",None
+1399,18-25,Medium,"Early Tenure",Moderate,New,2.00,2.40,0.90,0,0,0,"Below College",Low,High,Medium,Good,"Meets Expectations",None
+1403,26-35,Medium,Established,Close,Developing,3.75,3.40,0.83,0,0,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",None
+967,36-45,High,"Long Tenure","Very Close",Established,2.75,2.60,1.49,1,0,1,"Below College",High,"Very High",Low,Better,"Meets Expectations",Low
+1425,36-45,High,"Early Tenure","Very Close",New,2.50,2.60,1.34,1,0,0,Master,Low,Medium,"Very High",Better,"Meets Expectations",None
+1179,26-35,Medium,Established,Close,Developing,2.50,2.40,0.95,0,0,0,Bachelor,High,High,Low,Better,"Meets Expectations",Low
+1862,26-35,High,"New Hire","Very Close",New,2.50,2.40,1.43,1,0,1,Master,High,Medium,High,Good,"Meets Expectations",None
+1863,46-55,High,"Long Tenure","Very Close",Established,2.25,2.60,1.91,0,0,0,Bachelor,Low,Low,"Very High",Better,"Meets Expectations",Low
+1428,26-35,Medium,"Early Tenure",Close,New,2.50,2.60,0.69,0,0,0,Master,"Very High",Low,Medium,Better,"Meets Expectations",Medium
+1436,36-45,Medium,"Early Tenure",Moderate,New,1.75,1.80,0.82,0,0,0,Master,High,Low,Low,Good,"Meets Expectations",Medium
+35,36-45,Medium,Established,Close,New,3.00,3.00,0.99,0,0,0,Master,High,Medium,"Very High",Better,"Meets Expectations",Low
+52,26-35,Medium,"Early Tenure","Very Close",Developing,2.00,2.40,0.78,0,0,0,Bachelor,High,Low,Low,Better,"Meets Expectations",Medium
+1869,46-55,High,Established,Close,Established,2.75,2.80,1.06,1,0,1,Bachelor,High,Medium,High,Better,Excellent,High
+56,26-35,High,Established,Close,Established,3.50,3.40,1.26,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+1445,18-25,Medium,"Early Tenure","Very Close",Developing,3.25,3.20,0.60,0,0,0,"Below College","Very High",High,High,Better,"Meets Expectations",Medium
+1446,26-35,High,"Early Tenure",Close,Developing,3.25,3.20,1.33,0,0,0,Doctor,"Very High","Very High",High,Good,"Meets Expectations",Low
+60,26-35,Medium,Established,Far,Established,2.75,2.80,0.66,0,1,0,Master,Medium,High,High,Better,Excellent,None
+1880,36-45,Medium,Established,Close,Established,2.25,2.20,0.82,0,0,0,Master,Medium,High,Low,Better,"Meets Expectations",Low
+1557,46-55,Medium,Established,Moderate,Established,3.00,3.00,0.93,0,1,0,Master,High,High,High,Better,"Meets Expectations",Low
+1882,26-35,High,"Early Tenure","Very Close",New,3.50,3.40,1.40,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",High
+62,46-55,Medium,Established,"Very Close",Established,2.75,2.80,0.83,0,0,0,Master,Low,"Very High",High,Better,Excellent,None
+68,36-45,Medium,"Early Tenure","Very Close",Developing,2.00,2.20,0.79,1,0,0,Doctor,Medium,Low,High,Good,Excellent,Low
+1453,26-35,High,"Long Tenure",Close,Established,2.25,2.40,1.56,0,0,0,College,Low,"Very High",Low,Better,"Meets Expectations",Low
+1457,46-55,High,Established,Close,Developing,2.50,2.60,1.46,1,0,1,Bachelor,Low,"Very High",Low,Best,"Meets Expectations",Low
+846,26-35,Medium,Established,"Very Close",Developing,2.00,2.20,0.69,1,1,0,Master,Medium,Medium,Low,Better,Excellent,None
+1100,26-35,High,Established,"Very Close",Established,2.25,2.40,1.38,1,0,1,Bachelor,"Very High",Low,Low,Better,Excellent,None
+72,26-35,Medium,"New Hire",Far,New,3.00,2.80,0.60,0,0,0,Bachelor,High,"Very High",High,Good,"Meets Expectations",Low
+1898,26-35,Medium,Established,"Very Close",Established,2.00,2.40,0.94,0,0,0,College,Low,High,Medium,Good,"Meets Expectations",None
+74,26-35,High,Established,Moderate,Established,2.25,2.40,1.31,0,0,0,Doctor,Medium,Low,"Very High",Good,Excellent,Low
+81,56+,High,Veteran,Far,Established,2.00,2.20,1.10,0,0,0,Bachelor,Low,Low,"Very High",Good,"Meets Expectations",None
+91,56+,Medium,"Early Tenure","Very Close",Developing,2.50,2.40,0.79,0,0,0,"Below College",Low,High,"Very High",Good,"Meets Expectations",None
+1466,46-55,Medium,"New Hire",Close,New,2.00,2.20,0.79,0,0,0,Bachelor,High,Low,Low,Better,"Meets Expectations",High
+1908,36-45,Medium,"Early Tenure",Moderate,Developing,2.25,2.20,0.80,0,0,0,College,High,Medium,High,Bad,"Meets Expectations",Medium
+1909,36-45,Medium,"Early Tenure",Close,Developing,2.75,2.80,0.63,0,0,0,Bachelor,High,Medium,High,Better,Excellent,Low
+956,26-35,Medium,Established,"Very Close",Established,2.25,2.20,0.62,0,0,0,Bachelor,High,Low,Medium,Better,"Meets Expectations",None
+1912,26-35,Medium,"Early Tenure",Close,Developing,3.50,3.40,0.95,0,0,0,College,High,"Very High","Very High",Better,"Meets Expectations",Low
+1915,26-35,High,"Early Tenure","Very Close",New,3.25,3.00,1.17,0,0,0,"Below College","Very High","Very High",High,Good,"Meets Expectations",None
+1047,26-35,High,"Long Tenure","Very Close",Established,3.00,3.20,1.40,0,0,0,Master,Medium,"Very High","Very High",Good,"Meets Expectations",Low
+1188,36-45,Medium,"Early Tenure",Close,Developing,2.00,1.80,0.77,1,0,1,Bachelor,Low,High,Medium,Good,"Meets Expectations",None
+100,26-35,Medium,"Long Tenure","Very Close",Established,2.25,2.20,0.62,0,0,0,Master,High,Low,Medium,Better,"Meets Expectations",None
+1924,26-35,Medium,Established,Close,Established,2.25,2.40,0.79,0,0,0,Master,Medium,High,Medium,Good,"Meets Expectations",None
+1927,26-35,Medium,Established,"Very Close",Established,3.25,3.00,0.99,0,0,0,College,High,"Very High",High,Better,"Meets Expectations",Low
+1929,36-45,Medium,"Early Tenure",Far,New,2.50,2.20,0.83,0,0,0,Master,Low,High,High,Better,"Meets Expectations",Low
+1469,26-35,High,"Early Tenure","Very Close",Developing,3.00,3.00,1.22,0,0,0,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",None
+106,46-55,High,"New Hire","Very Close",New,3.00,3.00,1.48,0,0,0,College,Low,"Very High","Very High",Better,"Meets Expectations",Low
+1933,26-35,High,"New Hire",Moderate,New,3.50,3.40,1.42,1,0,1,College,"Very High",High,"Very High",Better,"Meets Expectations",None
+118,46-55,High,Established,Close,Established,3.50,3.20,1.39,1,0,1,College,High,"Very High","Very High",Better,"Meets Expectations",None
+1935,56+,Medium,"New Hire",Moderate,New,2.75,2.60,0.78,0,0,0,Doctor,"Very High",Low,High,Better,"Meets Expectations",Low
+954,36-45,High,"New Hire",Close,New,1.75,1.80,1.40,0,0,0,Master,Low,Medium,Medium,Good,"Meets Expectations",Low
+120,46-55,Medium,Established,Far,New,3.00,3.00,0.79,0,0,0,Master,High,"Very High","Very High",Bad,Excellent,None
+121,26-35,Medium,"Long Tenure","Very Close",Established,2.25,2.20,0.75,0,0,0,College,High,Medium,Medium,Good,"Meets Expectations",High
+1477,26-35,Medium,"Early Tenure",Close,Developing,2.25,2.40,0.63,0,0,0,Bachelor,"Very High",Low,Low,Better,"Meets Expectations",Medium
+1478,26-35,Medium,"Long Tenure","Very Close",Long-Term,3.00,2.60,0.69,0,0,0,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",None
+1479,26-35,Medium,"New Hire",Moderate,New,3.00,3.00,0.77,0,0,0,"Below College","Very High",High,High,Good,"Meets Expectations",Medium
+1943,36-45,Medium,"New Hire",Moderate,New,3.00,3.00,0.73,0,0,0,Master,Medium,"Very High",High,Better,"Meets Expectations",Medium
+125,26-35,Medium,"Long Tenure",Close,Established,2.25,2.40,0.72,0,1,0,Master,Medium,High,Low,Better,"Meets Expectations",None
+1945,26-35,Medium,"Early Tenure",Moderate,Developing,2.00,2.20,0.80,0,0,0,Master,Medium,Low,"Very High",Bad,"Meets Expectations",Low
+1481,36-45,Medium,"New Hire","Very Close",New,2.25,2.40,0.69,0,0,0,Doctor,Low,High,High,Good,"Meets Expectations",Low
+128,18-25,Medium,"Early Tenure","Very Close",New,1.75,2.00,0.72,0,0,0,College,Low,High,Low,Good,Excellent,Low
+1950,26-35,High,"Long Tenure","Very Close",New,2.00,2.20,1.43,0,0,0,Bachelor,Low,"Very High",Low,Good,Excellent,None
+1951,26-35,High,Established,Moderate,New,3.00,3.00,1.25,0,0,0,Master,"Very High",High,High,Good,"Meets Expectations",Low
+129,26-35,Medium,"Early Tenure","Very Close",Developing,2.75,2.80,0.61,0,0,0,Bachelor,Medium,High,Medium,Best,"Meets Expectations",None
+842,46-55,Medium,Established,"Very Close",Developing,3.00,3.00,0.75,1,1,1,"Below College",High,"Very High",High,Good,"Meets Expectations",None
+840,46-55,High,Established,Moderate,Established,3.00,3.00,1.11,1,0,1,Bachelor,High,"Very High",Low,Best,"Meets Expectations",Medium
+131,56+,High,Veteran,Close,Established,3.00,3.00,2.00,0,0,0,Master,"Very High",High,High,Good,"Meets Expectations",None
+1487,26-35,Medium,"Early Tenure",Moderate,New,1.25,1.60,0.83,1,0,1,Bachelor,Low,Medium,Low,Bad,"Meets Expectations",None
+1962,26-35,Medium,Established,Close,Established,3.50,3.40,0.75,0,0,0,Master,High,"Very High","Very High",Better,"Meets Expectations",None
+1965,26-35,Medium,Established,Close,Established,3.00,3.00,0.59,0,0,0,Bachelor,"Very High","Very High",Low,Better,"Meets Expectations",None
+1489,26-35,Medium,"Long Tenure",Far,Established,2.50,2.40,0.66,1,1,1,Master,Low,Medium,High,Best,Excellent,None
+1967,26-35,Medium,Established,Far,Established,2.75,2.80,0.81,1,0,1,Master,Low,"Very High",High,Better,"Meets Expectations",None
+1968,46-55,High,"New Hire",Far,New,1.50,1.80,1.51,1,0,1,Master,Low,Low,Medium,Good,"Meets Expectations",None
+1105,36-45,Medium,"New Hire",Close,New,3.50,3.20,0.97,0,0,0,Master,"Very High","Very High",High,Better,"Meets Expectations",High
+142,18-25,Medium,Established,"Very Close",Developing,3.25,3.00,0.83,1,0,1,Bachelor,High,High,"Very High",Better,"Meets Expectations",None
+1497,26-35,High,Established,Moderate,Developing,3.00,2.80,1.24,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",Medium
+152,36-45,High,"Early Tenure","Very Close",Developing,2.75,2.80,1.07,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",None
+154,36-45,High,Established,Moderate,Established,3.00,3.00,1.41,0,0,0,College,Medium,"Very High",High,Better,"Meets Expectations",Low
+160,26-35,Medium,Established,Far,Established,2.50,2.60,0.89,0,0,0,College,High,Medium,Low,Best,"Meets Expectations",Low
+1975,36-45,High,"Long Tenure",Moderate,Established,1.75,2.00,1.93,0,0,0,Master,Medium,Low,Low,Better,"Meets Expectations",None
+1503,46-55,Medium,"Early Tenure",Moderate,New,2.75,2.80,0.66,0,0,0,Bachelor,High,High,High,Good,"Meets Expectations",Low
+163,26-35,Medium,Established,Close,Established,2.25,2.00,0.89,1,1,1,Master,Medium,High,Medium,Good,"Meets Expectations",None
+174,46-55,High,"New Hire",Moderate,New,3.50,3.40,1.33,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",None
+1507,26-35,Medium,"Early Tenure",Close,Developing,2.75,2.80,0.71,0,0,0,Bachelor,High,Low,"Very High",Better,"Meets Expectations",None
+175,26-35,Medium,"New Hire",Moderate,New,2.75,2.40,0.66,1,0,1,Bachelor,Medium,High,High,Better,"Meets Expectations",Low
+176,36-45,High,Established,Close,Established,3.00,3.00,1.18,0,0,0,"Below College",High,High,High,Better,"Meets Expectations",Low
+1986,36-45,Medium,"Long Tenure","Very Close",Established,2.50,2.60,0.82,0,1,0,College,Medium,Medium,High,Better,"Meets Expectations",Low
+182,36-45,Medium,"Long Tenure","Very Close",Established,3.50,3.20,0.85,0,1,0,Master,"Very High",High,High,Best,"Meets Expectations",Low
+947,26-35,Medium,Established,Moderate,New,3.25,3.20,1.00,0,0,0,College,"Very High",High,"Very High",Good,"Meets Expectations",Low
+183,18-25,High,"New Hire",Far,New,2.75,2.60,1.25,0,0,0,Bachelor,Low,High,"Very High",Better,"Meets Expectations",None
+195,26-35,Medium,Established,Close,Established,4.00,3.40,0.67,0,0,0,College,"Very High","Very High","Very High",Best,"Meets Expectations",High
+204,26-35,High,Established,"Very Close",Established,2.25,2.40,1.05,0,0,0,Doctor,High,Medium,Low,Better,"Meets Expectations",Medium
+1995,36-45,Medium,"Long Tenure","Very Close",Established,2.50,2.60,0.64,0,1,0,Master,"Very High",Medium,Low,Better,"Meets Expectations",Medium
+207,26-35,High,Established,Close,Established,3.25,3.20,1.30,0,0,0,Bachelor,Medium,"Very High","Very High",Better,"Meets Expectations",None
+215,36-45,High,"Long Tenure","Very Close",Long-Term,2.50,2.40,1.57,0,0,0,Master,High,"Very High",Low,Good,"Meets Expectations",Low
+228,26-35,High,Established,"Very Close",Developing,3.00,3.00,1.36,0,0,0,Bachelor,Medium,"Very High",High,Better,"Meets Expectations",Low
+230,36-45,High,Established,"Very Close",Established,3.00,2.80,1.25,0,0,0,Master,Low,"Very High",High,Best,Excellent,None
+1036,36-45,Medium,"New Hire","Very Close",New,3.00,3.00,0.99,0,0,0,Master,Medium,"Very High",High,Better,"Meets Expectations",None
+1113,46-55,Medium,"New Hire","Very Close",New,3.50,3.40,0.68,1,0,1,Master,"Very High",High,"Very High",Better,"Meets Expectations",None
+240,36-45,Medium,"Early Tenure","Very Close",Developing,2.25,2.40,0.72,0,0,0,College,High,Low,Low,Best,"Meets Expectations",Low
+244,46-55,High,Veteran,"Very Close",Established,2.25,2.40,1.51,0,0,0,College,Medium,Low,High,Better,Excellent,High
+1114,26-35,Medium,"Early Tenure",Close,New,3.00,3.00,0.62,0,0,0,Bachelor,"Very High",Medium,High,Better,"Meets Expectations",Low
+283,26-35,High,Established,Far,Established,3.00,3.00,1.10,1,0,1,Bachelor,Medium,"Very High","Very High",Good,Excellent,High
+291,26-35,High,"Long Tenure","Very Close",Established,3.25,2.80,1.50,1,0,1,Master,"Very High","Very High",High,Good,"Meets Expectations",None
+293,26-35,High,Established,Moderate,Established,3.50,3.40,1.44,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+2016,26-35,High,"Long Tenure","Very Close",Established,3.25,3.20,1.51,0,0,0,Master,High,"Very High",High,Better,"Meets Expectations",Medium
+299,26-35,Medium,Established,Far,New,2.25,2.20,0.97,1,0,1,Master,High,Low,High,Good,"Meets Expectations",None
+2018,18-25,Medium,"Early Tenure",Close,Developing,2.00,2.20,0.71,0,0,0,College,Low,High,Medium,Good,Excellent,Low
+1548,36-45,Medium,Established,Close,New,2.50,2.60,0.79,0,1,0,College,Low,Low,"Very High",Best,"Meets Expectations",None
+302,36-45,High,"Long Tenure",Close,Established,3.75,3.40,1.28,0,0,0,Bachelor,"Very High","Very High","Very High",Better,"Meets Expectations",None
+2024,36-45,High,Established,"Very Close",Developing,2.75,2.60,1.10,0,0,0,Bachelor,Low,"Very High",High,Better,"Meets Expectations",Medium
+303,46-55,Medium,Established,"Very Close",Developing,3.00,3.00,0.86,0,0,0,Bachelor,"Very High",Low,"Very High",Better,"Meets Expectations",Low
+307,36-45,High,"Long Tenure","Very Close",Long-Term,2.25,2.40,1.53,0,0,0,Bachelor,Low,High,High,Good,"Meets Expectations",Medium
+936,36-45,Medium,"Early Tenure",Moderate,Developing,2.50,2.40,0.90,0,0,0,College,High,High,Low,Better,"Meets Expectations",None
+312,26-35,High,"Long Tenure","Very Close",New,3.25,3.20,1.14,0,0,0,"Below College",Medium,"Very High","Very High",Better,"Meets Expectations",Low
+314,26-35,High,Established,"Very Close",Established,2.75,2.80,1.27,0,0,0,Bachelor,High,High,Low,Best,"Meets Expectations",None
+1117,36-45,Medium,"Long Tenure",Close,Long-Term,3.00,2.80,0.81,0,0,0,Master,Medium,High,"Very High",Better,"Meets Expectations",Low
+2035,26-35,Medium,Established,Far,Established,3.50,3.20,0.97,0,0,0,Bachelor,"Very High",High,"Very High",Better,Excellent,Medium
+2036,36-45,Medium,"Long Tenure",Moderate,Long-Term,2.75,2.40,0.78,0,1,0,Master,"Very High","Very High",Low,Good,Excellent,Low
+2037,36-45,High,"Early Tenure","Very Close",Developing,2.75,2.60,1.29,0,0,0,Bachelor,High,Medium,High,Better,"Meets Expectations",Low
+333,26-35,Medium,"Early Tenure",Far,New,2.75,2.80,0.64,0,0,0,Master,High,"Very High",Low,Better,"Meets Expectations",None
+1560,26-35,Medium,"New Hire",Close,New,1.75,2.00,0.92,0,0,0,Master,Low,Low,"Very High",Bad,"Meets Expectations",Low
+2041,36-45,Medium,Established,Close,Established,2.75,2.80,0.77,0,0,0,College,Low,"Very High",High,Better,"Meets Expectations",Low
+2044,46-55,Medium,Established,"Very Close",New,3.00,3.00,0.97,1,0,1,Master,Medium,High,"Very High",Better,"Meets Expectations",Medium
+2045,36-45,Medium,Established,Moderate,New,2.25,2.20,0.96,0,0,0,Master,Medium,"Very High",Low,Good,"Meets Expectations",Low
+2046,36-45,Medium,"Early Tenure",Moderate,New,3.25,3.20,0.70,0,0,0,Bachelor,"Very High",High,High,Better,"Meets Expectations",None
+1562,26-35,High,Established,"Very Close",Established,2.50,2.40,1.40,1,1,1,Bachelor,Medium,Low,"Very High",Better,"Meets Expectations",Low
+349,26-35,Medium,"Early Tenure",Moderate,New,3.75,3.60,1.00,0,0,0,College,"Very High","Very High","Very High",Better,"Meets Expectations",Low
+1003,46-55,Medium,Established,"Very Close",Established,3.50,3.40,0.60,0,0,0,College,"Very High","Very High",High,Better,"Meets Expectations",None
+1568,26-35,High,"Early Tenure",Far,Developing,2.50,2.60,1.34,0,0,0,Master,High,Medium,Medium,Better,"Meets Expectations",Low
+1119,36-45,High,Established,Close,Established,2.75,2.60,1.26,0,0,0,Master,High,High,Medium,Better,"Meets Expectations",Medium
+361,36-45,Medium,Established,"Very Close",Developing,3.75,3.40,0.76,0,1,0,College,"Very High","Very High","Very High",Better,"Meets Expectations",Low
+2055,46-55,High,"Early Tenure",Far,New,2.50,2.40,1.57,1,0,1,Bachelor,"Very High",Low,Medium,Better,"Meets Expectations",Low
+2056,36-45,High,"Long Tenure",Far,Established,2.25,2.20,1.74,0,0,0,"Below College",Medium,"Very High",Low,Good,"Meets Expectations",Low
+366,26-35,Medium,"New Hire","Very Close",New,2.00,2.00,0.96,0,0,0,Bachelor,Low,Medium,Medium,Better,"Meets Expectations",Medium
+378,36-45,Medium,"Early Tenure",Close,New,3.25,3.20,0.94,0,0,0,Master,High,"Very High",Medium,Best,"Meets Expectations",Low
+382,36-45,Medium,Established,Close,Established,2.00,2.40,0.81,1,1,0,College,Low,Low,High,Better,Excellent,Low
+387,36-45,Medium,"Long Tenure","Very Close",Established,2.75,2.80,0.71,0,1,0,"Below College",Medium,High,High,Better,Excellent,None
+2065,46-55,Medium,Established,"Very Close",Established,3.00,2.80,0.78,0,0,0,Bachelor,"Very High",Medium,"Very High",Good,"Meets Expectations",None
+1055,26-35,Low,"New Hire",Close,New,3.25,3.20,0.85,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",Low
+1657,18-25,Low,"New Hire","Very Close",New,2.50,2.60,1.06,0,0,0,Bachelor,High,High,Low,Better,"Meets Expectations",None
+167,18-25,Low,"New Hire",Far,New,3.25,3.20,0.64,1,0,1,"Below College","Very High",High,"Very High",Good,"Meets Expectations",None
+113,18-25,Low,"New Hire","Very Close",New,2.50,2.60,0.88,0,0,0,"Below College",High,Low,High,Better,"Meets Expectations",Low
+1961,36-45,Low,"New Hire","Very Close",New,1.25,1.40,1.09,0,0,0,Bachelor,Low,Low,Low,Good,"Meets Expectations",None
+49,26-35,Low,"New Hire","Very Close",New,3.00,3.00,0.77,0,0,0,Bachelor,"Very High","Very High",Low,Better,"Meets Expectations",None
+1044,26-35,Low,"New Hire",Close,New,3.00,2.80,0.89,0,0,0,"Below College",Medium,"Very High","Very High",Good,"Meets Expectations",None
+47,46-55,Low,"Early Tenure","Very Close",New,2.50,2.40,1.02,1,0,1,College,Low,High,High,Better,"Meets Expectations",None
+1752,26-35,Low,"New Hire",Close,New,2.50,2.20,1.05,1,0,1,Bachelor,Medium,Medium,High,Better,"Meets Expectations",None
+42,36-45,Low,"New Hire","Very Close",New,3.75,3.60,0.79,1,0,1,Bachelor,"Very High","Very High",High,Best,"Meets Expectations",Low
+666,26-35,Low,Established,Moderate,Established,3.25,3.20,0.98,0,0,0,Bachelor,High,High,"Very High",Better,"Meets Expectations",Medium
+925,46-55,Medium,"Early Tenure","Very Close",New,2.75,2.60,1.25,0,0,0,Master,"Very High","Very High",Low,Good,"Meets Expectations",None
+27,36-45,Medium,"Early Tenure",Close,Developing,2.25,2.20,1.30,1,0,1,Master,High,Low,Medium,Better,Excellent,None
+1439,18-25,Medium,"Early Tenure",Close,New,1.50,1.60,1.68,1,0,1,College,Low,Low,Low,Better,"Meets Expectations",None
+648,26-35,Low,"New Hire",Moderate,New,2.50,2.40,0.77,1,0,1,Master,Medium,Low,High,Best,"Meets Expectations",Low
+1273,18-25,Low,"New Hire",Far,New,3.50,3.00,0.43,1,0,1,"Below College",High,"Very High","Very High",Better,"Meets Expectations",None
+645,18-25,Low,Established,Moderate,Established,2.75,2.80,0.80,0,0,0,"Below College",Medium,High,High,Better,"Meets Expectations",None
+1864,26-35,Medium,Established,Far,Established,3.00,2.80,1.35,0,1,0,"Below College",Medium,High,"Very High",Better,Excellent,Low
+1379,26-35,Low,"New Hire","Very Close",New,3.50,3.20,1.06,1,0,1,Bachelor,High,"Very High",High,Best,"Meets Expectations",None
+1056,26-35,Low,"New Hire",Close,New,2.75,2.80,0.40,0,0,0,"Below College","Very High",Medium,Medium,Better,Excellent,None
+632,18-25,Low,"New Hire",Far,New,3.50,3.40,0.91,0,0,0,Bachelor,"Very High","Very High",High,Better,"Meets Expectations",Medium
+974,26-35,Low,"Early Tenure",Moderate,New,3.00,3.00,0.82,0,0,0,Bachelor,High,"Very High",Medium,Better,"Meets Expectations",Low
+1077,18-25,Low,"New Hire",Close,New,3.25,3.20,0.88,1,0,1,Bachelor,"Very High","Very High",Medium,Better,"Meets Expectations",None
+614,18-25,Low,"New Hire","Very Close",New,2.75,2.80,0.72,1,0,1,Bachelor,Medium,Medium,"Very High",Better,"Meets Expectations",None
+1680,18-25,Low,"New Hire",Close,New,2.25,2.40,1.04,0,0,0,"Below College","Very High",Low,Low,Better,"Meets Expectations",None
+805,26-35,Low,"Early Tenure",Close,New,2.25,2.40,0.98,0,0,0,Master,Low,"Very High",Medium,Good,"Meets Expectations",Low
+1875,26-35,Low,"New Hire","Very Close",New,2.75,2.80,1.09,0,0,0,Bachelor,Medium,Medium,"Very High",Better,"Meets Expectations",Low
+1876,26-35,Low,"New Hire",Close,New,2.75,2.80,0.41,1,0,1,Bachelor,Medium,"Very High",High,Good,"Meets Expectations",None
+922,18-25,Low,"New Hire","Very Close",New,3.00,2.80,0.78,1,0,1,Bachelor,High,High,"Very High",Good,"Meets Expectations",None
+783,36-45,Medium,Established,"Very Close",New,2.25,2.00,2.53,0,0,0,College,Medium,High,Low,Better,"Meets Expectations",None
+1996,26-35,Medium,"New Hire","Very Close",New,2.50,2.60,1.17,0,0,0,College,Low,High,High,Better,"Meets Expectations",Low
+585,26-35,Low,"Early Tenure",Close,New,2.50,2.60,1.14,0,0,0,"Below College","Very High",Medium,Low,Better,"Meets Expectations",None
+738,46-55,Medium,"New Hire",Close,New,3.25,3.20,1.48,0,0,0,Master,"Very High",Medium,"Very High",Better,"Meets Expectations",Low
+900,36-45,Low,"Early Tenure",Far,New,3.00,3.00,1.13,0,0,0,College,High,"Very High",Medium,Better,"Meets Expectations",Low
+1780,18-25,Low,"New Hire",Close,New,2.25,2.40,1.02,1,0,1,"Below College",Medium,Medium,Medium,Better,"Meets Expectations",None
+1691,46-55,Low,Established,Close,Established,3.25,3.20,1.01,1,1,1,College,"Very High",High,High,Better,"Meets Expectations",Medium
+555,26-35,Low,"New Hire",Close,New,3.25,2.80,0.90,1,0,1,College,"Very High",High,"Very High",Good,"Meets Expectations",Low
+959,18-25,Low,"New Hire",Far,New,3.00,2.80,0.81,1,0,1,Bachelor,"Very High",Medium,Medium,Best,"Meets Expectations",None
+1541,26-35,Low,"Long Tenure",Close,Established,2.50,2.60,0.88,0,1,0,College,Medium,High,Medium,Better,Excellent,Low
+1331,26-35,Low,"Early Tenure","Very Close",New,2.75,2.80,0.88,1,0,1,Bachelor,"Very High",Medium,Low,Best,"Meets Expectations",None
+766,26-35,Low,"New Hire",Close,New,3.25,3.20,0.87,0,0,0,Bachelor,"Very High",Medium,"Very High",Better,"Meets Expectations",Medium
+2013,26-35,Low,"New Hire","Very Close",New,2.25,2.20,0.86,0,0,0,Master,Medium,Medium,Medium,Better,"Meets Expectations",Low
+941,26-35,Low,Established,Close,New,2.75,2.60,0.89,0,1,0,Master,Medium,High,Medium,Best,"Meets Expectations",None
+1364,26-35,Low,"New Hire",Moderate,New,3.00,3.20,0.96,0,0,0,Bachelor,High,"Very High",Medium,Better,"Meets Expectations",Low
+749,26-35,Low,"New Hire",Close,New,3.00,3.00,1.01,0,0,0,Bachelor,High,High,High,Better,"Meets Expectations",None
+554,18-25,Medium,"Early Tenure","Very Close",Developing,2.00,2.20,1.22,1,0,1,"Below College",Low,Medium,Medium,Better,"Meets Expectations",None
+508,26-35,Low,"New Hire","Very Close",New,2.25,2.40,0.94,0,0,0,"Below College",High,Medium,Low,Better,"Meets Expectations",Low
+2019,46-55,Medium,Established,Far,New,2.25,2.40,1.33,0,0,0,Master,Low,"Very High",Medium,Good,"Meets Expectations",Medium
+669,18-25,Medium,"Early Tenure",Far,New,3.00,3.00,1.31,0,0,0,"Below College",High,High,High,Better,"Meets Expectations",None
+2021,18-25,Low,"New Hire","Very Close",New,2.75,2.80,0.91,0,0,0,"Below College",High,Low,"Very High",Better,"Meets Expectations",None
+1624,18-25,Low,"New Hire","Very Close",New,3.25,3.20,0.60,1,0,1,College,Medium,"Very High",High,Best,"Meets Expectations",None
+2023,18-25,Low,"New Hire",Close,New,2.00,2.20,0.68,1,0,1,Bachelor,"Very High",Low,Low,Good,"Meets Expectations",Low
+494,18-25,Low,"New Hire",Moderate,New,3.00,3.20,1.03,1,0,1,Bachelor,High,Medium,"Very High",Better,"Meets Expectations",None
+485,26-35,Low,"New Hire","Very Close",New,3.00,3.00,1.09,1,0,1,Bachelor,"Very High",High,Medium,Better,"Meets Expectations",None
+484,18-25,Low,"Early Tenure",Close,New,2.50,2.60,0.99,0,0,0,College,Low,"Very High",High,Good,Excellent,None
+1710,36-45,Medium,"Long Tenure","Very Close",Established,3.00,3.00,1.71,0,1,0,Master,High,"Very High",High,Good,"Meets Expectations",None
+896,26-35,Low,"Early Tenure","Very Close",New,2.75,2.60,1.07,1,0,1,Bachelor,Medium,High,High,Better,"Meets Expectations",High
+478,18-25,Low,"Early Tenure","Very Close",New,2.25,2.20,0.83,1,0,1,"Below College",Low,Medium,High,Better,"Meets Expectations",None
+1554,26-35,Low,"Early Tenure",Far,New,2.25,2.20,0.93,0,0,0,Master,Medium,High,Low,Better,Excellent,Medium
+1928,26-35,Low,"New Hire",Far,New,2.75,3.00,0.42,1,0,1,Bachelor,High,Low,"Very High",Better,"Meets Expectations",None
+467,46-55,Low,"New Hire","Very Close",New,2.25,2.40,1.13,0,0,0,"Below College",Medium,High,Low,Better,"Meets Expectations",None
+1556,36-45,Low,"Early Tenure","Very Close",New,3.25,3.20,1.01,0,0,0,Master,High,"Very High","Very High",Good,Excellent,None
+411,18-25,Low,"New Hire",Close,New,2.75,2.60,0.46,0,0,0,Bachelor,"Very High",High,Low,Better,"Meets Expectations",None
+399,26-35,Low,"New Hire","Very Close",New,2.75,2.80,1.06,0,0,0,Bachelor,"Very High",Medium,High,Good,"Meets Expectations",Low
+893,36-45,Low,"New Hire",Close,New,2.75,2.60,1.10,0,0,0,Bachelor,Medium,Medium,"Very High",Better,"Meets Expectations",Low
+330,26-35,Medium,"Early Tenure","Very Close",New,2.25,2.40,1.50,0,0,0,College,High,Medium,Low,Better,"Meets Expectations",Low
+667,26-35,Medium,"Early Tenure","Very Close",New,2.25,2.40,1.16,1,0,1,"Below College",High,Low,Medium,Better,"Meets Expectations",Low
+311,36-45,Low,Established,"Very Close",Established,2.75,2.80,1.06,0,1,0,Master,Low,"Very High",High,Better,"Meets Expectations",Low
+248,36-45,Medium,"Early Tenure",Moderate,New,2.50,2.60,1.20,1,0,1,College,Medium,Medium,"Very High",Good,Excellent,None
+952,18-25,Low,"New Hire",Moderate,New,2.75,2.60,0.92,1,0,1,College,High,Medium,High,Better,"Meets Expectations",High
+235,18-25,Low,"New Hire","Very Close",New,2.25,2.00,0.89,1,0,1,"Below College",High,Low,Low,Best,Excellent,None
+1486,26-35,Low,"Early Tenure","Very Close",New,3.00,3.00,1.11,1,0,1,Bachelor,Low,High,"Very High",Best,"Meets Expectations",Low
+216,26-35,Low,"Early Tenure","Very Close",New,3.25,3.20,0.85,0,0,0,Master,High,High,"Very High",Better,"Meets Expectations",Low
+1135,26-35,Low,"New Hire",Moderate,New,2.75,3.00,1.06,0,0,0,Bachelor,High,"Very High",Low,Better,"Meets Expectations",Low
+205,46-55,Low,Established,Close,Developing,2.50,2.60,0.88,0,0,0,College,Medium,High,"Very High",Bad,Excellent,Low
+1492,26-35,Low,"New Hire",Close,New,2.75,2.80,0.92,0,0,0,"Below College","Very High",High,Low,Better,"Meets Expectations",Low
+1835,36-45,Medium,"Early Tenure","Very Close",Developing,2.25,2.00,2.06,0,0,0,Master,Medium,"Very High",Low,Good,Excellent,Medium
+2060,26-35,Low,"Early Tenure","Very Close",New,3.50,3.20,1.13,0,0,0,Bachelor,"Very High",High,"Very High",Better,"Meets Expectations",None
+1190,26-35,Low,"New Hire","Very Close",New,2.50,2.60,1.08,0,0,0,"Below College",High,Low,High,Better,"Meets Expectations",High
+1226,18-25,Low,"New Hire",Far,New,3.50,3.60,1.02,0,0,0,Bachelor,High,"Very High","Very High",Better,"Meets Expectations",None
+1495,18-25,Low,"New Hire",Moderate,New,3.00,3.00,0.77,0,0,0,College,"Very High",Medium,High,Better,"Meets Expectations",Low
+1427,26-35,Low,"New Hire","Very Close",New,2.50,2.20,0.52,1,0,1,Master,Medium,High,Medium,Better,"Meets Expectations",None
+1702,18-25,Low,"Early Tenure",Close,New,3.00,3.00,0.87,1,0,1,Bachelor,High,"Very High",Medium,Better,Excellent,Low
