@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IBM HR Attrition Analytics Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:     #0B1120;
+    --surf:   #111B2E;
+    --card:   #162440;
+    --card2:  #1A2D4E;
+    --border: #1E3553;
+    --border2:#253F65;
+    --cyan:   #22D3EE;
+    --cyan2:  #67E8F9;
+    --gold:   #F59E0B;
+    --gold2:  #FCD34D;
+    --red:    #EF4444;
+    --green:  #10B981;
+    --green2: #6EE7B7;
+    --purple: #8B5CF6;
+    --text1:  #F1F5F9;
+    --text2:  #94A3B8;
+    --text3:  #64748B;
+    --mono:   'JetBrains Mono', monospace;
+    --display:'Space Grotesk', system-ui, sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--display);
+    background: var(--bg);
+    color: var(--text1);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── NOISE TEXTURE ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: .4;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(11,17,32,.85);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    height: 60px;
+    gap: 32px;
+  }
+  .nav-logo {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--cyan);
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-right: auto;
+  }
+  .nav-logo span { color: var(--text3); }
+  nav a {
+    font-size: 13px;
+    color: var(--text3);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .15s;
+    letter-spacing: .3px;
+  }
+  nav a:hover { color: var(--text1); }
+  .nav-cta {
+    padding: 7px 16px;
+    background: transparent;
+    border: 1px solid var(--cyan);
+    border-radius: 6px;
+    color: var(--cyan) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: .4px;
+    transition: all .15s !important;
+  }
+  .nav-cta:hover { background: rgba(34,211,238,.1) !important; color: var(--cyan2) !important; }
+
+  /* ── SECTIONS ── */
+  section { position: relative; z-index: 1; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 40px; }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 0 60px;
+    background:
+      radial-gradient(ellipse 60% 50% at 80% 50%, rgba(34,211,238,.06) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 60% at 20% 80%, rgba(139,92,246,.05) 0%, transparent 60%),
+      var(--bg);
+  }
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--cyan);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    background: rgba(34,211,238,.08);
+    border: 1px solid rgba(34,211,238,.2);
+    border-radius: 20px;
+  }
+  .hero-eyebrow::before { content: '▶'; font-size: 8px; }
+  h1 {
+    font-size: clamp(32px, 4vw, 52px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -.5px;
+    margin-bottom: 20px;
+  }
+  h1 em { font-style: normal; color: var(--cyan); }
+  .hero-desc {
+    font-size: 16px;
+    color: var(--text2);
+    line-height: 1.7;
+    margin-bottom: 32px;
+    max-width: 440px;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    padding: 12px 24px;
+    background: var(--cyan);
+    color: var(--bg);
+    border: none;
+    border-radius: 8px;
+    font-family: var(--display);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .2s;
+    letter-spacing: .2px;
+  }
+  .btn-primary:hover { background: var(--cyan2); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(34,211,238,.25); }
+  .btn-secondary {
+    padding: 12px 24px;
+    background: transparent;
+    color: var(--text1);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    font-family: var(--display);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s;
+  }
+  .btn-secondary:hover { border-color: var(--text2); background: rgba(255,255,255,.04); }
+
+  /* ── HERO STAT PANEL ── */
+  .hero-stat-panel {
+    background: var(--surf);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-stat-panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  }
+  .big-stat {
+    font-family: var(--mono);
+    font-size: 72px;
+    font-weight: 600;
+    color: var(--red);
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 4px;
+  }
+  .big-stat-label {
+    font-size: 13px;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .stat-item-val {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-item-lbl { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: .5px; }
+  .ot-bar-wrap { margin-top: 4px; }
+  .ot-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text2);
+    margin-bottom: 5px;
+  }
+  .ot-bar-track {
+    background: rgba(255,255,255,.06);
+    border-radius: 4px;
+    height: 10px;
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
+  .ot-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 1.2s cubic-bezier(.16,1,.3,1);
+  }
+
+  /* ── PROCESS STRIP ── */
+  .process-section {
+    background: var(--surf);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  .process-inner {
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+  }
+  .process-step {
+    flex: 1;
+    padding: 20px 24px;
+    border-right: 1px solid var(--border);
+    position: relative;
+  }
+  .process-step:last-child { border-right: none; }
+  .process-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--cyan);
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-bottom: 8px;
+    opacity: .7;
+  }
+  .process-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text1);
+  }
+  .process-desc { font-size: 12px; color: var(--text3); line-height: 1.5; }
+  .process-tool {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 3px 8px;
+    background: rgba(34,211,238,.1);
+    border: 1px solid rgba(34,211,238,.2);
+    border-radius: 4px;
+    color: var(--cyan);
+    margin-top: 10px;
+    font-weight: 500;
+  }
+
+  /* ── SECTION STYLES ── */
+  .section-pad { padding: 80px 0; }
+  .section-eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--cyan);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 700;
+    letter-spacing: -.3px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .section-lead {
+    font-size: 16px;
+    color: var(--text2);
+    max-width: 600px;
+    line-height: 1.7;
+    margin-bottom: 48px;
+  }
+
+  /* ── FINDINGS GRID ── */
+  .findings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .finding-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+    transition: border-color .2s, transform .2s;
+  }
+  .finding-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+  .finding-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    border-radius: 12px 12px 0 0;
+    background: var(--fc-color, var(--cyan));
+  }
+  .finding-card.red   { --fc-color: var(--red); }
+  .finding-card.gold  { --fc-color: var(--gold); }
+  .finding-card.green { --fc-color: var(--green); }
+  .finding-card.cyan  { --fc-color: var(--cyan); }
+  .finding-card.purple{ --fc-color: var(--purple); }
+  .finding-num {
+    font-family: var(--mono);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: var(--fc-color, var(--cyan));
+  }
+  .finding-title { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+  .finding-desc { font-size: 12px; color: var(--text3); line-height: 1.6; }
+  .finding-arrow {
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .finding-arrow span { color: var(--fc-color, var(--cyan)); font-weight: 600; font-family: var(--mono); }
+
+  /* ── SQL TERMINAL ── */
+  .sql-section {
+    background: var(--surf);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 80px 0;
+  }
+  .terminal {
+    background: #070D18;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.7;
+    box-shadow: 0 24px 64px rgba(0,0,0,.4);
+  }
+  .terminal-bar {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .t-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .t-dot.r { background: #FF5F57; }
+  .t-dot.y { background: #FEBC2E; }
+  .t-dot.g { background: #28C840; }
+  .terminal-label {
+    font-size: 11px;
+    color: var(--text3);
+    margin-left: auto;
+    font-family: var(--mono);
+    letter-spacing: .3px;
+  }
+  .terminal-body { padding: 24px 28px; overflow-x: auto; }
+  .sql-comment { color: #4B6A8A; }
+  .sql-kw { color: #22D3EE; font-weight: 600; }
+  .sql-fn { color: #A78BFA; }
+  .sql-str { color: #6EE7B7; }
+  .sql-num { color: #FCD34D; }
+  .sql-op { color: #94A3B8; }
+  .sql-tbl { color: #F59E0B; }
+  pre { white-space: pre; }
+
+  /* ── TAB SELECTOR ── */
+  .query-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 0;
+    padding: 12px 16px 0;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+  }
+  .q-tab {
+    padding: 7px 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid transparent;
+    border-bottom: none;
+    background: transparent;
+    transition: all .15s;
+    font-weight: 500;
+  }
+  .q-tab:hover { color: var(--text2); }
+  .q-tab.active {
+    color: var(--cyan);
+    background: #070D18;
+    border-color: var(--border);
+    border-bottom: 1px solid #070D18;
+  }
+  .q-body { display: none; }
+  .q-body.active { display: block; }
+
+  /* ── ENGINEERING TABLE ── */
+  .eng-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .eng-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    transition: border-color .2s;
+  }
+  .eng-card:hover { border-color: var(--border2); }
+  .eng-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+    background: rgba(34,211,238,.1);
+  }
+  .eng-name {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cyan);
+    margin-bottom: 4px;
+  }
+  .eng-desc { font-size: 12px; color: var(--text2); line-height: 1.5; margin-bottom: 6px; }
+  .eng-logic { font-family: var(--mono); font-size: 10px; color: var(--text3); background: var(--surf); padding: 4px 8px; border-radius: 4px; display: inline-block; }
+
+  /* ── STACK ── */
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .stack-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 16px;
+    text-align: center;
+    transition: all .2s;
+  }
+  .stack-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+  .stack-icon { font-size: 28px; margin-bottom: 10px; }
+  .stack-name { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  .stack-role { font-size: 11px; color: var(--text3); }
+
+  /* ── AI TRANSPARENCY BOX ── */
+  .ai-box {
+    background: linear-gradient(135deg, rgba(22,36,64,.8), rgba(17,27,46,.9));
+    border: 1px solid var(--border2);
+    border-left: 3px solid var(--gold);
+    border-radius: 12px;
+    padding: 28px 32px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .ai-icon-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: rgba(245,158,11,.12);
+    border: 1px solid rgba(245,158,11,.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .ai-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; color: var(--gold2); }
+  .ai-body { font-size: 13px; color: var(--text2); line-height: 1.7; }
+  .ai-body strong { color: var(--text1); font-weight: 500; }
+  .ai-breakdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .ai-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    background: rgba(255,255,255,.03);
+  }
+  .ai-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .ai-row-label { color: var(--text2); }
+  .ai-row-who { margin-left: auto; font-weight: 600; font-size: 11px; font-family: var(--mono); }
+  .mine { color: var(--green2); }
+  .ai-assisted { color: var(--gold2); }
+
+  /* ── RISK DIAL ── */
+  .risk-section { padding: 80px 0; background: var(--bg); }
+  .risk-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  .risk-card {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid;
+    text-align: center;
+  }
+  .risk-card.crit { background: rgba(239,68,68,.08); border-color: rgba(239,68,68,.25); }
+  .risk-card.high { background: rgba(245,158,11,.07); border-color: rgba(245,158,11,.2); }
+  .risk-card.med  { background: rgba(34,211,238,.06); border-color: rgba(34,211,238,.15); }
+  .risk-card.low  { background: rgba(16,185,129,.06); border-color: rgba(16,185,129,.15); }
+  .risk-label { font-size: 10px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; margin-bottom: 10px; }
+  .risk-card.crit .risk-label { color: var(--red); }
+  .risk-card.high .risk-label { color: var(--gold); }
+  .risk-card.med  .risk-label { color: var(--cyan); }
+  .risk-card.low  .risk-label { color: var(--green); }
+  .risk-pts { font-family: var(--mono); font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+  .risk-card.crit .risk-pts { color: var(--red); }
+  .risk-card.high .risk-pts { color: var(--gold2); }
+  .risk-card.med  .risk-pts { color: var(--cyan2); }
+  .risk-card.low  .risk-pts { color: var(--green2); }
+  .risk-action { font-size: 11px; color: var(--text3); }
+
+  /* ── ACTION PLAN ── */
+  .action-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  .action-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .action-horizon {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .ac-now  { background: rgba(239,68,68,.15); color: var(--red); }
+  .ac-mid  { background: rgba(245,158,11,.12); color: var(--gold); }
+  .ac-long { background: rgba(34,211,238,.1); color: var(--cyan); }
+  .action-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .action-list li {
+    font-size: 12px;
+    color: var(--text2);
+    line-height: 1.5;
+    padding-left: 16px;
+    position: relative;
+  }
+  .action-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--text3);
+    font-size: 11px;
+  }
+  .action-list li strong { color: var(--text1); font-weight: 500; }
+
+  /* ── ABOUT / CTA ── */
+  .cta-section {
+    background: var(--surf);
+    border-top: 1px solid var(--border);
+    padding: 80px 0;
+  }
+  .cta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .about-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 32px;
+  }
+  .about-name { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .about-title { font-size: 13px; color: var(--cyan); font-family: var(--mono); margin-bottom: 16px; font-weight: 500; }
+  .about-bio { font-size: 13px; color: var(--text2); line-height: 1.7; margin-bottom: 20px; }
+  .about-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 14px;
+    background: var(--surf);
+    border: 1px solid var(--border2);
+    border-radius: 7px;
+    font-size: 12px;
+    color: var(--text1);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .15s;
+  }
+  .link-pill:hover { border-color: var(--cyan); color: var(--cyan); }
+  .skills-list { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+  .skill-tag {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 4px 10px;
+    background: rgba(34,211,238,.08);
+    border: 1px solid rgba(34,211,238,.15);
+    border-radius: 4px;
+    color: var(--text2);
+  }
+  .cta-right h2 { font-size: 28px; margin-bottom: 12px; }
+  .cta-right p { font-size: 14px; color: var(--text2); line-height: 1.7; margin-bottom: 24px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    padding: 28px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    color: var(--text3);
+  }
+  footer .f-logo { font-family: var(--mono); color: var(--cyan); font-weight: 500; }
+  footer a { color: var(--text3); text-decoration: none; }
+  footer a:hover { color: var(--text1); }
+  footer .f-right { margin-left: auto; }
+
+  /* ── SCROLL ANIMATIONS ── */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity .6s ease, transform .6s ease;
+  }
+  .fade-up.visible { opacity: 1; transform: none; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .hero-inner, .eng-grid, .findings-grid, .stack-grid, .action-grid, .cta-grid { grid-template-columns: 1fr; }
+    .container { padding: 0 20px; }
+    nav { padding: 0 20px; gap: 16px; }
+    .process-inner { flex-direction: column; }
+    .process-step { border-right: none; border-bottom: 1px solid var(--border); }
+    .risk-grid { grid-template-columns: 1fr 1fr; }
+    .ai-breakdown { grid-template-columns: 1fr; }
+    nav a:not(.nav-cta):not(.nav-logo) { display: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .fade-up { transition: none; }
+    .ot-bar-fill { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">IBM HR <span>/ Attrition Analytics</span></div>
+  <a href="#findings">Findings</a>
+  <a href="#sql">SQL</a>
+  <a href="#engineering">Features</a>
+  <a href="#stack">Stack</a>
+  <a href="#about">Analyst</a>
+  <a href="https://github.com/Fadyibrahim-analyst" target="_blank" rel="noopener noreferrer" class="nav-cta">View on GitHub ↗</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-eyebrow">IBM HR Dataset · 1,470 Employees · MySQL + Excel</div>
+        <h1>IBM HR Attrition<br><em>Analytics Dashboard</em></h1>
+        <p class="hero-desc">
+          An end-to-end HR analytics case study examining why 237 of 1,470 employees left —
+          built with MySQL, Excel, and a 7-page interactive dashboard featuring live filtering,
+          composite risk scoring, and executive-ready business recommendations.
+        </p>
+        <div class="hero-actions">
+          <a href="https://github.com/Fadyibrahim-analyst" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Explore on GitHub ↗
+          </a>
+          <a href="#findings" class="btn-secondary">View findings ↓</a>
+        </div>
+      </div>
+
+      <div class="hero-stat-panel fade-up">
+        <div class="big-stat" id="attrition-counter">0.0%</div>
+        <div class="big-stat-label">Company Attrition Rate</div>
+
+        <div class="stat-grid">
+          <div class="stat-item">
+            <div class="stat-item-val" style="color:var(--text1)">1,470</div>
+            <div class="stat-item-lbl">Employees Analyzed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item-val" style="color:var(--red)">237</div>
+            <div class="stat-item-lbl">Employees Left</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item-val" style="color:var(--gold2)">$2,002</div>
+            <div class="stat-item-lbl">Monthly Income Gap</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item-val" style="color:var(--cyan)">263</div>
+            <div class="stat-item-lbl">High Flight Risk EEs</div>
+          </div>
+        </div>
+
+        <div class="ot-bar-wrap">
+          <div class="ot-bar-label">
+            <span>No OverTime — 10.4%</span>
+            <span style="color:var(--red)">OverTime — 30.5%</span>
+          </div>
+          <div class="ot-bar-track">
+            <div class="ot-bar-fill" id="bar-no-ot" style="background:var(--green);width:34%"></div>
+          </div>
+          <div class="ot-bar-track">
+            <div class="ot-bar-fill" id="bar-ot" style="background:var(--red);width:100%"></div>
+          </div>
+          <div style="font-size:10px;color:var(--text3);margin-top:5px">OverTime workers leave at <strong style="color:var(--red)">3× the rate</strong> of non-OT employees</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS STRIP -->
+<div class="process-section">
+  <div class="container">
+    <div class="process-inner">
+      <div class="process-step">
+        <div class="process-num">01 · DATA</div>
+        <div class="process-title">Cleaning & Validation</div>
+        <div class="process-desc">32 columns validated. 3 zero-variance columns dropped. 0 nulls, 0 duplicates. Data quality score: 87/100.</div>
+        <span class="process-tool">MySQL · Excel</span>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02 · SQL</div>
+        <div class="process-title">Schema & Engineering</div>
+        <div class="process-desc">MySQL 8.0 schema. 19 engineered features via SQL CASE, window functions, and CTEs in <code style="font-family:var(--mono);color:var(--cyan);font-size:11px">employee_features</code> table.</div>
+        <span class="process-tool">MySQL · Window Functions</span>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03 · ANALYSIS</div>
+        <div class="process-title">13 Analysis Queries</div>
+        <div class="process-desc">Covering attrition rates, compensation gaps, satisfaction dimensions, risk scoring (CTE), and salary fairness (RANK/PARTITION).</div>
+        <span class="process-tool">SQL · CTEs · JOINs</span>
+      </div>
+      <div class="process-step">
+        <div class="process-num">04 · DASHBOARD</div>
+        <div class="process-title">7-Page Interactive Report</div>
+        <div class="process-desc">Live dropdown filtering on 1,470 embedded rows. All charts, KPIs, and radar visualizations update dynamically.</div>
+        <span class="process-tool">HTML · JS · Claude (AI assist)</span>
+      </div>
+      <div class="process-step">
+        <div class="process-num">05 · INSIGHTS</div>
+        <div class="process-title">Business Recommendations</div>
+        <div class="process-desc">3-horizon action plan (30 days → 12 months) with cost estimates. Projected savings: ~$3.5M/year.</div>
+        <span class="process-tool">Stakeholder Presentation</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FINDINGS -->
+<section class="section-pad" id="findings">
+  <div class="container">
+    <div class="section-eyebrow">Key Findings</div>
+    <h2>What the data reveals</h2>
+    <p class="section-lead">
+      The attrition problem is concentrated — not company-wide. A handful of fixable structural conditions
+      account for the majority of departures.
+    </p>
+
+    <div class="findings-grid fade-up">
+      <div class="finding-card red">
+        <div class="finding-num">30.5%</div>
+        <div class="finding-title">OverTime Attrition Rate</div>
+        <div class="finding-desc">Workers doing overtime leave at nearly 3× the rate of non-OT colleagues (10.4%). The most powerful single predictor in the dataset.</div>
+        <div class="finding-arrow">vs non-OT: <span>10.4%</span> — a 3× gap</div>
+      </div>
+      <div class="finding-card red">
+        <div class="finding-num">39.8%</div>
+        <div class="finding-title">Sales Rep Attrition</div>
+        <div class="finding-desc">33 of 83 Sales Representatives left — nearly 2 in 5 annually. The highest rate of any role. Research Directors: 2.5%.</div>
+        <div class="finding-arrow">vs Research Director: <span>2.5%</span></div>
+      </div>
+      <div class="finding-card gold">
+        <div class="finding-num">$2,002</div>
+        <div class="finding-title">Monthly Income Gap</div>
+        <div class="finding-desc">Median income of employees who stayed ($5,204) vs those who left ($3,202). The single most actionable compensation data point.</div>
+        <div class="finding-arrow">Stayers median: <span>$5,204/mo</span></div>
+      </div>
+      <div class="finding-card gold">
+        <div class="finding-num">24.4%</div>
+        <div class="finding-title">No Stock Options</div>
+        <div class="finding-desc">58% of employees have zero stock options — and they leave at 24.4%. Employees with any options leave at 9.4%. A high-ROI, low-cash fix.</div>
+        <div class="finding-arrow">With options: <span>9.4%</span> — 60% lower</div>
+      </div>
+      <div class="finding-card cyan">
+        <div class="finding-num">263</div>
+        <div class="finding-title">High Flight Risk</div>
+        <div class="finding-desc">263 employees currently flagged across 3 simultaneous low-satisfaction signals. Identifiable, actionable, and preventable with targeted HR intervention now.</div>
+        <div class="finding-arrow">Rule: <span>JobSat≤2 + EnvSat≤2 + OT=Yes</span></div>
+      </div>
+      <div class="finding-card green">
+        <div class="finding-num">9–11%</div>
+        <div class="finding-title">Achievable Target</div>
+        <div class="finding-desc">With targeted interventions, attrition can realistically fall from 16.1% to 9–11% — saving an estimated $3.5M/year in replacement costs.</div>
+        <div class="finding-arrow">Saving: <span>~$750K per 1pp reduction</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SQL SECTION -->
+<section class="sql-section" id="sql">
+  <div class="container">
+    <div class="section-eyebrow">SQL Queries</div>
+    <h2>The queries behind the insights</h2>
+    <p class="section-lead">
+      13 analysis queries written in MySQL 8.0, joining raw employee data with the engineered features table.
+      From basic aggregations to CTEs and window functions.
+    </p>
+
+    <div class="terminal fade-up">
+      <div class="terminal-bar">
+        <div class="t-dot r"></div>
+        <div class="t-dot y"></div>
+        <div class="t-dot g"></div>
+        <div class="terminal-label">03_analysis_queries.sql · MySQL 8.0</div>
+      </div>
+      <div class="query-tabs">
+        <button class="q-tab active" onclick="switchQuery(0,this)">Q3: OverTime</button>
+        <button class="q-tab" onclick="switchQuery(1,this)">Q5: Satisfaction</button>
+        <button class="q-tab" onclick="switchQuery(2,this)">Q6: Flight Risk</button>
+        <button class="q-tab" onclick="switchQuery(3,this)">Q12: Salary Rank</button>
+        <button class="q-tab" onclick="switchQuery(4,this)">Q13: Risk Score CTE</button>
+      </div>
+      <div class="terminal-body">
+
+        <div class="q-body active" id="q0"><pre><span class="sql-comment">-- Q3: OverTime × Attrition (Critical Driver)
+-- Reveals the 3× attrition multiplier for overtime workers</span>
+
+<span class="sql-kw">SELECT</span>
+    Over_Time,
+    Department,
+    <span class="sql-fn">COUNT</span>(*) <span class="sql-kw">AS</span> head_count,
+    <span class="sql-fn">SUM</span>(Attrition_Binary) <span class="sql-kw">AS</span> left_count,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Attrition_Binary) * <span class="sql-num">100</span>, <span class="sql-num">1</span>) <span class="sql-kw">AS</span> attrition_rate_pct
+<span class="sql-kw">FROM</span> <span class="sql-tbl">ibm_hr_employee_attrition</span> ibm
+<span class="sql-kw">JOIN</span> <span class="sql-tbl">employee_features</span> ef
+    <span class="sql-kw">ON</span> ibm.Employee_ID = ef.Employee_ID
+<span class="sql-kw">GROUP BY</span> Over_Time, Department
+<span class="sql-kw">ORDER BY</span> Over_Time, attrition_rate_pct;</pre></div>
+
+        <div class="q-body" id="q1"><pre><span class="sql-comment">-- Q5: Satisfaction Deep Dive
+-- All 5 satisfaction dimensions split by attrition status</span>
+
+<span class="sql-kw">SELECT</span>
+    Attrition,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Environment_Satisfaction), <span class="sql-num">2</span>) <span class="sql-kw">AS</span> avg_env_sat,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Job_Satisfaction), <span class="sql-num">2</span>)         <span class="sql-kw">AS</span> avg_job_sat,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Relationship_Satisfaction), <span class="sql-num">2</span>)  <span class="sql-kw">AS</span> avg_rel_sat,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Work_Life_Balance), <span class="sql-num">2</span>)        <span class="sql-kw">AS</span> avg_wlb,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Satisfaction_Index), <span class="sql-num">2</span>)        <span class="sql-kw">AS</span> avg_sat_index,
+    <span class="sql-fn">ROUND</span>(<span class="sql-fn">AVG</span>(Engagement_Score), <span class="sql-num">2</span>)          <span class="sql-kw">AS</span> avg_eng_score
+<span class="sql-kw">FROM</span> <span class="sql-tbl">ibm_hr_employee_attrition</span> ibm
+<span class="sql-kw">JOIN</span> <span class="sql-tbl">employee_features</span> ef
+    <span class="sql-kw">ON</span> ibm.Employee_ID = ef.Employee_ID
+<span class="sql-kw">GROUP BY</span> Attrition;</pre></div>
+
+        <div class="q-body" id="q2"><pre><span class="sql-comment">-- Q6: High Flight Risk Employee List
+-- Ordered by lowest satisfaction for HR prioritization</span>
+
+<span class="sql-kw">SELECT</span>
+    ibm.Employee_ID,
+    Department,
+    Job_Role,
+    Monthly_Income,
+    Over_Time,
+    Years_Since_Last_Promotion,
+    Age_Group,
+    Satisfaction_Index,
+    Engagement_Score
+<span class="sql-kw">FROM</span> <span class="sql-tbl">ibm_hr_employee_attrition</span> ibm
+<span class="sql-kw">JOIN</span> <span class="sql-tbl">employee_features</span> ef
+    <span class="sql-kw">ON</span> ibm.Employee_ID = ef.Employee_ID
+<span class="sql-kw">WHERE</span> High_Flight_Risk = <span class="sql-num">1</span>
+<span class="sql-kw">ORDER BY</span> Satisfaction_Index <span class="sql-kw">ASC</span>, Engagement_Score <span class="sql-kw">ASC</span>;</pre></div>
+
+        <div class="q-body" id="q3"><pre><span class="sql-comment">-- Q12: Salary Rank Within Role
+-- Window function: ranks each employee vs peers in same role</span>
+
+<span class="sql-kw">SELECT</span>
+    ibm.Employee_ID,
+    Job_Role,
+    Monthly_Income,
+    <span class="sql-fn">RANK</span>() <span class="sql-kw">OVER</span> (
+        <span class="sql-kw">PARTITION BY</span> Job_Role
+        <span class="sql-kw">ORDER BY</span> Monthly_Income <span class="sql-kw">DESC</span>
+    ) <span class="sql-kw">AS</span> Salary_Rank,
+    <span class="sql-fn">ROUND</span>(
+        Monthly_Income / <span class="sql-fn">AVG</span>(Monthly_Income) <span class="sql-kw">OVER</span> (<span class="sql-kw">PARTITION BY</span> Job_Role),
+        <span class="sql-num">2</span>
+    ) <span class="sql-kw">AS</span> income_vs_role_avg,
+    Attrition
+<span class="sql-kw">FROM</span> <span class="sql-tbl">ibm_hr_employee_attrition</span> ibm
+<span class="sql-kw">JOIN</span> <span class="sql-tbl">employee_features</span> ef
+    <span class="sql-kw">ON</span> ibm.Employee_ID = ef.Employee_ID
+<span class="sql-kw">ORDER BY</span> Job_Role, Salary_Rank;</pre></div>
+
+        <div class="q-body" id="q4"><pre><span class="sql-comment">-- Q13: Composite Attrition Risk Score
+-- CTE + multi-factor scoring to produce Critical/High/Medium/Low</span>
+
+<span class="sql-kw">WITH</span> Risk_Scores <span class="sql-kw">AS</span> (
+    <span class="sql-kw">SELECT</span>
+        ibm.Employee_ID,
+        Department,
+        Job_Role,
+        Monthly_Income,
+        Attrition,
+        (
+            <span class="sql-kw">CASE WHEN</span> Over_Time = <span class="sql-str">'Yes'</span>              <span class="sql-kw">THEN</span> <span class="sql-num">2</span> <span class="sql-kw">ELSE</span> <span class="sql-num">0</span> <span class="sql-kw">END</span>
+          + <span class="sql-kw">CASE WHEN</span> High_Flight_Risk = <span class="sql-num">1</span>          <span class="sql-kw">THEN</span> <span class="sql-num">3</span> <span class="sql-kw">ELSE</span> <span class="sql-num">0</span> <span class="sql-kw">END</span>
+          + <span class="sql-kw">CASE WHEN</span> Stagnation_Flag = <span class="sql-num">1</span>          <span class="sql-kw">THEN</span> <span class="sql-num">2</span> <span class="sql-kw">ELSE</span> <span class="sql-num">0</span> <span class="sql-kw">END</span>
+          + <span class="sql-kw">CASE WHEN</span> Satisfaction_Index &lt; <span class="sql-num">2</span>        <span class="sql-kw">THEN</span> <span class="sql-num">2</span> <span class="sql-kw">ELSE</span> <span class="sql-num">0</span> <span class="sql-kw">END</span>
+          + <span class="sql-kw">CASE WHEN</span> Monthly_Income_Band = <span class="sql-str">'Low'</span>   <span class="sql-kw">THEN</span> <span class="sql-num">1</span> <span class="sql-kw">ELSE</span> <span class="sql-num">0</span> <span class="sql-kw">END</span>
+        ) <span class="sql-kw">AS</span> risk_score
+    <span class="sql-kw">FROM</span> <span class="sql-tbl">ibm_hr_employee_attrition</span> ibm
+    <span class="sql-kw">JOIN</span> <span class="sql-tbl">employee_features</span> ef
+        <span class="sql-kw">ON</span> ibm.Employee_ID = ef.Employee_ID
+)
+<span class="sql-kw">SELECT</span> *,
+    <span class="sql-kw">CASE</span>
+        <span class="sql-kw">WHEN</span> risk_score >= <span class="sql-num">7</span> <span class="sql-kw">THEN</span> <span class="sql-str">'Critical'</span>
+        <span class="sql-kw">WHEN</span> risk_score >= <span class="sql-num">4</span> <span class="sql-kw">THEN</span> <span class="sql-str">'High'</span>
+        <span class="sql-kw">WHEN</span> risk_score >= <span class="sql-num">2</span> <span class="sql-kw">THEN</span> <span class="sql-str">'Medium'</span>
+        <span class="sql-kw">ELSE</span> <span class="sql-str">'Low'</span>
+    <span class="sql-kw">END</span> <span class="sql-kw">AS</span> Risk_Category
+<span class="sql-kw">FROM</span> Risk_Scores
+<span class="sql-kw">ORDER BY</span> risk_score <span class="sql-kw">DESC</span>;</pre></div>
+
+      </div>
+    </div>
+
+    <!-- Risk score legend -->
+    <div class="risk-grid fade-up" style="margin-top:20px">
+      <div class="risk-card crit">
+        <div class="risk-label">Critical</div>
+        <div class="risk-pts">7+</div>
+        <div class="risk-action">Immediate 1-on-1 stay interview</div>
+      </div>
+      <div class="risk-card high">
+        <div class="risk-label">High</div>
+        <div class="risk-pts">4–6</div>
+        <div class="risk-action">Schedule this month</div>
+      </div>
+      <div class="risk-card med">
+        <div class="risk-label">Medium</div>
+        <div class="risk-pts">2–3</div>
+        <div class="risk-action">Monitor quarterly</div>
+      </div>
+      <div class="risk-card low">
+        <div class="risk-label">Low</div>
+        <div class="risk-pts">0–1</div>
+        <div class="risk-action">Annual review</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE ENGINEERING -->
+<section class="section-pad" id="engineering">
+  <div class="container">
+    <div class="section-eyebrow">Feature Engineering</div>
+    <h2>19 columns engineered in SQL</h2>
+    <p class="section-lead">
+      Created via a <code style="font-family:var(--mono);color:var(--cyan);font-size:14px">CREATE TABLE AS SELECT</code> statement with CASE logic,
+      arithmetic aggregation, and window functions — all in MySQL 8.0.
+    </p>
+    <div class="eng-grid fade-up">
+      <div class="eng-card">
+        <div class="eng-icon">📊</div>
+        <div>
+          <div class="eng-name">Satisfaction_Index</div>
+          <div class="eng-desc">Composite score averaging all 4 satisfaction dimensions. Key predictor — leavers score 0.31 lower than stayers.</div>
+          <div class="eng-logic">AVG(EnvSat + JobSat + RelSat + WLB) / 4.0</div>
+        </div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-icon">⚡</div>
+        <div>
+          <div class="eng-name">Engagement_Score</div>
+          <div class="eng-desc">Combines job involvement with the satisfaction composite. Used in risk ranking and the Power BI radar chart.</div>
+          <div class="eng-logic">AVG(JobInvolvement + SatIndex) / 2</div>
+        </div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-icon">💰</div>
+        <div>
+          <div class="eng-name">Salary_vs_Role_Avg</div>
+          <div class="eng-desc">Window function: each employee's income relative to their role's average. Identifies underpaid individuals within peer groups.</div>
+          <div class="eng-logic">ROUND(Monthly_Income / AVG(MI) OVER (PARTITION BY Job_Role), 2)</div>
+        </div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-icon">🚨</div>
+        <div>
+          <div class="eng-name">High_Flight_Risk</div>
+          <div class="eng-desc">Binary flag combining 3 simultaneous risk signals. 263 employees flagged — the actionable intervention list for HR.</div>
+          <div class="eng-logic">JobSat≤2 AND EnvSat≤2 AND OverTime=Yes OR Attrition=Yes</div>
+        </div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-icon">📉</div>
+        <div>
+          <div class="eng-name">Stagnation_Flag</div>
+          <div class="eng-desc">Flags employees who haven't been promoted in 5+ years and are still at lower job levels — early burnout signal.</div>
+          <div class="eng-logic">YearsSinceLastPromo ≥ 5 AND JobLevel ≤ 2</div>
+        </div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-icon">🏷️</div>
+        <div>
+          <div class="eng-name">Band & Group Columns</div>
+          <div class="eng-desc">Age_Group, Monthly_Income_Band, Tenure_Group, Career_Stage, Distance_Band, Manager_Tenure_Group — all via CASE WHEN for segmentation.</div>
+          <div class="eng-logic">CASE WHEN [range] THEN 'label' END</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTION PLAN -->
+<section style="padding:80px 0;background:var(--surf);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="container">
+    <div class="section-eyebrow">Business Recommendations</div>
+    <h2>3-horizon action plan</h2>
+    <p class="section-lead">
+      Grounded in the data, structured for non-technical stakeholders.
+      Estimated impact: reducing attrition from 16.1% to 9–11% saves ~$3.5M/year.
+    </p>
+    <div class="action-grid fade-up">
+      <div class="action-card">
+        <div class="action-horizon ac-now">This Month — 30 Days</div>
+        <ul class="action-list">
+          <li>Pull the <strong>263 High Flight Risk employee list</strong> and schedule a manager stay-interview for each one.</li>
+          <li>Conduct an <strong>overtime audit in Sales and R&D</strong> — identify the top 30 most-overworked employees.</li>
+          <li><strong>Freeze Sales Rep backfill hiring.</strong> Investigate the 39.8% exit rate before spending on recruitment.</li>
+          <li>Schedule <strong>stay-interviews for all Lab Technicians.</strong> 62 have left — 197 remain at risk.</li>
+        </ul>
+      </div>
+      <div class="action-card">
+        <div class="action-horizon ac-mid">Next 1–3 Months</div>
+        <ul class="action-list">
+          <li><strong>Benchmark entry-level salaries.</strong> The $3K/month floor is the threshold — above it, attrition halves.</li>
+          <li><strong>Expand stock options to Level 1–2 employees.</strong> Level 0→1 cuts attrition from 24.4% to 9.4%.</li>
+          <li>Set a <strong>monthly OT cap</strong> with VP-level approval for exceptions. Link OT data to manager KPIs.</li>
+          <li>Publish a <strong>visible career path</strong> for Sales Reps → Senior → Manager. No path = no reason to stay.</li>
+        </ul>
+      </div>
+      <div class="action-card">
+        <div class="action-horizon ac-long">6–12 Months</div>
+        <ul class="action-list">
+          <li>Implement <strong>structured 90-day onboarding with mentors</strong> for all Level 1 hires. First 2 years are critical.</li>
+          <li>Tie <strong>20% of manager performance score</strong> to team satisfaction and 12-month retention rate.</li>
+          <li><strong>Annual promotion review mandate</strong> for all employees stagnant 3+ years. Add lateral moves as alternatives.</li>
+          <li>Introduce <strong>hybrid/remote flexibility</strong> for roles with far commuters — 50% attrition premium addressed directly.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK + AI TRANSPARENCY -->
+<section class="section-pad" id="stack">
+  <div class="container">
+    <div class="section-eyebrow">Tools & Stack</div>
+    <h2>Technologies used</h2>
+    <p class="section-lead">Full-stack analytics from raw CSV to interactive dashboard.</p>
+
+    <div class="stack-grid fade-up">
+      <div class="stack-card">
+        <div class="stack-icon">📗</div>
+        <div class="stack-name">Excel</div>
+        <div class="stack-role">Data cleaning · EDA · pivot tables · validation</div>
+      </div>
+      <div class="stack-card">
+        <div class="stack-icon">🗄️</div>
+        <div class="stack-name">MySQL 8.0</div>
+        <div class="stack-role">Schema · Feature engineering · 13 queries</div>
+      </div>
+      <div class="stack-card">
+        <div class="stack-icon">📊</div>
+        <div class="stack-name">HTML / JS</div>
+        <div class="stack-role">Interactive dashboard · Live filtering · SVG charts</div>
+      </div>
+      <div class="stack-card">
+        <div class="stack-icon">🤖</div>
+        <div class="stack-name">Claude (AI)</div>
+        <div class="stack-role">Dashboard visual layer assist · Code generation</div>
+      </div>
+    </div>
+
+    <div class="ai-box fade-up">
+      <div class="ai-icon-wrap">🤖</div>
+      <div>
+        <div class="ai-title">On using AI tooling — a transparent note</div>
+        <div class="ai-body">
+          <strong>The interactive dashboard was built with Claude (Anthropic) as an AI coding assistant.</strong>
+          I used it to accelerate the HTML, CSS, and JavaScript implementation of the visual layer —
+          the same way a developer might use GitHub Copilot or an autocomplete tool to speed up code generation.
+          <br><br>
+          I think being open about AI tool usage is good professional practice, so here's the breakdown:
+
+          <div class="ai-breakdown">
+            <div class="ai-row">
+              <div class="ai-dot" style="background:var(--green)"></div>
+              <div class="ai-row-label">Data cleaning & validation</div>
+              <div class="ai-row-who mine">My work</div>
+            </div>
+            <div class="ai-row">
+              <div class="ai-dot" style="background:var(--green)"></div>
+              <div class="ai-row-label">MySQL schema design</div>
+              <div class="ai-row-who mine">My work</div>
+            </div>
+            <div class="ai-row">
+              <div class="ai-dot" style="background:var(--green)"></div>
+              <div class="ai-row-label">All 13 SQL queries</div>
+              <div class="ai-row-who mine">My work</div>
+            </div>
+            <div class="ai-row">
+              <div class="ai-dot" style="background:var(--green)"></div>
+              <div class="ai-row-label">Feature engineering logic</div>
+              <div class="ai-row-who mine">My work</div>
+            </div>
+            <div class="ai-row">
+              <div class="ai-dot" style="background:var(--green)"></div>
+              <div class="ai-row-label">Business interpretation</div>
+              <div class="ai-row-who mine">My work</div>
+            </div>
+            <div class="ai-row">
+              <div class="ai-dot" style="background:var(--gold)"></div>
+              <div class="ai-row-label">Dashboard HTML/CSS/JS</div>
+              <div class="ai-row-who ai-assisted">AI assisted</div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px;font-size:12px;color:var(--text3)">
+            Every number, insight, and recommendation in this project comes from the data and my analysis.
+            The AI tool helped me build the visual container faster — it didn't do the analysis.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT + CTA -->
+<section class="cta-section" id="about">
+  <div class="container">
+    <div class="cta-grid">
+      <div class="about-card fade-up">
+        <div class="about-name">Fady Ibrahim</div>
+        <div class="about-title">data_analyst · business_information_systems · cairo</div>
+        <div class="about-bio">
+          Business Information Systems graduate from Helwan University with a background in
+          inventory and stock operations management. This project demonstrates a full analytics
+          workflow — data cleaning, SQL feature engineering, composite risk scoring, interactive
+          dashboard development, and executive business recommendations — all grounded in real data.
+        </div>
+        <div class="about-links">
+          <a href="https://www.linkedin.com/in/fady-ibrahim-b343013b1" target="_blank" class="link-pill">
+            <span>🔗</span> LinkedIn
+          </a>
+          <a href="https://github.com/Fadyibrahim-analyst" target="_blank" rel="noopener noreferrer" class="link-pill">
+            <span>⌥</span> GitHub
+          </a>
+        </div>
+        <div class="skills-list">
+          <span class="skill-tag">MySQL</span>
+          
+          
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Excel</span>
+          <span class="skill-tag">Data Cleaning</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Feature Engineering</span>
+          <span class="skill-tag">Business Analysis</span>
+        </div>
+      </div>
+
+      <div class="cta-right fade-up">
+        <div class="section-eyebrow" style="margin-bottom:10px">Project Author</div>
+        <h2>Connect with the analyst</h2>
+        <p>
+          Interested in the methodology, the SQL, or the dashboard? Reach out on LinkedIn
+          or explore the full project files — including clean data, SQL scripts, and the
+          interactive dashboard — on GitHub.
+        </p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <a href="https://www.linkedin.com/in/fady-ibrahim-b343013b1" target="_blank" class="btn-primary">
+            Connect on LinkedIn ↗
+          </a>
+          <a href="https://github.com/Fadyibrahim-analyst" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            View full GitHub ↗
+          </a>
+        </div>
+        <div style="margin-top:28px;padding-top:24px;border-top:1px solid var(--border)">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:12px;font-family:var(--mono);letter-spacing:.5px;text-transform:uppercase">Project stack</div>
+          <div style="font-size:13px;color:var(--text2);line-height:1.7">
+            MySQL 8.0 · Excel · HTML/CSS/JS · Claude (dashboard visual layer)<br>
+            Dataset: IBM HR Analytics · 1,470 employees · 32 original + 19 engineered features
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="f-logo">IBM HR · Attrition Analytics</div>
+  <span>Analyst: Fady Ibrahim · 2025</span>
+  <span>·</span>
+  <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset" target="_blank">Dataset: IBM HR Analytics (Kaggle)</a>
+  <span>·</span>
+  <span>Educational & Portfolio use</span>
+  <div class="f-right">
+    <a href="https://github.com/Fadyibrahim-analyst" target="_blank" rel="noopener noreferrer">GitHub</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/fady-ibrahim-b343013b1" target="_blank">LinkedIn</a>
+  </div>
+</footer>
+
+<script>
+// ── Counter Animation ──
+function animateCounter(el, target, duration=1800) {
+  let start = 0;
+  const step = target / (duration / 16);
+  const timer = setInterval(() => {
+    start = Math.min(start + step, target);
+    el.textContent = start.toFixed(1) + '%';
+    if (start >= target) clearInterval(timer);
+  }, 16);
+}
+
+// ── Bar Animations ──
+function animateBars() {
+  document.querySelectorAll('.ot-bar-fill').forEach(bar => {
+    bar.style.transform = 'scaleX(1)';
+  });
+}
+
+// ── Intersection Observer for scroll animations ──
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+// ── Hero panel trigger ──
+const heroPanel = document.querySelector('.hero-stat-panel');
+const heroPanelObs = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting) {
+    setTimeout(() => animateCounter(document.getElementById('attrition-counter'), 16.1), 300);
+    setTimeout(() => animateBars(), 600);
+    heroPanelObs.disconnect();
+  }
+}, { threshold: 0.3 });
+heroPanelObs.observe(heroPanel);
+
+// ── SQL Tab Switcher ──
+function switchQuery(idx, btn) {
+  document.querySelectorAll('.q-body').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.q-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('q' + idx).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ── Smooth nav active state ──
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  document.querySelectorAll('section[id], .sql-section').forEach(sec => {
+    const top = sec.offsetTop - 80;
+    const bottom = top + sec.offsetHeight;
+    if (y >= top && y < bottom) {
+      const id = sec.id || sec.querySelector('[id]')?.id;
+      document.querySelectorAll('nav a').forEach(a => {
+        a.style.color = a.getAttribute('href') === '#' + id ? 'var(--text1)' : '';
+      });
+    }
+  });
+});
+</script>
+</body>
+</html>
