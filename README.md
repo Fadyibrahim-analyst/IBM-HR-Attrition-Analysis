@@ -31,6 +31,12 @@ A comprehensive HR analytics project analyzing **1,470 IBM employees** to unders
 
 ---
 
+## 📊 Interactive Dashboard
+
+🔗 **Live Dashboard:** [View the IBM HR Attrition Dashboard](https://fadyibrahim-analyst.github.io/IBM-HR-Attrition-Analysis/)
+
+---
+
 ## Repository Structure
 
 ```
