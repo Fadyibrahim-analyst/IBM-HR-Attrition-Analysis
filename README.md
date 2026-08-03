@@ -16,9 +16,7 @@ A comprehensive HR analytics project analyzing **1,470 IBM employees** to unders
 
 **Key finding:** Attrition rate sits at **16.1%** — above the industry benchmark of 10–12% — driven by a concentrated set of fixable conditions, not a company-wide problem.
 
----
-## Dashboard/
-│   └── HR_Attrition_Dashboard.html # 7-page interactive HTML dashboard
+   
 ---
 ## Key Results
 
