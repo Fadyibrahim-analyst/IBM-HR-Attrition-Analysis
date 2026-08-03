@@ -85,7 +85,6 @@ ibm-hr-attrition-analysis/
 | `Age_Group` | Categorical | 5 bands: 18-25 / 26-35 / 36-45 / 46-55 / 56+ |
 | `Monthly_Income_Band` | Categorical | Low / Medium / High / Very High |
 | `Tenure_Group` | Categorical | New Hire / Early / Established / Long / Veteran |
-| `Career_Stage` | Categorical | Entry / Early / Mid / Senior / Executive |
 | `Distance_Band` | Categorical | Very Close / Close / Moderate / Far |
 | `Manager_Tenure_Group` | Categorical | New / Developing / Established / Long-Term |
 | `Satisfaction_Index` | Float | Avg of 4 satisfaction dimensions (1–4 scale) |
